@@ -9,7 +9,7 @@ One legitimate question about professional driving simulators is how they differ
 
 Everything we want in a driving simulator, right?
 
-![Grand Theft Auto 5](images/gta5.jpg)
+![Grand Theft Auto 5](/images/gta5.jpg)
 
 Well, yes and no.
 
