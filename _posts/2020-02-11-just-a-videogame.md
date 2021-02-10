@@ -52,7 +52,7 @@ To answer the question above, and to easily create realistic actors in our scena
 
 Thankfully, standards already exist to describe such data. The predominant one is [OpenDRIVE](https://www.asam.net/standards/detail/opendrive/), and is commonly used as "HD Maps" for [CAV](https://en.wikipedia.org/wiki/Connected_and_autonomous_vehicle).
 
-![OpenDRIVE](/images/opendrive.jpg)
+![OpenDRIVE](/images/opendrive.png)
 
 With such network descriptions, it becomes easier to compute most of the driving-related data needed for our studies. And it also becomes easier to populate the scene: if you know where the roads are, you probably can somehow tell a car to "stay on its lane".
 
