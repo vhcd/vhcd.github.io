@@ -27,7 +27,7 @@ Out of the box, game engines offer a wide variety of features that we need for o
 
 The most obvious one is an editor to create virtual world. Creating a scene, adding trees, buildings, etc. It's simple and thoroughly documented. And in a similar way as researcher aren't necessarily skilled in programming, those tools are made for "level designer", that for the most part don't write code. So there is a good overlap of the target audience.
 
-![](/images/unity.png)
+![Unity](/images/unity.png)
 
 But it's not just that, game engines offer vehicle dynamics, controller mappings, sound spatialization, basic AI, characters, and most important: the ability to add and modify anything you want, either by creating it yourself, or by purchasing someone else's work on their *store*, which features thousands of assets and plugins that will save you a lot of time for not that much money.
 
