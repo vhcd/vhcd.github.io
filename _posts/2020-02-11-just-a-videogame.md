@@ -52,13 +52,15 @@ To answer the question above, and to easily create realistic actors in our scena
 
 Thankfully, standards already exist to describe such data. The predominant one is [OpenDRIVE](https://www.asam.net/standards/detail/opendrive/), and is commonly used as "HD Maps" for [CAV](https://en.wikipedia.org/wiki/Connected_and_autonomous_vehicle).
 
-![OpenDRIVE](/images/opendrive.png)
+![OpenDRIVE]({{site.baseurl}}/images/exporting_to_opendrive_02.jpg)
 
 With such network descriptions, it becomes easier to compute most of the driving-related data needed for our studies. And it also becomes easier to populate the scene: if you know where the roads are, you probably can somehow tell a car to "stay on its lane".
 
 #### CAVE rendering
 
 Even with the rise of consumer-level VR heasets, [CAVE](https://en.wikipedia.org/wiki/Cave_automatic_virtual_environment)s are commonly used for high-end driving simulators. They come in various shapes and sizes, but the idea is the same: cover the widest field of view to fully immerse the participant.
+
+![CAVE](/images/CAVE.jpg)
 
 CAVE come with a great challenge: how do you render on all the screens? Whereas a videogame might run on a wide-screen, here we're talking 360° of field of view, with multiple 4K screens. A single computer won't be powerful enough to render on all screens. So you're going to have to somehow distribute the rendering across a cluster, and synchronize it so that all screens display the same scene state at the exact same time. Not a small feat to accomplish
 
