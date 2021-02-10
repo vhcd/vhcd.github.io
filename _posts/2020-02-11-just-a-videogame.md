@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Just a video game?
+published: true
 ---
 
 One legitimate question about professional driving simulators is how they differ from racing/driving video games. One of the most successful video game of the past decade is [Grand Theft Auto 5](https://en.wikipedia.org/wiki/Grand_Theft_Auto_V), which features realistic environments, multiple vehicle types, pedestrians, realistic enough physics, etc. It has notoriously been used in multiple AI training projects (see [Grand Theft Auto V: The Rise And Fall Of The DIY Self-Driving Car Lab
@@ -57,6 +58,6 @@ Even with the rise of consumer-level VR heasets, [CAVE](https://en.wikipedia.org
 
 CAVE come with a great challenge: how do you render on all the screens? Whereas a videogame might run on a wide-screen, here we're talking 360° of field of view, with multiple 4K screens. A single computer won't be powerful enough to render on all screens. So you're going to have to somehow distribute the rendering across a cluster, and synchronize it so that all screens display the same scene state at the exact same time. Not a small feat to accomplish
 
-## what we'll talk about
+## What we'll talk about
 
 In the coming posts, we talk deeper about the choices we've made for our driving simulator, the good and the bad of game engines, and how we've managed to workaround their shortcomings. All that when being a team of mostly one person, for which making a driving simulator isn't really in their job description.
