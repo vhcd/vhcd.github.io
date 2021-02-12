@@ -2,7 +2,10 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
+
+## Bertrand Richard
 
 I'm a simulation & research software engineer at [Université Gustave Eiffel](https://www.univ-gustave-eiffel.fr/en/). I'm always happy to discuss and share about my activities with people working on similar fields, so feel free to reach out.
 
