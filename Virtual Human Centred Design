@@ -1,0 +1,21 @@
+---
+published: false
+---
+In our previous post, we've introduced our goal to develop a new driving simulation software. But that goal is actually part of a wider and long-terme project call *Virtual Human Centred Design*, which aims to create a platform, bridging [Human Centred Design](https://en.wikipedia.org/wiki/Human-centered_design) and [Virtual prototyping](https://en.wikipedia.org/wiki/Virtual_prototyping) in the automotive domain.
+
+We've made several publications about this project ([1], [2]) which will tell your more about it than this blog post. But in a few words, the idea is to have a simulation tool that can be used all along the development of [ADAS](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems) or [HMI](https://en.wikipedia.org/wiki/User_interface), with the innovative addition of our cognitive model (COSMODRIVE, [3], [4], [5]), allowing designers to test early designs in a virtual environment, without the need of a real prototype with real drivers. Later on in the development phase, the same simulated situations and scenarios used with the cognitive model can be used with real drivers in driving simulators to validate designs.
+
+[![esi.jpg]({{site.baseurl}}/images/esi.jpg)][6]
+
+This overall project is done in collaboration with [ESI Group](https://www.esi-group.com/), a worldwide leader in virtual prototyping in the automotive sector, which helps bringing this platform from the lab to the industry.
+
+Since the cognitive modelling aspect of the platform is closely related to active research projects, it won't be the main topic of this blog. Most of the content relative to this subject will be published in academic journals, which we'll mention here.
+
+Therefore, this blog will start by focusing more on the engineering side of the platform, namely the development of the driving simulation software.
+
+[1]: https://www.esi-group.com/resources/technical-paper/use-cognitive-simulation-model-driver-support-virtual-human-centred-design-v-hcd-adas-and-automated
+[2]: https://www.researchgate.net/publication/325466857_Use_of_a_cognitive_simulation_model_of_the_driver_to_support_the_Virtual_Human_Centred_Design_V-HCD_of_ADAS_and_automated_vehicles
+[3]: https://www.researchgate.net/publication/281074875_A_computational_model_for_car_drivers_situation_awareness_simulation_Cosmodrive
+[4]: https://www.researchgate.net/publication/242182916_Modelisation_et_simulation_cognitive_de_l'operateur_humain_une_application_a_la_conduite_automobile
+[5]: https://www.researchgate.net/publication/326956022_Computational_Driver_Model_in_Transport_Engineering_COSMODRIVE
+[6]: https://www.esi-group.com/
