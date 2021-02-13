@@ -38,12 +38,22 @@ With such description at hand, we've been able to implement some major features 
 
 # How do we create it?
 
-Now that we have a clear view of 
+Now that we have a clear view of what we need OpenDRIVE for, how do we get our hands on such files?
+
+[![rr.jpg]({{site.baseurl}}/images/rr.jpg)][2]
+
+[![atlatec.png]({{site.baseurl}}/images/atlatec.png)][3]
+
+[3D Mapping](https://www.3d-mapping.de/)
+
+[RoadRunner Scene Builder](https://fr.mathworks.com/products/roadrunner-scene-builder.html)
 
 # How do we read it?
 
 [0]: https://fr.mathworks.com/help/roadrunner/ug/Exporting-to-OpenDRIVE.html
 [1]: https://www.highwaycodeuk.co.uk/control-of-the-vehicle.html
+[2]: https://www.mathworks.com/videos/getting-started-with-roadrunner-junction-creation-in-roadrunner-1586438843851.html
+[3]: https://www.atlatec.de/
 
 [OpenDRIVE]: https://www.asam.net/standards/detail/opendrive/
 [Google Maps]: https://maps.google.com/
