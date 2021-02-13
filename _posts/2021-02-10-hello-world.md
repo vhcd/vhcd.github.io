@@ -4,7 +4,7 @@ title: Driving Simulator in the making
 published: true
 ---
 
-At [Université Gustave Eiffel](https://www.univ-gustave-eiffel.fr/en/), more precisely at [LESCOT](https://lescot.univ-gustave-eiffel.fr/en/), have a wide range of driving simulators to study driver behaviour. Our simulators range from simple desktop computers to full-scale immersive CAVE.
+At [Université Gustave Eiffel](https://www.univ-gustave-eiffel.fr/en/), more precisely at [LESCOT](https://lescot.univ-gustave-eiffel.fr/en/), we have a wide range of driving simulators to study driver behaviour. Our simulators range from simple desktop computers to full-scale immersive CAVE.
 
 ![](/images/Simulateur_de_conduite__c__Sophie_Jeannin.jpg)
 
