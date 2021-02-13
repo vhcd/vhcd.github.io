@@ -50,7 +50,7 @@ Unity is a bit messy on this subject. Historically, it had a feature called [Clu
 
 So in the meantime, external solutions were introduced. [MiddleVR][middlevr] is the leading one, though the price might not be suitable for everyone. Then there's [UniCAVE][unicave], which is open-source, but from what I've head, requires some extra work to get it compatible with Unity's latest releases. Another one is [VR Distrib][vrdistrib], which I have no feedback on.
 
-Unreal is straightforward with its answer to the problem: [nDisplay][ndisp]. This solutions is used across different application cases: simulation, virtual production, etc. The feature is well supported, with constant improvements since a big refactor in the 4.22 release.
+Unreal is straightforward with its answer to the problem: [nDisplay]. This solutions is used across different application cases: simulation, virtual production, etc. The feature is well supported, with constant improvements since a big refactor in the 4.22 release.
 
 # Miscellaneous
 
@@ -63,7 +63,8 @@ If you regularly browse [Hacker News], it's not uncommon to have people complain
 Unreal seems on the forefront of innovation, with [Unreal Engine 5], [MetaHuman Creator] or [realtime rey-tracing][RTX]. However, Unity is not left behind, its [Data-Oriented Technology Stack][dots] sure is a nice addition to the tool, for which Unreal has no equivalent (yet?).
 
 # Conclusion
- 
+
+So, what do you chose? Well, we chose Unreal. The main deciding factors were [nDisplay] and the easier integration of our existing C++ libs. Looking back, I still think we've made the right decision. But it absolutely doesn't mean that Unity is not a valid choice for making a driving simulator. As mentionned, a lot a organisations have chosen it and seem quite happy with it. So the decision is yours to make, based on your specificities and requirements. 
 
 [0]: https://www.unrealengine.com/en-US/events/build-detroit-19-showcases-real-time-automotive-design-and-visualization
 [1]: https://www.reddit.com/r/unrealengine/comments/ci9myr/enough_with_the_spaghetti/
@@ -85,7 +86,7 @@ Unreal seems on the forefront of innovation, with [Unreal Engine 5], [MetaHuman 
 [middlevr]: https://www.middlevr.com/
 [unicave]: https://widve.github.io/UniCAVE/
 [vrdistrib]: http://www.vrdistrib.com/
-[ndisp]: https://docs.unrealengine.com/en-US/WorkingWithMedia/nDisplay/index.html
+[nDisplay]: https://docs.unrealengine.com/en-US/WorkingWithMedia/nDisplay/index.html
 [Asset Store]: https://assetstore.unity.com/
 [Marketplace]: https://www.unrealengine.com/marketplace/
 [garry]: https://news.ycombinator.com/item?id=23271973
