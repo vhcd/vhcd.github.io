@@ -49,6 +49,10 @@ Rendering the scene on a 360° screen comes with a specific set of challenges. U
 Unity is a bit messy on this subject. Historically, it had a feature called [Cluster Rendering][cluster], which answered this problematic, but this features kind of disappeared, leaving many users wondering [what to use instead][unity-ndisp]. A replacement was announced for 2019, then 2020, and as I'm writting this in 2021, there's no official word from Unity.
 
 So in the meantime, external solutions were introduced. [MiddleVR][middlevr] is the leading one, though the price might not be suitable for everyone. Then there's [UniCAVE][unicave], which is open-source, but from what I've head, requires some extra work to get it compatible with Unity's latest releases. Another one is [VR Distrib][vrdistrib], which I have no feedback on.
+
+Unreal is straightforward with its answer to the problem: [nDisplay][ndisp]. This solutions is used across different application cases: simulation, virtual production, etc. The feature is well supported, with constant improvements since a big refactor in the 4.22 release.
+
+# Miscellaneous
  
 
 [0]: https://www.unrealengine.com/en-US/events/build-detroit-19-showcases-real-time-automotive-design-and-visualization
@@ -71,3 +75,4 @@ So in the meantime, external solutions were introduced. [MiddleVR][middlevr] is 
 [middlevr]: https://www.middlevr.com/
 [unicave]: https://widve.github.io/UniCAVE/
 [vrdistrib]: http://www.vrdistrib.com/
+[ndisp]: https://docs.unrealengine.com/en-US/WorkingWithMedia/nDisplay/index.html
