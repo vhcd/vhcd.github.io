@@ -1,6 +1,7 @@
 ---
 published: false
 title: 'Driving simulation, Unity or Unreal?'
+layout: post
 ---
 When it comes to game engines, the market is dominated by two giants: [Unity] and [Unreal]. It's worth mentioning that they're not the only actors in town, you can also find [Godot], [CRYENGINE], [Amazon Lumberyard], [UNIGINE], etc. But when it boils down to it, the question is: Unity or Unreal?
 
