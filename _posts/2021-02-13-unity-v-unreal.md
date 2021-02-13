@@ -28,10 +28,20 @@ Unity is undoubtedly the mobile market king, and seems to invest heavily in that
 
 [![ue-build.jpg]({{site.baseurl}}/images/ue-build.jpg)][0]
 
-
 Unreal has made a strong move to various industry sectors in the past years: automotive, arch-viz, military and lately virtual production. Even though games still are at their core, they're serious about every market expension they make. Their [Build][build] event, [Automotive Field Guide][afg], or just the fact that their [Industry Manager][sloze] is active on Twitter are great signs of their commitment.
 
+# Programming languages
+
+One of the main difference between Unity and Unreal is their programming language. Unity uses C# (and now [Bolt][bolt]), whereas Unreal uses C++ and [Blueprints][bp].
+
+The C# vs. C++ debate is a whole other topic that I won't get into. Let's just say that C# certainly is an easier language to get into, C++ might have a very slight performance edge, though it's narrowing. For us, one important factor was that we had quite a few libraries with C++ classes, so working in a C++ environment makes our life easier by not having to interface our C++ classes to C#.
+
+[![uebp.png]({{site.baseurl}}/images/uebp.png)][1]
+
+On the visual programming subject, I was heavily conflicted. On the one side, it's easy to use, especially for some researchers that may not be to keen on writing code. On the other side, well, [there's a lot of other sides][vpbad]. Versioning can be difficult, [spaghetti code][spaghet] can take a very literal meaning [messy][hell], etc.
+
 [0]: https://www.unrealengine.com/en-US/events/build-detroit-19-showcases-real-time-automotive-design-and-visualization
+[1]: https://www.reddit.com/r/unrealengine/comments/ci9myr/enough_with_the_spaghetti/
 
 [lgsvl]: https://www.lgsvlsimulator.com/
 [scania]: https://www.unrealengine.com/en-US/spotlights/real-time-simulation-of-new-hmi-concepts-at-scania
@@ -39,3 +49,8 @@ Unreal has made a strong move to various industry sectors in the past years: aut
 [build]: https://www.unrealengine.com/en-US/events/build-for-automotive-2020
 [afg]: https://www.unrealengine.com/en-US/spotlights/the-automotive-field-guide-building-an-automotive-platform-with-unreal-engine
 [sloze]: https://twitter.com/slfeeding
+[bolt]: https://blogs.unity3d.com/2020/07/22/bolt-visual-scripting-is-now-included-in-all-unity-plans/
+[bp]: https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/index.html
+[hell]: https://blueprintsfromhell.tumblr.com/
+[vpbad]: http://mikehadlow.blogspot.com/2018/10/visual-programming-why-its-bad-idea.html
+[spaghet]: https://en.wikipedia.org/wiki/Spaghetti_code
