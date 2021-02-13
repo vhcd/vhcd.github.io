@@ -52,6 +52,10 @@ Another really different approach is to scan real road sections, and generate Op
 
 # How do we read it?
 
+There's one thing left about OpenDRIVE: how do we actually read the file from our simulator? How do we [parse](https://en.wikipedia.org/wiki/Parsing) it and extract data from it?
+
+There are some libraries available online, that can manipulate OpenDRIVE files to some degrees. But in my experience, [esmini](https://github.com/esmini/esmini) as by far and large the best library in its [RoadManager](https://github.com/esmini/esmini/tree/master/EnvironmentSimulator/Modules/RoadManager). It's an active open-source project lead by Volvo, and the OpenDRIVE library has all the features you want, and I know firsthand that implementing some of those is definitely not an easy feat to accomplish. The maintainer is very receptive and supportive, and it's always a pleasure contributing to this project.
+
 [0]: https://fr.mathworks.com/help/roadrunner/ug/Exporting-to-OpenDRIVE.html
 [1]: https://www.highwaycodeuk.co.uk/control-of-the-vehicle.html
 [2]: https://www.mathworks.com/videos/getting-started-with-roadrunner-junction-creation-in-roadrunner-1586438843851.html
