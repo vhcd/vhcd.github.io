@@ -40,8 +40,20 @@ The C# vs. C++ debate is a whole other topic that I won't get into. Let's just s
 
 On the visual programming subject, I was heavily conflicted. On the one side, it's easy to use, especially for some researchers that may not be to keen on writing code. On the other side, well, [there's a lot of other sides][vpbad]. Versioning can be difficult, [spaghetti code][spaghet] can take a very literal meaning [messy][hell], etc.
 
+# CAVE rendering
+
+Rendering the scene on a 360° screen comes with a specific set of challenges. Unless you're doing desktop or VR-headset experiments, you'll probably have to face those. And Unity and Unreal both have very different ways of handling it. 
+ 
+[![CAVE](/images/360sim.jpg)][2]
+
+Unity is a bit messy on this subject. Historically, it had a feature called [Cluster Rendering][cluster], which answered this problematic, but this features kind of disappeared, leaving many users wondering [what to use instead][unity-ndisp]. A replacement was announced for 2019, then 2020, and as I'm writting this in 2021, there's no official word from Unity.
+
+So in the meantime, external solutions were introduced. [MiddleVR][middlevr] is the leading one, though the price might not be suitable for everyone. Then there's [UniCAVE][unicave], which is open-source, but from what I've head, requires some extra work to get it compatible with Unity's latest releases. Another one is [VR Distrib][vrdistrib], which I have no feedback on.
+ 
+
 [0]: https://www.unrealengine.com/en-US/events/build-detroit-19-showcases-real-time-automotive-design-and-visualization
 [1]: https://www.reddit.com/r/unrealengine/comments/ci9myr/enough_with_the_spaghetti/
+[2]: https://www.cnet.com/roadshow/news/general-motors-gm-360-degree-simulator/
 
 [lgsvl]: https://www.lgsvlsimulator.com/
 [scania]: https://www.unrealengine.com/en-US/spotlights/real-time-simulation-of-new-hmi-concepts-at-scania
@@ -54,3 +66,8 @@ On the visual programming subject, I was heavily conflicted. On the one side, it
 [hell]: https://blueprintsfromhell.tumblr.com/
 [vpbad]: http://mikehadlow.blogspot.com/2018/10/visual-programming-why-its-bad-idea.html
 [spaghet]: https://en.wikipedia.org/wiki/Spaghetti_code
+[cluster]: https://docs.unity3d.com/560/Documentation/Manual/ClusterRendering.html
+[unity-ndisp]: https://forum.unity.com/threads/cluster-rendering-or-ndisplay-unreal-engine-equivalent.642805/
+[middlevr]: https://www.middlevr.com/
+[unicave]: https://widve.github.io/UniCAVE/
+[vrdistrib]: http://www.vrdistrib.com/
