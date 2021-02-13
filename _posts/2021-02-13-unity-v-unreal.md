@@ -2,7 +2,7 @@
 published: false
 title: 'Driving simulation, Unity or Unreal?'
 ---
-When it comes to game engines, the market is dominated by two giants: [Unity][unity] and [Unreal][unreal]. It's worth mentioning that they're not the only actors in town, you can also find [Godot][godot], [CRYENGINE][cyengine], [Amazon Lumberyard][lumberyard], [UNIGINE][unigine], etc. But when it boils down to it, the question is: Unity or Unreal?
+When it comes to game engines, the market is dominated by two giants: [Unity] and [Unreal]. It's worth mentioning that they're not the only actors in town, you can also find [Godot], [CRYENGINE], [Amazon Lumberyard], [UNIGINE], etc. But when it boils down to it, the question is: Unity or Unreal?
 
 |                                             |                                                           |
 |:-------------------------------------------:|:---------------------------------------------------------:|
@@ -12,13 +12,13 @@ First of all, and to state the obvious, there's no single answer to that questio
 
 # Who's using what?
 
-One interesting thing to study is who's using what in the existing driving simulation world. Historically, everyone was either running their own engine or [OpenSceneGraph][osg]. However, things are changing in the past few years, and even though historic actors aren't making a full move to new engines, they're at least integrating them in their solutions.
+One interesting thing to study is who's using what in the existing driving simulation world. Historically, everyone was either running their own engine or [OpenSceneGraph]. However, things are changing in the past few years, and even though historic actors aren't making a full move to new engines, they're at least integrating them in their solutions.
 
-* [AVSimulation][avs], [PreScan][prescan], [VI-grade][vigrade], [CARLA] are using Unreal
-* [Metamoto][metamoto], [Cognata][cognata], [LGSVL][lgsvl] are using Unity
-* [IPG][ipg] is using Unigine
+* [AVSimulation], [PreScan], [VI-grade], [CARLA] are using Unreal
+* [Metamoto], [Cognata], [LGSVL] are using Unity
+* [IPG] is using Unigine
 
-If we look at the academic side, both [NADS][nads] and [ITS Leeds][its] are using Unity. If we try to look for organisations that develop their in-house driving simulation platform (as we are), both [Scania][scania] and [WMG at the University of Warwick][wmg] are using Unreal.
+If we look at the academic side, both [NADS] and [ITS Leeds] are using Unity. If we try to look for organisations that develop their in-house driving simulation platform (as we are), both [Scania][scania] and [WMG at the University of Warwick][wmg] are using Unreal.
 
 # Target markets
 
@@ -70,6 +70,22 @@ So, what do you chose? Well, we chose Unreal. The main deciding factors were [nD
 [1]: https://www.reddit.com/r/unrealengine/comments/ci9myr/enough_with_the_spaghetti/
 [2]: https://www.cnet.com/roadshow/news/general-motors-gm-360-degree-simulator/
 
+[Unity]: https://unity.com/
+[Unreal]: https://www.unrealengine.com/en-US/
+[Godot]: https://godotengine.org/
+[CRYENGINE]: https://www.cryengine.com/
+[Amazon Lumberyard]: https://aws.amazon.com/lumberyard/
+[UNIGINE]: https://unigine.com/
+[OpenSceneGraph]: http://www.openscenegraph.org/
+[AVSimulation]: https://www.avsimulation.com/
+[PreScan]: https://tass.plm.automation.siemens.com/prescan
+[VI-grade]: https://www.vi-grade.com/
+[CARLA]: http://carla.org/
+[Metamoto]: https://www.metamoto.com/
+[Cognata]: https://www.cognata.com/
+[IPG]: https://www.cognata.com/
+[NADS]: https://www.nads-sc.uiowa.edu/
+[ITS Leeds]: https://environment.leeds.ac.uk/transport
 [lgsvl]: https://www.lgsvlsimulator.com/
 [scania]: https://www.unrealengine.com/en-US/spotlights/real-time-simulation-of-new-hmi-concepts-at-scania
 [wmg]: https://www.unrealengine.com/en-US/spotlights/meet-the-hybrid-real-time-simulator-for-testing-autonomous-vehicles
