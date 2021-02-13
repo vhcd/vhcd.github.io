@@ -53,6 +53,16 @@ So in the meantime, external solutions were introduced. [MiddleVR][middlevr] is 
 Unreal is straightforward with its answer to the problem: [nDisplay][ndisp]. This solutions is used across different application cases: simulation, virtual production, etc. The feature is well supported, with constant improvements since a big refactor in the 4.22 release.
 
 # Miscellaneous
+
+Unity has a stronger foothold in education curriculum, meaning the available workforce is probably higher for Unity developers. Unity also a more furnished [Asset Store] than Unreal's [Marketplace], though you'll probably find anything you want for your driving simulation in both.
+
+If you regularly browse [Hacker News], it's not uncommon to have people complaining about Unity. Here's a [recent example][garry], which was also discussed on Reddit ([r/gamedev], [r/Unity3D]). Even if Unreal Engine obviously has its pitfalls, it's always interesting to read these discussions to get feedback from others users.
+
+[![ue5.jpg]({{site.baseurl}}/images/ue5.jpg)][Unreal Engine 5]
+
+Unreal seems on the forefront of innovation, with [Unreal Engine 5], [MetaHuman Creator] or [realtime rey-tracing][RTX]. However, Unity is not left behind, its [Data-Oriented Technology Stack][dots] sure is a nice addition to the tool, for which Unreal has no equivalent (yet?).
+
+# Conclusion
  
 
 [0]: https://www.unrealengine.com/en-US/events/build-detroit-19-showcases-real-time-automotive-design-and-visualization
@@ -76,3 +86,12 @@ Unreal is straightforward with its answer to the problem: [nDisplay][ndisp]. Thi
 [unicave]: https://widve.github.io/UniCAVE/
 [vrdistrib]: http://www.vrdistrib.com/
 [ndisp]: https://docs.unrealengine.com/en-US/WorkingWithMedia/nDisplay/index.html
+[Asset Store]: https://assetstore.unity.com/
+[Marketplace]: https://www.unrealengine.com/marketplace/
+[garry]: https://news.ycombinator.com/item?id=23271973
+[r/gamedev]: https://www.reddit.com/r/gamedev/comments/goiuvg/garry_newman_developer_of_rust_garrys_mod_what/
+[r/Unity3D]: https://www.reddit.com/r/Unity3D/comments/gogc4c/what_unity_is_getting_wrong/
+[Unreal Engine 5]: https://www.unrealengine.com/en-US/blog/a-first-look-at-unreal-engine-5
+[MetaHuman Creator]: https://www.unrealengine.com/en-US/blog/a-first-look-at-unreal-engine-5
+[RTX]: https://news.developer.nvidia.com/real-time-ray-tracing-has-come-to-unreal-engine-with-the-release-of-ue4-22/
+[dots]: https://unity.com/dots
