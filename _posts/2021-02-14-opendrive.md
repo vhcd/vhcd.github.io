@@ -42,11 +42,13 @@ Now that we have a clear view of what we need OpenDRIVE for, how do we get our h
 
 [![rr.jpg]({{site.baseurl}}/images/rr.jpg)][2]
 
+Our favorite tool is [RoadRunner](https://www.mathworks.com/products/roadrunner.html)It's a scene creation tool, which exports both the 3D part of the scene and its OpenDRIVE description. In the tool, you can either create a custom road network that's tailored for your needs, or you can use the various [GIS](https://mathworks.com/help/roadrunner/ug/gis-data-resources-for-roadrunner.html) features within the tool to import real-world data. An extension is also available, called [RoadRunner Scene Builder](https://fr.mathworks.com/products/roadrunner-scene-builder.html), which can automatically create scenes from [HERE](https://www.here.com/platform/automotive-services/hd-maps) HD Maps. This certainly is the future for scene creation, but this service is quite expensive right now.
+
+It's also worth mentionning [TrianGraphics](https://triangraphics.de/), which has more or less the same feature set as RoadRunner, but seems more difficult to work with.
+
 [![atlatec.png]({{site.baseurl}}/images/atlatec.png)][3]
 
-[3D Mapping](https://www.3d-mapping.de/)
-
-[RoadRunner Scene Builder](https://fr.mathworks.com/products/roadrunner-scene-builder.html)
+Another really different approach is to scan real road sections, and generate OpenDRIVE for it. At least two companies specializes in that ([Atlatec][3], [3D Mapping](https://www.3d-mapping.de/)), but it's not cheap, and you only get the OpenDRIVE, so no 3D scene to use in your simulator.
 
 # How do we read it?
 
