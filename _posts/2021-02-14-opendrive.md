@@ -16,12 +16,19 @@ An OpenDRIVE file follows the [XML](https://en.wikipedia.org/wiki/XML) standard 
 
 # Why do we need it?
 
+So an OpenDRIVE file is an "HD map". But why do we need that?
+
+[![gap.jpg]({{site.baseurl}}/images/gap.jpg)][1]
+
+
+One answer lies in the reason why we use driving simulators: to run experiments. As such, we're interested in some data that will be generated when subjects are driving.
 
 # How do we create it?
 
 # How do we read it?
 
 [0]: https://fr.mathworks.com/help/roadrunner/ug/Exporting-to-OpenDRIVE.html
+[1]: https://www.highwaycodeuk.co.uk/control-of-the-vehicle.html
 
 [OpenDRIVE]: https://www.asam.net/standards/detail/opendrive/
 [Google Maps]: https://maps.google.com/
