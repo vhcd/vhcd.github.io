@@ -5,7 +5,11 @@ permalink: /about/
 published: true
 ---
 
-## Bertrand Richard
+## VHC-what?
+
+Here's the introduction to the [V-HCD](/vhcd) platform
+
+## About the author
 
 I'm a simulation & research software engineer at [Université Gustave Eiffel](https://www.univ-gustave-eiffel.fr/en/). I'm always happy to discuss and share about my activities with people working on similar fields, so feel free to reach out.
 
@@ -18,7 +22,7 @@ I'm a simulation & research software engineer at [Université Gustave Eiffel](ht
 
 ### Projects
 
-* V-HCD (immersive driving simulator), Lead developer
+* [V-HCD](/vhcd) (immersive driving simulator), Lead developer
 * Cosmodrive/Virtual Driver (driver cognitive model), Lead developer
 * [esmini](https://github.com/esmini/esmini)/roadmanager (OpenDRIVE SDK), Contributor
 * [LabStreamingLayer-UE4](https://github.com/labstreaminglayer/plugin-UE4), Contributor
