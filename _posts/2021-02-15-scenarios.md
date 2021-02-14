@@ -22,4 +22,6 @@ The 2.0 Concept release, on the other hand, is too broad in coverage, ranging fr
 
 So I'm not a big fan of OpenSCENARIO, but I'm still following their work, hoping that the future will bring more features in alignment with our "simple" driving simulation requirements.
 
+# What are scenarios anyway?
+
 [0]: https://www.asam.net/conferences-events/detail/webinar-asam-openscenario/
