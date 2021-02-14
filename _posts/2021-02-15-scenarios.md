@@ -32,6 +32,8 @@ Another example is a complex study on take-over from automated driving in critic
 
 In this same study, we debuted a new way to get insights into driver's mental reprensetation. At the end of each scenario, right after the take-over, the scene freezes, all actors disappear, and 6 slightly different thumbnails appear on the touch screen, each showing the situation that the participant experienced a few second before, but with slight modifications, in a similar way to the [Spot the difference](https://en.wikipedia.org/wiki/Spot_the_difference) puzzle. Only one of those is the real scene, all others have some alteration (added/removed/moved items). The participant can select each thumbnail to view the full scene on the simulator to clearly identify the differences (e.g. car in the blindspot, missing/added pedestrian). The participant then has to select the scene he thinks was the one he had jut experienced, allowing us to have data about what he had, hadn't or thought he had perceived. This innovative feature will either be the subject of a future publication, or in the very least of post in this blog.
 
+![pfa1.png]({{site.baseurl}}/images/pfa1.png)
+
 Those examples illustrate some ways in which we're expanding the usual definition of what a scenario is, allowing researchers to study more subjects at greater depth, and requiring agile development of the platform.
 
 # Beyond scenarios: *Passation*
