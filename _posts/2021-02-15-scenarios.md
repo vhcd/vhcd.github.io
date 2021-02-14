@@ -36,4 +36,16 @@ Those examples illustrate some ways in which we're expanding the usual definitio
 
 # Beyond scenarios: *Passation*
 
+Scenarios are often considered as the "unit" of the experiment. Your study has X scenarios, you run them in different orders, and that's it.
+
+However, for us, that's not really how experiments *actually* go. Most have questionnaires of various forms, after some or all scenarios. Some experiment include playing videos (e.g. to induce an emotion), also at different times.
+
+So we added the idea of *Passation* into our platform. *Passation* is french word we use for a single run of the experiment, like a "test period". But I've never found a translation I liked, so I decided to english-ize the word.
+
+A *Passation* is the combination of all the activities that the participant will go through. You can think of it as a "meta-scenario". For the most basic experiment, it's just a series of scenarios. But, as with the examples mentioned above, it can include much more than that.
+
+With *Passation*, the researcher configures beforehand all the activities, the various orders that they can follow, etc. Once this is done, running a *Passation* is just a single button press. Once your participant gets into your facilities, you start the process, and the platform takes care of the rest. The experimenter only has to provide input when the experiment designs requires it. Otherwise, human intervention is not required. This means less work for the experimenter, less expertise required as to how to run the platform, less risk of manual error (e.g. wrong scenario started).
+
+Using our *Passation* system, we've been able to reduce the overall length of experiments by removing human interventions. We've also made new things possible, as any activity, not just scenarios, can now be included at any point in an experiment.
+
 [0]: https://www.asam.net/conferences-events/detail/webinar-asam-openscenario/
