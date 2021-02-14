@@ -50,6 +50,12 @@ Using our *Passation* system, we've been able to reduce the overall length of ex
 
 # Scenarios in Unreal Engine
 
+So how do we implement all of those scenarios in Unreal Engine? The [Level Blueprint](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/LevelBlueprint/index.html) is the best place to start. In Unreal Engine, a [Level](https://docs.unrealengine.com/en-US/Basics/Levels/index.html) (or map) is roughly the equivalent of what we, in the driving simulation world, call a scenario. And a level as its own special [Blueprint](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/index.html), which has access to all actors within your level, therefore making it easy to add conditions and actions for what to do and when to do it.
 
+![lvlbp.png]({{site.baseurl}}/images/lvlbp.png)
+
+Above is a very basic example taken from our driving simulator, which makes use of some features we added to the engine. But basically, this just says that when the vehicle *Ego* is closer than 20m from the next junction, the car named *Incoming* will turn left at the junction, and a *Pedestrian* will start moving to a point previously placed in the scene. Simple as that!
+
+Of course this example isn't exactly "pushing the boundaries" of what a scenario is, but it's just showing how to do a basic scenario in our platform. Starting from that, we can easily scale up to the more complex and innovative examples that we've discussed in this post.
 
 [0]: https://www.asam.net/conferences-events/detail/webinar-asam-openscenario/
