@@ -24,4 +24,16 @@ So I'm not a big fan of OpenSCENARIO, but I'm still following their work, hoping
 
 # What are scenarios anyway?
 
+One reason why OpenSCENARIO doesn't really fit our needs is because we tend to push the definition of what a scenario is. As an engineer, I'm always looking for new ways to allow researchers to expand simulator experiments beyond the current state of the art. We're finding new and innovative ways to study drivers behavior.
+
+One example is a [study](https://www.researchgate.net/publication/343126505_Innovative_methodological_framework_for_virtual_human_centered_design_An_application_to_automated_driving_effects_on_driver's_decisions-making) by [Jonathan Deniel](https://www.researchgate.net/profile/Jonathan_Deniel), where he looked at automated driving effects on driver's decision-making. To do that, participants experienced multiple aumotated lane-changes, and based on their feedback for each, custom scenarios were procedurally generated at runtime to have more in-depth insights for each participant.
+
+Another example is a complex study on take-over from automated driving in critical situations, where we designed and tested multiple HMIs to help the driver take over. For this experiment, we had to implement various innovative HMIs, sometimes requiring complex interactions, and develop scenarios to make it so that each one could be run with each HMI.
+
+In this same experiment, we debuted a new way to get insights into driver's mental reprensetation. At the end of each scenario, right after the take-over, the scene freezes, all actors disappear, and 6 slightly different thumbnails appear on the touch screen, each showing the situation that the participant experienced a few second before, but with slight modifications, in a similar way to the [Spot the difference](https://en.wikipedia.org/wiki/Spot_the_difference) puzzle. The participant could select each thumbnail to view the full scene on the simulator to clearly identify the differences (e.g. car in the blindspot, pedestrian). The participant then had to select the scene he thought was the one he had jut experienced, allowing us to have data about what he had, hadn't or thought he had perceived. This innovative feature will either be the subject of a future publication, or in the very least of post in this blog.
+
+Those examples illustrate some ways in which we're expanding the usual definition of what a scenario is, allowing researchers to study more subjects at greater depth, and requiring agile development of the platform.
+
+# Beyond scenarios: *Passation*
+
 [0]: https://www.asam.net/conferences-events/detail/webinar-asam-openscenario/
