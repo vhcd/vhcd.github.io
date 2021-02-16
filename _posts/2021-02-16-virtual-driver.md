@@ -6,15 +6,34 @@ In most driving simulation scenarios, there are two types of cars. The one that'
 
 # Birth of the Virtual Driver
 
-At [LESCOT](https://lescot.univ-gustave-eiffel.fr/en/), we've been working on a cognitive model of the driver (COSMODRIVE, [1], [2], [3]) for a few decades. In that time, we've implemented different versions of the model, each focused on one part or another based on projects requirements. After the last iteration within the [Holides](http://holides.eu/) project, we decided to "spin off" what we call the *operational* and *execution* modules into a seperate project called the **Virtual Driver**.
+At [LESCOT](https://lescot.univ-gustave-eiffel.fr/en/), we've been working on a cognitive model of the driver (COSMODRIVE, [1], [2], [3]) for a few decades. In that time, we've implemented different versions of the model, each focused on one part or another based on projects requirements. After the last iteration within the [Holides](http://holides.eu/) project, we decided to "spin off" what we call the *operational* and *execution* modules into a seperate project called the **Virtual Driver**, which is used to control all cars in our simulations.
 
 As part of our cognitive model, those modules would take as input *tactical goals*, and produce as outputs human-like car control (e.g. pedal depression, steering wheel angle). Once we've externalized those, we can see that their inputs and outputs actually fits pretty well in a driving simulation environment.
 
-# Goals
+# Goals (input)
 
 I won't go into the complete dexcription of what *tactical goals* are, since it's a very complex subject. But in the *Virtual Driver*, we've reduced them to human descriptions of road manoeuvers. The most basic example could be "Maintain a speed and keep your lane".
 
 Currently, goals can be of different *levels*. The lowest level splits goals into *lateral* (i.e. steering) and *longitudinal* (i.e. pedals) control. That way, you can plan a trajectory along the road before actually knowing what speed you want along that trajectory. A common example is junction crossing: you pretty much know where you want the car to go (e.g. left), but it's speed will depend on external factors, such as traffic light state or incoming cars.
+
+Here are some lower level goal examples, each having a variety of parameters that we won't go into
+* Keep a lane
+* Maintain a speed
+* Reach a speed in an amount of time/distance
+* Follow a lead car
+* Follow a hand-drawn trajectory
+
+The second, higher level merges lateral and longitudinal controls to offer an more intuitive way to give orders to the cars from your scenario. Under the hood, they're composition of lower level goals. Here are some examples
+
+* Change lane
+* Cross a junction
+* Maintain lane and speed
+
+# Human-like control (output)
+
+The *Virtual Driver* produces human-like outputs, that can directly be plugged into any simulator's car dynamic model. That way, from the participant's point of view, any car's external behaviour (e.g. dynamics) looks realistic enough to ensure optimal immersion. 
+
+On the technical side, the output from the virtual driver actually are exactly the same as you would get from a real human using a standard controller. This means we can swap from real to virtual driver (and vice versa) at any point within our scenarios! This is especially useful for autonomous driving or take-over studies, where shared car control can be challenging. 
 
 # OpenDRIVE
 
