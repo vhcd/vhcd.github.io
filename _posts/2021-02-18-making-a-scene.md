@@ -68,7 +68,13 @@ One last thing to mention is the ability to [create](https://docs.unrealengine.c
 
 However, landscapes imply modifying the ground, which is generated from RoadRunner. So if we want to have our roads following the landscape geometry (which we do), we have a problem on our hands. How do alter roads geometry to fit the landscape?
 
-All our road manipulation tools are within RoadRunner, so we can't simply edit the roads in Unreal Engine.
+All our road manipulation tools are within RoadRunner, so we can't simply edit the roads in Unreal Engine. Can we somehow import the landscape in RoadRunner? In theory yes, but it's not trivial.
+
+Most Unreal Engine's landscape use [heightmaps](https://www.worldofleveldesign.com/categories/ue4/landscape-heightmap-guide.php), which can be imported in RoadRunner using the [Elevation Map Tool](https://www.mathworks.com/help/roadrunner/ug/Elevation-Map-Tool.html). But Unreal and RoadRunner's definition of what a heightmap is differ, so so far I haven't been able to successfully load a heightmap into RoadRunner. If that were the case, RoadRunner then has all the [tools](https://www.youtube.com/watch?v=VmoibGgaWJU) to align our roads with the geometry.
+
+Our current planned solution is to build our road network in RoadRunner independently of the landscape, import it into Unreal, and the [sculpt](https://docs.unrealengine.com/en-US/BuildingWorlds/Landscape/Editing/SculptMode/index.html) the existing landscape to nicely fit along roads.
+
+Of course this isn't perfect, but we haven't really studied the problem much. We're pretty confident that in the near future, new tools and features will appear, making this process much easier (like RoadRunner's [Scene Builder](https://www.mathworks.com/products/roadrunner-scene-builder.html)).
 
 [Marketplace]: https://www.unrealengine.com/marketplace/en-US/store
 [Free For The Month]: https://www.unrealengine.com/marketplace/en-US/assets?count=20&sortBy=effectiveDate&sortDir=DESC&start=0&tag=4910
