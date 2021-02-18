@@ -26,7 +26,7 @@ Whatever type of scene you're doing, you'll probably want some sort of vegetatio
 
 Unreal Engine has a great [Foliage Tool](https://docs.unrealengine.com/en-US/BuildingWorlds/Foliage/index.html), which makes it very easy to place large amounts of various kind of vegetation, all the while ensuring optimal performance, so that your framerate won't drop even if you have a wheat field with 3 million blades.
 
-The [Marketplace](https://www.unrealengine.com/marketplace/en-US/store) has tons of foliage assets, some of them free! The [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature) is one example of a mutitude of high-quality and free vegetation.
+The [Marketplace](https://www.unrealengine.com/marketplace/en-US/store) has tons of foliage assets, some of them free! The [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature) is one example of a mutitude of high-quality and free vegetation. Between those and all the assets that went [Free For The Month](https://www.unrealengine.com/marketplace/en-US/assets?count=20&sortBy=effectiveDate&sortDir=DESC&start=0&tag=4910) and containted vegetation, I don't think we'll ever need to buy a vegetation asset pack.
 
 
 # Buildings
