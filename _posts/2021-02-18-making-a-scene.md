@@ -52,10 +52,13 @@ Some other assets we use include [Urban City](https://www.unrealengine.com/marke
 
 ## Props
 
+In the 3D world, pros (coming from theater's [property](https://en.wikipedia.org/wiki/Theatrical_property)) are all static small objects that are present in a scene. Those include poles, fences, streetlights, bins and so on. Same as other assets, you'll find plenty of those on the Marketplace.
+
 ![props.png]({{site.baseurl}}/images/props.png)
 
+Placing them can be tedious, and also requires some creativity to arrange them in a realistic manner. Assets from the Marketplace often come with demo scene (e.g. [City Asset Pack](https://www.unrealengine.com/marketplace/en-US/item/83dd68e4ce774c18b89f042cb52670e4)), which you can use as reference. To go even further, you can also find complete scenes ([Downtown West](https://www.unrealengine.com/marketplace/en-US/item/cffe32471e5f442b9aff97b48a235e82), [Construction Site](https://www.unrealengine.com/marketplace/en-US/item/83bf93f36f794cdab4ecfb70aec4a703)), that contains a variety of assets, which you can use individually, or copy as a whole into your own scene.
 
-[NVSplineMesh]
+The Marketplace not only has assets, but also tools. [NVSplineMesh](https://www.unrealengine.com/marketplace/en-US/item/bfeae2f849004189a73a5af98d6f7d8b) is a must-have for any props that you'll want to distribute along a [spline](https://en.wikipedia.org/wiki/Spline_(mathematics)), such as fences or poles.
 
 ## Landscapes?
 
