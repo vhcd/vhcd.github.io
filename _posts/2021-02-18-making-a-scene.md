@@ -76,6 +76,8 @@ Our current planned solution is to build our road network in RoadRunner independ
 
 Of course this isn't perfect, but we haven't really studied the problem much. We're pretty confident that in the near future, new tools and features will appear, making this process much easier (like RoadRunner's [Scene Builder](https://www.mathworks.com/products/roadrunner-scene-builder.html)).
 
+Credits to Estelle De Baere, [Lucie Lévêque](https://lulvk.github.io/) and Jean-Charles Bornard for making the scene discussed in this post. None of them had any 3D background, making their work even more incredible.
+
 [Marketplace]: https://www.unrealengine.com/marketplace/en-US/store
 [Free For The Month]: https://www.unrealengine.com/marketplace/en-US/assets?count=20&sortBy=effectiveDate&sortDir=DESC&start=0&tag=4910
 [France Fields]: https://www.unrealengine.com/marketplace/en-US/product/32a96e6b005344b49d93d888f2e0ec59
