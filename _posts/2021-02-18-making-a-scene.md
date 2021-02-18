@@ -20,6 +20,9 @@ So what you see in the image above is the end product as far as RoadRunner is co
 
 # Foliage
 
+![foliage.png]({{site.baseurl}}/images/foliage.png)
+
+
 # Buildings
 
 # Props
