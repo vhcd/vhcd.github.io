@@ -38,8 +38,17 @@ The [Marketplace] has tons of foliage assets, some of them free! The [Project Na
 
 ## Buildings
 
+Unless you're doing highway scenes, you're going to want some types of buildings. And if you're doing urban scenes, you'll want those buildings to look nice up close, and no be a simple flat texture. 
+
 ![buildings.png]({{site.baseurl}}/images/buildings.png)
 
+I went through all of the [Marketplace] and looked at all buildings packages. We've bought a few, and I can recommend those we use most often.
+
+By far, our favorite is [City Downtown](https://www.unrealengine.com/marketplace/en-US/product/city-downtown-pack). It includes a lot of assets, and tools to easily create modular buildings or even fully [procedural buildings](https://www.youtube.com/watch?v=6YjQnI4UdIM), that even though they're advertised as "background", are realstic enough for us to use throughout our city.
+
+This package also allows creation of custom buildings types, that can then be generated with their wonderful creation tools. So we've been able to import other assets, such as [European Buildings](https://www.unrealengine.com/marketplace/en-US/product/european-buildings-facades) or some [Quixel](https://quixel.com/megascans/collections?category=environment&category=urban&category=neoclassical-modular-building) façades, which by themselves are too cumbersome to manipulate to create full buildings. Now we can create a full row of Paris-looking buildings in a couple of minutes!
+
+Some other assets we use include [Urban City](https://www.unrealengine.com/marketplace/en-US/item/f60f01b8bbbb45d293c72d4a6a6ad136) or [Suburban Houses](https://www.unrealengine.com/marketplace/en-US/item/29640076ec15451a8e70a29ec629736d). If you're interested, I can give a more thorough list of useful marketplace assets, but feel free to browse youself.
 
 ## Props
 
