@@ -2,7 +2,7 @@
 published: false
 title: Making a scene
 ---
-When you start implementing your experiment, the first thing you'll work on is the scene. You may want to reuse an existing one from a previous project, maybe modify it, or start from scratch to build something tailored to your needs.
+When you start implementing your driving simulator experiment, the first thing you'll work on probably is the scene. You may want to reuse an existing one from a previous project, maybe modify it, or start from scratch to build something tailored to your needs.
 
 ![scene.png]({{site.baseurl}}/images/scene.png)
 
@@ -10,7 +10,7 @@ In this article, we'll explain how we built the scene from the above screenshot,
 
 # Road network
 
-As we [previously mentionned](/opendrive), the road network is a very important piece of our simulation, for which we need both the 3D representation and its logicial description (i.e. OpenDRIVE). As such, we've mentioned that we use [RoadRunner](https://www.mathworks.com/products/roadrunner.html), which is our favorite tool for that specific work. If you've played any [city-building game](https://en.wikipedia.org/wiki/City-building_game) (e.g. [SimCity](https://en.wikipedia.org/wiki/SimCity), [Cities: Skyline](https://en.wikipedia.org/wiki/Cities:_Skylines), you know that creating roads and city can be quite a fun activity if you're given the right tools. It really feels like RoadRunner understands that, and drawing any road network with this software is effortless and can even feel rewarding once you've accomplished your goal in such a short amount of time.
+As we [previously mentioned](/opendrive), the road network is a very important piece of our simulation, for which we need both the 3D representation and its logicial description (i.e. OpenDRIVE). To do that, we use [RoadRunner](https://www.mathworks.com/products/roadrunner.html), which is our favorite tool for that specific work. If you've played any [city-building game](https://en.wikipedia.org/wiki/City-building_game) (e.g. [SimCity](https://en.wikipedia.org/wiki/SimCity), [Cities: Skylines](https://en.wikipedia.org/wiki/Cities:_Skylines)), you know that creating roads and cities can be quite a fun activity if you're given the right tools. It really feels like RoadRunner understands that, and drawing any road network with this software is effortless and can even feel rewarding once you've accomplished your goal in such a short amount of time.
 
 RoadRunner also offers tools to create the scene beyond the road network. This includes vegetation, buildings, etc. However, we're not big fan of those features, as Unreal Engine has both more assets and tools to build your world from the ground up.
 
@@ -34,29 +34,29 @@ Whatever type of scene you're doing, you'll probably want some sort of vegetatio
 
 Unreal Engine has a great [Foliage Tool](https://docs.unrealengine.com/en-US/BuildingWorlds/Foliage/index.html), which makes it very easy to place large amounts of various kind of vegetation, all the while ensuring optimal performance, so that your framerate won't drop even if you have a wheat field with 3 million blades.
 
-The [Marketplace] has tons of foliage assets, some of them free! The [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature) is one example of a mutitude of high-quality and free vegetation. Between those and all the assets that went [Free For The Month] and containted vegetation, I don't think we'll ever need to buy a vegetation asset pack.
+The [Marketplace] has tons of foliage assets, some of them free! The [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature) is one example of a mutitude of high-quality and free vegetation. Between those and all the assets that went [Free For The Month], I don't think we'll ever need to buy a vegetation asset pack.
 
 ## Buildings
 
-Unless you're doing highway scenes, you're going to want some types of buildings. And if you're doing urban scenes, you'll want those buildings to look nice up close, and no be a simple flat texture. 
+Unless you're doing highway scenes, you're going to want some types of buildings. And if you're doing urban scenes, you'll want those buildings to look nice up close, and not be a simple flat texture. 
 
 ![buildings.png]({{site.baseurl}}/images/buildings.png)
 
 I went through all of the [Marketplace] and looked at all buildings packages. We've bought a few, and I can recommend those we use most often.
 
-By far, our favorite is [City Downtown](https://www.unrealengine.com/marketplace/en-US/product/city-downtown-pack). It includes a lot of assets, and tools to easily create modular buildings or even fully [procedural buildings](https://www.youtube.com/watch?v=6YjQnI4UdIM), that even though they're advertised as "background", are realstic enough for us to use throughout our city.
+By far, our favorite is [City Downtown](https://www.unrealengine.com/marketplace/en-US/product/city-downtown-pack). It includes a lot of assets, and tools to easily create modular buildings or even fully [procedural buildings](https://www.youtube.com/watch?v=6YjQnI4UdIM), that even though are advertised as "background", are realistic enough for us to use throughout our city.
 
-This package also allows creation of custom buildings types, that can then be generated with their wonderful creation tools. So we've been able to import other assets, such as [European Buildings](https://www.unrealengine.com/marketplace/en-US/product/european-buildings-facades) or some [Quixel](https://quixel.com/megascans/collections?category=environment&category=urban&category=neoclassical-modular-building) façades, which by themselves are too cumbersome to manipulate to create full buildings. Now we can create a full row of Paris-looking buildings in a couple of minutes!
+This package also allows creation of custom buildings types, that can then be generated with its wonderful creation tools. So we've been able to import other assets, such as [European Buildings](https://www.unrealengine.com/marketplace/en-US/product/european-buildings-facades) or some [Quixel](https://quixel.com/megascans/collections?category=environment&category=urban&category=neoclassical-modular-building) façades, which by themselves are too cumbersome to manipulate to create full buildings. Now we can create a full row of Paris-looking buildings in a couple of minutes!
 
 Some other assets we use include [Urban City](https://www.unrealengine.com/marketplace/en-US/item/f60f01b8bbbb45d293c72d4a6a6ad136) or [Suburban Houses](https://www.unrealengine.com/marketplace/en-US/item/29640076ec15451a8e70a29ec629736d). If you're interested, I can give a more thorough list of useful marketplace assets, but feel free to browse youself.
 
 ## Props
 
-In the 3D world, pros (coming from theater's [property](https://en.wikipedia.org/wiki/Theatrical_property)) are all static small objects that are present in a scene. Those include poles, fences, streetlights, bins and so on. Same as other assets, you'll find plenty of those on the Marketplace.
+In the 3D world, props (coming from theater's [property](https://en.wikipedia.org/wiki/Theatrical_property)) are all static small objects that are present in a scene. Those include poles, fences, streetlights, bins and so on. Same as other assets, you'll find plenty of those on the Marketplace.
 
 ![props.png]({{site.baseurl}}/images/props.png)
 
-Placing them can be tedious, and also requires some creativity to arrange them in a realistic manner. Assets from the Marketplace often come with demo scene (e.g. [City Asset Pack](https://www.unrealengine.com/marketplace/en-US/item/83dd68e4ce774c18b89f042cb52670e4)), which you can use as reference. To go even further, you can also find complete scenes ([Downtown West](https://www.unrealengine.com/marketplace/en-US/item/cffe32471e5f442b9aff97b48a235e82), [Construction Site](https://www.unrealengine.com/marketplace/en-US/item/83bf93f36f794cdab4ecfb70aec4a703)), that contains a variety of assets, which you can use individually, or copy as a whole into your own scene.
+Placing them can be tedious, and also requires some creativity to arrange them in a realistic manner. Assets from the Marketplace often come with demo scene (e.g. [City Asset Pack](https://www.unrealengine.com/marketplace/en-US/item/83dd68e4ce774c18b89f042cb52670e4)), which you can use as reference. To go even further, you can also find complete scenes (e.g. [Downtown West](https://www.unrealengine.com/marketplace/en-US/item/cffe32471e5f442b9aff97b48a235e82), [Construction Site](https://www.unrealengine.com/marketplace/en-US/item/83bf93f36f794cdab4ecfb70aec4a703)), that contain a variety of assets, which you can use individually, or copy as a whole into your own scene.
 
 The Marketplace not only has assets, but also tools. [NVSplineMesh](https://www.unrealengine.com/marketplace/en-US/item/bfeae2f849004189a73a5af98d6f7d8b) is a must-have for any props that you'll want to distribute along a [spline](https://en.wikipedia.org/wiki/Spline_(mathematics)), such as fences or poles.
 
@@ -66,13 +66,13 @@ One last thing to mention is the ability to [create](https://docs.unrealengine.c
 
 [![landscape.jpg]({{site.baseurl}}/images/landscape.jpg)][France Fields]
 
-However, landscapes imply modifying the ground, which is generated from RoadRunner. So if we want to have our roads following the landscape geometry (which we do), we have a problem on our hands. How do alter roads geometry to fit the landscape?
+However, landscapes imply modifying the ground, which is generated from RoadRunner. So if we want to have our roads following the landscape geometry (which we do), we have a problem on our hands. How to alter roads' geometry to fit the landscape?
 
 All our road manipulation tools are within RoadRunner, so we can't simply edit the roads in Unreal Engine. Can we somehow import the landscape in RoadRunner? In theory yes, but it's not trivial.
 
-Most Unreal Engine's landscape use [heightmaps](https://www.worldofleveldesign.com/categories/ue4/landscape-heightmap-guide.php), which can be imported in RoadRunner using the [Elevation Map Tool](https://www.mathworks.com/help/roadrunner/ug/Elevation-Map-Tool.html). But Unreal and RoadRunner's definition of what a heightmap is differ, so so far I haven't been able to successfully load a heightmap into RoadRunner. If that were the case, RoadRunner then has all the [tools](https://www.youtube.com/watch?v=VmoibGgaWJU) to align our roads with the geometry.
+Most Unreal Engine's landscapes use [heightmaps](https://www.worldofleveldesign.com/categories/ue4/landscape-heightmap-guide.php), which can be imported in RoadRunner using the [Elevation Map Tool](https://www.mathworks.com/help/roadrunner/ug/Elevation-Map-Tool.html). But Unreal and RoadRunner's definition of what a heightmap is differ, so so far I haven't been able to successfully load a heightmap into RoadRunner. If that were the case, RoadRunner then has all the [tools](https://www.youtube.com/watch?v=VmoibGgaWJU) to align our roads with the geometry.
 
-Our current planned solution is to build our road network in RoadRunner independently of the landscape, import it into Unreal, and the [sculpt](https://docs.unrealengine.com/en-US/BuildingWorlds/Landscape/Editing/SculptMode/index.html) the existing landscape to nicely fit along roads.
+Our current planned solution is to build our road network in RoadRunner independently of the landscape, import it into Unreal, and then [sculpt](https://docs.unrealengine.com/en-US/BuildingWorlds/Landscape/Editing/SculptMode/index.html) the existing landscape to nicely fit along roads.
 
 Of course this isn't perfect, but we haven't really studied the problem much. We're pretty confident that in the near future, new tools and features will appear, making this process much easier (like RoadRunner's [Scene Builder](https://www.mathworks.com/products/roadrunner-scene-builder.html)).
 
