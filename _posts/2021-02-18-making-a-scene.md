@@ -38,7 +38,13 @@ The [Marketplace] has tons of foliage assets, some of them free! The [Project Na
 
 ## Buildings
 
+![buildings.png]({{site.baseurl}}/images/buildings.png)
+
+
 ## Props
+
+![props.png]({{site.baseurl}}/images/props.png)
+
 
 [NVSplineMesh]
 
