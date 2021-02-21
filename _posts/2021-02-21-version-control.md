@@ -14,16 +14,19 @@ This in itself isn't a really novel use of source control. However, the content 
 
 Do we need to version those? In my opinion, yes. We tend to modify a lot of assets we bought, to tailor them for our needs. Sometimes we fix bugs, or expend features. This requires some versioning.
 
-On top of that, we need version control to be simple
-
-Assets
-marketplace
-huge size
-ease of use
+On top of that, we need version control to be simple to use. Sadly, most our researchers aren't too familiar with version control systems, so we need our version control to be intuitive, and not just writting dozens of `git` command in a shell.
 
 # Which tool?
 
-# Which provider?
+What tools are there for us? Well, you have the common ones, such as [Git](https://en.wikipedia.org/wiki/Git) or [SVN](https://en.wikipedia.org/wiki/Apache_Subversion). And then you have some that are more focused on using game engines, such as [Plastic SCM](https://en.wikipedia.org/wiki/Plastic_SCM) or [Perforce](https://en.wikipedia.org/wiki/Perforce). How to choose?
+
+Well, we don't have that much money lying around, so even though Perforce probably is the gold standard for Unreal Engine development, we can't really use it. They have a free tier, but their 5-user limit is a no-go for us. Same for Plastic SCM, which is also more oriented towards Unity, which actually bought the company, in what I think is a very good move on their part.
+
+So, we're left with Git or SVN. Git notoriously doesn't work well with binary content, which we have *a lot* of. However, the [Git LFS](https://git-lfs.github.com/) extension brings better support on that front. SVN, though declining, is still liked in the game-engine world for its simplicity and out-of-the-box binary support.
+
+In the end, we chose Git. As a team, all our existing version control is already done through Git. It's the tool that people are most familiar with. And if, like us, you need an external host, there's really not much alternative.
+
+# Which host?
 
 # In practice: the bad
 
