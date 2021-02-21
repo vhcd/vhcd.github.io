@@ -46,7 +46,9 @@ We have a 150GB project, of mostly binary assets, which we want to version using
 
 ## Setup
 
-Our main repository is what we call a [super project](https://en.wikibooks.org/wiki/Git/Submodules_and_Superprojects), as it's mostly a container of [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+Our main repository is what we call a [superproject](https://en.wikibooks.org/wiki/Git/Submodules_and_Superprojects), as it's mostly a container of [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Since we have well over a hundred assets from the Marketplace, we put each one in a submodule. Thankfully, nearly all of them are under 10GB in size, so they fit within GitLab's limits. We also have submodules for each plugins we use (around a dozen), and for each [scene](/making-a-scene) we create. Not only does it solve the 10GB issues, it's also cleaner to have each of those in its own repository, as it makes for a better and clearer version log on each. Instead of having 10 commits that modify wildly different assets on a single repo, we have 10 repos, each having a single commit.
+
+One the client side, we recommend researchers to use [TortoiseGit](https://tortoisegit.org/), which has a nice Windows shell integration, making it easy to use. We also wrote some shell scripts that can do some of the more complex tasks (e.g. merging upstream from a fork).
 
 ## The bad
 
@@ -57,7 +59,9 @@ Diffing BP is meh
 Merging BP is :'(
 Working with binary is :'(
 LFS on forks :/
+LFS on forks with submodules
 LFS lock with branches/forks?
+Forking submodules?
 
 Hoping GitLab doesn't change their offer
 
