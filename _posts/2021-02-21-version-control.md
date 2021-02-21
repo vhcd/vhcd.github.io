@@ -28,7 +28,27 @@ In the end, we chose Git. As a team, all our existing version control is already
 
 # Which host?
 
-# In practice: the bad
+When you have a 150GB project that you want to host on Git, where do you do it?
+
+The best solution would probably be a self-hosted [GitLab](https://gitlab.com/) instance. However, our IT service has no plan of hosting a GitLab, and if I wanted to do that, I'd be left more or less alone. It's doable, but I don't really want to maintain that.
+
+What's out there? [GitHub](https://github.com/), cloud-based GitLab or [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/). Each have their limitation
+
+* GitHub has a 1GB of storage and 1GB of bandwith limit for LFS, which you can extend by buying [data packs](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/upgrading-git-large-file-storage#purchasing-additional-storage-and-bandwidth-for-an-organization)
+* GitLab has a 10GB per repo size limit
+* Azure has a 5-user limit
+
+Not ideal in any case. We chose GitLab, as its limitations are the easiest ones to work with.
+
+# In practice
+
+We have a 150GB project, of mostly binary assets, which we want to version using Git LFS on GitLab, have a fork for every experimentation, and be accessible for users that don't know what Git is. How do we manage that?
+
+## Setup
+
+Our main repository is what we call a [super project](https://en.wikibooks.org/wiki/Git/Submodules_and_Superprojects), as it's mostly a container of [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+## The bad
 
 Plugin + submodules :(
 Gitlab: MR on forks :(
@@ -36,6 +56,9 @@ Plugin is sloooooow
 Diffing BP is meh
 Merging BP is :'(
 Working with binary is :'(
+LFS on forks :/
 LFS lock with branches/forks?
+
+Hoping GitLab doesn't change their offer
 
 Really hope for something from Epic in the near future.
