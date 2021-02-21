@@ -64,14 +64,18 @@ And beyond diffing, there's no merging tool! If you're used to some variant of [
 
 People often mentions [file locking](https://github.com/git-lfs/git-lfs/wiki/File-Locking) as a (well, *the*) solution to avoid conflicts, which is also why people in this world like SVN. I haven't tried it yet, but from what I've read, file locking in LFS isn't that great, mostly due to the decentralized nature of Git. And for our cases, I'm really not sure that file-locking would help across branches or even forks.
 
-Gitlab: MR on forks :(
-Diffing BP is meh
-Merging BP is :'(
-LFS on forks :/
-LFS on forks with submodules
-LFS lock with branches/forks?
-Forking submodules?
+The "forking" workflow also is source of headaches when confronted to our superproject configuration. When forking the superproject, you're not actually forking the submodules. Which can be good or bad, depending on the usage. But if we really wanted to have a clean fork of *all* submodules, we'd be in for a wild ride setting this up.
 
-Hoping GitLab doesn't change their offer
+LFS also doesn't really like "forking" that much, as it doesn't actually know which remote we're talking to. So if you switch your local repo from a fork to upstream, you also have to run `git config lfs.url git@gitlab.com:my_new_remote`. Which you quickly turn into an function, but still.
 
-Really hope for something from Epic in the near future. Why no text?
+And when you combine the two last issues, and you need to change remote on all submodules? Well, now you start to like `git submodule foreach` a great deal all the while hating how painful this whole thing has become.
+
+I could go on and on about all the weird errors that I saw popped on my git terminal, and that cost me hours to debug. No matter how infuriating this is for our users, developers or myself, I still thing given the circumstances, we've chosen the right solution. Git LFS, hosted on GitLab, as a superproject, it works. It's not easy everyday, but it works.
+
+# Hoping for a better tomorrow
+
+When the news came out that [Unity bought Plastic SCM](https://blogs.unity3d.com/2020/08/13/codice-software-joins-unity-technologies-to-bring-version-control-to-real-time-3d-workflows/), I really hoped that this would trigger some sort of reaction from Epic Games. I still do, because version control is so lacking in the Unreal Engine world. This is even more infuriating when you realise that most assets (e.g. blueprints, levels) actually are mostly text, and could probably be versioned, diffed and merged as such. Given the amount of money Epic Games have, I wish they'd make a deal with Perforce or [Assembla](https://www.assembla.com/perforce) to solve this issue once and for all.
+
+Because beyond the Git and Unreal Engine interaction, there's our huge reliance on GitLab's free tier. If they decided to change anything on that (e.g. max users, bandwidth, repo size, repo amount), we'd be stuck with really nowhere to go (well, we'd maintain our own GitLab instance). So I'm thankful everyday for GitLab's free tier, and really hope it won't change anytime soon.
+
+In simple words, version control is, by far, the worst aspect of our whole Unreal Engine adventure.
