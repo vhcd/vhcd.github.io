@@ -35,11 +35,11 @@ Unreal has made a strong move to various industry sectors in the past years: aut
 
 One of the main difference between Unity and Unreal is their programming language. Unity uses C# (and now [Bolt][bolt]), whereas Unreal uses C++ and [Blueprints][bp].
 
-The C# vs. C++ debate is a whole other topic that I won't get into. Let's just say that C# certainly is an easier language to get into. C++ might have a very slight performance edge, though it's narrowing. For us, one important factor was that we had quite a few libraries with C++ classes, so working in a C++ environment makes our life easier by not having to interface our C++ classes to C#.
+The C# vs. C++ debate is a whole other topic that I'll gloss over. Let's just say that C# certainly is an easier language to get into. C++ might have a very slight performance edge, though it's narrowing. For us, one important factor was that we had quite a few libraries with C++ classes, so working in a C++ environment makes our life easier by not having to interface our C++ classes to C#.
 
 [![uebp.png]({{site.baseurl}}/images/uebp.png)][1]
 
-On the visual programming subject, I was heavily conflicted. On the one side, it's easy to use, especially for some researchers that may not be to keen on writing code. On the other side, well, [there's a lot of other sides][vpbad]. Versioning can be difficult, [spaghetti code][spaghet] can take a very literal meaning [messy][hell], etc.
+On the visual programming subject, I was heavily conflicted. On the one side, it's easy to use, especially for some researchers that may not be to keen on writing code. On the other side, well, [there's a lot of other sides][vpbad]. Versioning can be difficult, [spaghetti code][spaghet] can take a very literal [meaning][hell], etc.
 
 # CAVE rendering
 
@@ -61,7 +61,7 @@ If you regularly browse [Hacker News], it's not uncommon to have people complain
 
 [![ue5.jpg]({{site.baseurl}}/images/ue5.jpg)][Unreal Engine 5]
 
-Unreal seems on the forefront of innovation, with [Unreal Engine 5], [MetaHuman Creator] or [realtime rey-tracing][RTX]. However, Unity is not left behind, its [Data-Oriented Technology Stack][dots] sure is a nice addition to the tool, for which Unreal has no equivalent (yet?).
+Unreal seems on the forefront of innovation, with [Unreal Engine 5], [MetaHuman Creator] or [realtime ray-tracing][RTX]. However, Unity is not left behind, its [Data-Oriented Technology Stack][dots] sure is a nice addition to the tool, for which Unreal has no equivalent (yet?).
 
 # Conclusion
 
