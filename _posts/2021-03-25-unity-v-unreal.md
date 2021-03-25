@@ -90,7 +90,7 @@ So, what do you chose? Well, we chose Unreal. The main deciding factors were [nD
 [lgsvl]: https://www.lgsvlsimulator.com/
 [scania]: https://www.unrealengine.com/en-US/spotlights/real-time-simulation-of-new-hmi-concepts-at-scania
 [wmg]: https://www.unrealengine.com/en-US/spotlights/meet-the-hybrid-real-time-simulator-for-testing-autonomous-vehicles
-[build]: https://www.unrealengine.com/en-US/events/build-for-automotive-2020
+[build]: https://www.unrealengine.com/en-US/events/unreal-build-automotive-2021
 [afg]: https://www.unrealengine.com/en-US/spotlights/the-automotive-field-guide-building-an-automotive-platform-with-unreal-engine
 [sloze]: https://twitter.com/slfeeding
 [bolt]: https://blogs.unity3d.com/2020/07/22/bolt-visual-scripting-is-now-included-in-all-unity-plans/
