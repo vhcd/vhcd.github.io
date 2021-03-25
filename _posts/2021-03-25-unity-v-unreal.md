@@ -29,7 +29,7 @@ Unity is undoubtedly the mobile market king, and seems to invest heavily in that
 
 [![ue-build.jpg]({{site.baseurl}}/images/ue-build.jpg)][0]
 
-Unreal has made a strong move to various industry sectors in the past years: automotive, arch-viz, military and lately virtual production. Even though games still are at their core, they're serious about every market expension they make. Their [Build][build] event, [Automotive Field Guide][afg], or just the fact that their [Industry Manager][sloze] is active on Twitter are great signs of their commitment.
+Unreal has made a strong move to various industry sectors in the past years: automotive, arch-viz, military and lately virtual production. Even though games still are at their core, they're serious about every market expansion they make. Their [Build][build] event, [Automotive Field Guide][afg], or just the fact that their [Industry Manager][sloze] is active on Twitter are great signs of their commitment.
 
 # Programming languages
 
