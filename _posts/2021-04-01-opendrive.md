@@ -2,7 +2,6 @@
 published: true
 title: OpenDRIVE
 ---
-# What it is
 
 > [OpenDRIVE] defines a file format for the precise description of road networks
 
