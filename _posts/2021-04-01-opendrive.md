@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: OpenDRIVE
 ---
 # What it is
@@ -30,7 +30,7 @@ All of those values have one thing in common: they rely on the road geometry. If
 
 Another reason is scenario creation. When you're building your experiment, you create some situations which involve other actors, such as cars or pedestrians. If your scenario involves following a lead car, you want to be able to simply set the lead car to "keep its lane", without having to manually describe the curve it has to follow. Having access to the complete road description empowers the scenario designer to easily control any actor within the scene.
 
-With such description at hand, we've been able to implement some major features in our platform, that we'll detail later in this blog. Here are a few:
+With such description at hand, we've been able to implement some major features of our platform, that we'll detail later in this blog. Here are a few:
 
 * A *Virtual Driver*, which can drive any car on any road network, while being controlled with high level goals, such has "keep your lane" or "turn left at the next intersection"
 * Pedestrians that automatically walk around their block, to add some life to our scenes
@@ -54,7 +54,7 @@ Another really different approach is to scan real road sections, and generate Op
 
 There's one thing left about OpenDRIVE: how do we actually read the file from our simulator? How do we [parse](https://en.wikipedia.org/wiki/Parsing) it and extract data from it?
 
-There are some libraries available online, that can manipulate OpenDRIVE files to some degrees. But in my experience, [esmini](https://github.com/esmini/esmini) as by far and large the best library in its [RoadManager](https://github.com/esmini/esmini/tree/master/EnvironmentSimulator/Modules/RoadManager). It's an active open-source project lead by Volvo, and the OpenDRIVE library has all the features you want, and I know firsthand that implementing some of those is definitely not an easy feat to accomplish. Through our extensive use of this library, we've found a few issues, and via collaborative work with the (amazing) maintainer, all of them are now fixed.
+There are some libraries available online, that can manipulate OpenDRIVE files to some degrees. But in my experience, [esmini](https://github.com/esmini/esmini) has by far and large the best library in its [RoadManager](https://github.com/esmini/esmini/tree/master/EnvironmentSimulator/Modules/RoadManager). It's an active open-source project lead by Volvo, and the OpenDRIVE library has all the features you want, and I know firsthand that implementing some of those is definitely not an easy feat to accomplish. Through our extensive use of this library, we've found a few issues, and via collaborative work with the (amazing) maintainer, all of them are now fixed.
 
 # To conclude
 
