@@ -65,7 +65,7 @@ Unreal seems on the forefront of innovation, with [Unreal Engine 5], [MetaHuman 
 
 # Conclusion
 
-So, what do you chose? Well, we chose Unreal. The main deciding factors were [nDisplay] and the easier integration of our existing C++ libs. Looking back, I still think we've made the right decision. But it absolutely doesn't mean that Unity is not a valid choice for making a driving simulator. As mentionned, a lot a organisations have chosen it and seem quite happy with it. So the decision is yours to make, based on your specificities and requirements. 
+So, what do you choose? Well, we chose Unreal. The main deciding factors were [nDisplay] and the easier integration of our existing C++ libs. Looking back, I still think we've made the right decision. But it absolutely doesn't mean that Unity is not a valid choice for making a driving simulator. As mentionned, a lot a organisations have chosen it and seem quite happy with it. So the decision is yours to make, based on your specificities and requirements. 
 
 [0]: https://www.unrealengine.com/en-US/events/build-detroit-19-showcases-real-time-automotive-design-and-visualization
 [1]: https://www.reddit.com/r/unrealengine/comments/ci9myr/enough_with_the_spaghetti/
