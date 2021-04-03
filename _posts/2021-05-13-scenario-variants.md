@@ -32,4 +32,24 @@ And with all that, it's time to actully build the scenario as you would usually 
 
 This system is very flexible, as you can change a variant without ever touching the scenario. This proves useful if the researcher, who specifies and tunes the variants, isn't actually implementing the scenario. Using our variant system, the reasearcher can simply edit the variants from the data table and immediatly test the scenario to have feedback and adjust accordingly.
 
-And if during your initial tests, your realize that you need another varying parameter (e.g. weather condition), you just add an attribute to your `Structure`, update the `Data Table` with the values you want for this attribute, and update the scenario to now use and apply this variable.
+And if during your initial tests, your realize that you need another varying parameter (e.g. weather condition), you just add an attribute to your `Structure`, update the new `Data Table` column with the values you want for this attribute, and update the scenario to now use and apply this variable.
+
+# Am I re-inventing the wheel?
+
+> The Variant Manager is a specialized UI panel in the Unreal Editor that you can use to set up multiple different configurations of the Actors in your Level. Each of these configurations is referred to as a Variant.
+
+At some point, I have to mention Unreal Engine's [Variant Manager](https://docs.unrealengine.com/en-US/Basics/Levels/Variants/Overview/index.html), as it seems quite similar to what we're doing.
+
+![](https://docs.unrealengine.com/Images/Basics/Levels/Variants/Overview/overview-hero.png)
+
+While it is indeed pretty similar in the idea, I find the implementation lacking in several factors, which lead me to our custom Variants implementation.
+
+First, the Variant Manager uses *unstructured* variants, i.e. there's no `Structure` defining what a variant must be. This means that for each variant, you need to manually make sure that you actually modify *all* the *right* properties, meaning possible errors and mistakes.
+
+Also, the Variant Manager can only alter *actor*'s attribute, and cannot interact with the `Level Blueprint`, which is were some of the scenario is implemented, and where we actually need to know the varying parameter's value. This could be solved by adding empty actors acting as proxies, or trying to move the logic outside the `Level Blueprint` and into individual actors (which is a good practice anyway).
+
+Finally, the Variant Manager's UI isn't very intuitive, and quickly becomes difficult to navigate and read when you have many variants. The `Structure` + `Data Table` combo is way easier to use in my opinion.
+
+# We'll see where that gets us
+
+As we're just starting to use Unreal Engine, and since driving simulation experiment are always changing, our whole *Scenario Variants* concept and implementation are just an answer to some of today's problems. We'll have to see how things evolve in the future, and maybe once more adapt the way we build scenarios and experiments. Thankfully, our tools are flexible, and pretty much anything we can think of is possible.
