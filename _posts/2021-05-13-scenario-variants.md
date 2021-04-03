@@ -14,3 +14,17 @@ The most obvious variants are the ones directly related to the study itself. I'l
 
 But for various experimental design reasons, we might want to add other varying parameters. For example, we might want to test AEBs in different situations, such as the type of pedestrian (e.g. adult, child) running across the road and triggering the AEB. We might also want the situation to not always occur at the same place in the scene, and at varying length of times after the beginning of the scenario.
 
+The more you add varying parameters, the more complex your experiment gets. Let's say you have 5 AEB behaviors and 3 pedestrians types, that's already 15 *variants*. Some people would actually create 15 scenarios, involving a lot of copy/pasting and therefore being very error-prone in the long run (e.g. if you then want to slightly change one AEB behavior, you need to do it in all scenarios involving that AEB).
+
+# Implementing Variants
+
+So, how do we tackle that problem? The first step is to define what our variants will be. In Unreal Engine, this can be done in a few clicks with [Structures](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Variables/Structs/index.html#usingcustomstructs).
+
+![ue4_variant.png]({{site.baseurl}}/images/ue4_variant.png)
+
+Now that we have defined what "a variant" will be, we need to define the actual list of all the variants that we'll want to have.
+
+![ue4_variants.png]({{site.baseurl}}/images/ue4_variants.png)
+
+
+
