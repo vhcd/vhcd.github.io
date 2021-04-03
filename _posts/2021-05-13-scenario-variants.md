@@ -22,7 +22,7 @@ So, how do we tackle that problem? The first step is to define what our variants
 
 ![ue4_variant.png]({{site.baseurl}}/images/ue4_variant.png)
 
-Now that we have defined what "a variant" will be, we need to define the actual list of all the variants that we'll want to have.
+Now that we have defined what "a variant" will be, we need to define the actual list of all the variants that we'll want to have. To do this, we use [Data Tables](https://docs.unrealengine.com/en-US/InteractiveExperiences/DataDriven/index.html#datatables), which are pretty much simple spreadsheets, with columns matching a... structure! So if we simply give the Data Table our newly created structure, we can then fill it with our variants.
 
 ![ue4_variants.png]({{site.baseurl}}/images/ue4_variants.png)
 
