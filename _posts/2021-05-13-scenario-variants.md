@@ -26,5 +26,6 @@ Now that we have defined what "a variant" will be, we need to define the actual 
 
 ![ue4_variants.png]({{site.baseurl}}/images/ue4_variants.png)
 
+And with all that, it's time to actully build the scenario as you would usually do, except you can load variants from the `Data Table` into your `Level Blueprint`, and then use all of the values as parameters into your scenario. I won't get into the details of how to load each variant, and then how to properly sequence them (in various orders) as it's a whole other subject. Feel free to get in touch if you want to discuss it further.
 
-
+![variant_scenario.png]({{site.baseurl}}/images/variant_scenario.png)
