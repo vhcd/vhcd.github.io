@@ -22,10 +22,14 @@ So, how do we tackle that problem? The first step is to define what our variants
 
 ![ue4_variant.png]({{site.baseurl}}/images/ue4_variant.png)
 
-Now that we have defined what "a variant" will be, we need to define the actual list of all the variants that we'll want to have. To do this, we use [Data Tables](https://docs.unrealengine.com/en-US/InteractiveExperiences/DataDriven/index.html#datatables), which are pretty much simple spreadsheets, with columns matching a... structure! So if we simply give the Data Table our newly created structure, we can then fill it with our variants.
+Now that we have defined what "a variant" will be, we need to define the actual list of all the variants that we'll want to have. To do this, we use [Data Tables](https://docs.unrealengine.com/en-US/InteractiveExperiences/DataDriven/index.html#datatables), which are pretty much simple spreadsheets, with columns matching a... structure! So if we simply give the `Data Table` our newly created `Structure`, we can then fill it with our variants.
 
 ![ue4_variants.png]({{site.baseurl}}/images/ue4_variants.png)
 
 And with all that, it's time to actully build the scenario as you would usually do, except you can load variants from the `Data Table` into your `Level Blueprint`, and then use all of the values as parameters into your scenario. I won't get into the details of how to load each variant, and then how to properly sequence them (in various orders) as it's a whole other subject. Feel free to get in touch if you want to discuss it further.
 
 ![variant_scenario.png]({{site.baseurl}}/images/variant_scenario.png)
+
+This system is very flexible, as you can change a variant without ever touching the scenario. This proves useful if the researcher, who specifies and tunes the variants, isn't actually implementing the scenario. Using our variant system, the reasearcher can simply edit the variants from the data table and immediatly test the scenario to have feedback and adjust accordingly.
+
+And if during your initial tests, your realize that you need another varying parameter (e.g. weather condition), you just add an attribute to your `Structure`, update the `Data Table` with the values you want for this attribute, and update the scenario to now use and apply this variable.
