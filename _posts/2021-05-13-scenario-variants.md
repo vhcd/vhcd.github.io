@@ -36,9 +36,9 @@ And if during your initial tests, you realize that you need another varying para
 
 # Am I re-inventing the wheel?
 
-> The Variant Manager is a specialized UI panel in the Unreal Editor that you can use to set up multiple different configurations of the Actors in your Level. Each of these configurations is referred to as a Variant.
+> The [Variant Manager](https://docs.unrealengine.com/en-US/Basics/Levels/Variants/Overview/index.html) is a specialized UI panel in the Unreal Editor that you can use to set up multiple different configurations of the Actors in your Level. Each of these configurations is referred to as a Variant.
 
-At some point, I have to mention Unreal Engine's [Variant Manager](https://docs.unrealengine.com/en-US/Basics/Levels/Variants/Overview/index.html), as it seems quite similar to what we're doing.
+At some point, I have to mention Unreal Engine's own Variant Manager, as it seems quite similar to what we're doing.
 
 ![](https://docs.unrealengine.com/Images/Basics/Levels/Variants/Overview/overview-hero.png)
 
@@ -46,10 +46,10 @@ While it is indeed pretty similar in the idea, I find the implementation lacking
 
 First, the Variant Manager uses *unstructured* variants, i.e. there's no `Structure` defining what a variant must be. This means that for each variant, you need to manually make sure that you actually modify *all* the *right* properties, meaning possible errors and mistakes.
 
-Also, the Variant Manager can only alter *actor*'s attribute, and cannot interact with the `Level Blueprint`, which is were some of the scenario is implemented, and where we actually need to know the varying parameter's value. This could be solved by adding empty actors acting as proxies, or trying to move the logic outside the `Level Blueprint` and into individual actors (which is a good practice anyway).
+Also, the Variant Manager can only alter *actor*'s attribute, and cannot interact with the `Level Blueprint`, which is where some of the scenario is implemented, and where we actually need to know the varying parameter's value. This could be solved by adding empty actors acting as proxies, or trying to move the logic outside the `Level Blueprint` and into individual actors (which is a good practice anyway).
 
 Finally, the Variant Manager's UI isn't very intuitive, and quickly becomes difficult to navigate and read when you have many variants. The `Structure` + `Data Table` combo is way easier to use in my opinion.
 
 # We'll see where that gets us
 
-As we're just starting to use Unreal Engine, and since driving simulation experiment are always changing, our whole *Scenario Variants* concept and implementation are just an answer to some of today's problems. We'll have to see how things evolve in the future, and maybe once more adapt the way we build scenarios and experiments. Thankfully, our tools are flexible, and pretty much anything we can think of is possible.
+As we're just starting to use Unreal Engine, and since driving simulation experiments are always changing, our whole *Scenario Variants* concept and implementation are just an answer to some of today's problems. We'll have to see how things evolve in the future, and maybe once more adapt the way we build scenarios and experiments. Thankfully, our tools are flexible, and pretty much anything we can think of is possible.
