@@ -32,7 +32,7 @@ And with all that, it's time to actully build the scenario as you would usually 
 
 This system is very flexible, as you can change a variant without ever touching the scenario. This proves useful if the researcher, who specifies and tunes the variants, isn't actually implementing the scenario. Using our variant system, the researcher can simply edit the variants from the data table and immediatly test the scenario to have feedback and adjust accordingly.
 
-And if during your initial tests, your realize that you need another varying parameter (e.g. weather condition), you just add an attribute to your `Structure`, update the new `Data Table` column with the values you want for this attribute, and update the scenario to now use and apply this variable.
+And if during your initial tests, you realize that you need another varying parameter (e.g. weather condition), you just add an attribute to your `Structure`, update the new `Data Table` column with the values you want for this attribute, and update the scenario to now use and apply this variable.
 
 # Am I re-inventing the wheel?
 
