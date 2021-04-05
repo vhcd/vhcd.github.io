@@ -28,6 +28,16 @@ Even though the tool is great, it's not perfect for driving simulation experimen
 
 > The [lab streaming layer](https://github.com/sccn/labstreaminglayer) (LSL) is a system for the unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data.
 
+LabStreamingLayer is an open-source project designed exactly for our needs. It supports a [wide range](https://labstreaminglayer.readthedocs.io/info/supported_devices.html) of physiological collection hardware, offers a [recording tool][labrecorder] and a [Python library](https://github.com/xdf-modules/pyxdf) to read recordings. It has bindings to most languages, meaning you can easily add new data sources and, if you want, open-source them so that others can also benefit.
 
+When we started working in Unreal Engine, LSL didn't have an official UE4 integration, but through collaborative work, there now is a [UE4-LSL Plugin][lsl-ue4].
+
+[![LSLOutput.png]({{site.baseurl}}/images/LSLOutput.png)][lsl-ue4]
+
+The plugin makes it very simple to send and receive data to and from the LSL network.
+
+And we didn't stop at that: the [LabRecorder][labrecorder] even has a TCP interface for remote control, which we integrated in Unreal Engine using a [TCP Plugin](https://www.unrealengine.com/marketplace/en-US/product/tcp-socket-plugin). That way, we can trigger start, stop, configure recording path and more, directly from the scenarios. For example, recording automatically starts when the scenario is loaded, and the scenario name (along with its [variants](scenario-variants/)) is added to the recording file directory name. This means less work for the experimenter during the experiment and when analysing data, and less risk of errors throughout the whole process.
 
 [0]: https://intempora.com/products/rtmaps/
+[lsl-ue4]: https://github.com/labstreaminglayer/plugin-UE4
+[labrecorder]: https://github.com/labstreaminglayer/App-LabRecorder
