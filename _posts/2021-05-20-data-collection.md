@@ -36,7 +36,9 @@ When we started working in Unreal Engine, LSL didn't have an official UE4 integr
 
 The plugin makes it very simple to send and receive data to and from the LSL network.
 
-And we didn't stop at that: the [LabRecorder][labrecorder] even has a TCP interface for remote control, which we integrated in Unreal Engine using a [TCP Plugin](https://www.unrealengine.com/marketplace/en-US/product/tcp-socket-plugin). That way, we can trigger start, stop, configure recording path and more, directly from the scenarios. For example, recording automatically starts when the scenario is loaded, and the scenario name (along with its [variants](scenario-variants/)) is added to the recording file directory name. This means less work for the experimenter during the experiment and when analysing data, and less risk of errors throughout the whole process.
+And we didn't stop at that: the [LabRecorder][labrecorder] even has a TCP interface for remote control, which we integrated in Unreal Engine using a [TCP Plugin](https://www.unrealengine.com/marketplace/en-US/product/tcp-socket-plugin). That way, we can trigger start, stop, configure recording path and more, directly from the scenarios. For example, recording automatically starts when the scenario is loaded, and the scenario name (along with its [variants](scenario-variants/)' values) is added to the recording file directory name. This means less work for the experimenter during the experiment and when analysing data, and less risk of errors throughout the whole process.
+
+The LabStreamingLayer community is very welcoming, and it's great to be able to get help and simply exchange with people facing similar challenges as ours. It's also rewarding to contribute to this open-source project, making our developments available to researchers around the world.
 
 [0]: https://intempora.com/products/rtmaps/
 [lsl-ue4]: https://github.com/labstreaminglayer/plugin-UE4
