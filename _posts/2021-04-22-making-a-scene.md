@@ -77,9 +77,11 @@ From there, you still need to ensure both softwares use the same scales and coor
 
 ![landscape_rr.png]({{site.baseurl}}/images/landscape_rr.png)
 
-Even if you can't perfectly align roads to the landscape from RoadRunner, you can still import them into Unreal, and then [sculpt](https://docs.unrealengine.com/en-US/BuildingWorlds/Landscape/Editing/SculptMode/index.html) the existing landscape to nicely fit along roads.
+Another way to solve the problem is to look at it from the other side: how to alter the *landscape* geometry to git the *roads*?
 
-Of course all of this is quite cumbersome, but we haven't really studied the problem much. We're pretty confident that in the near future, new tools and features will appear, making this process much easier (like RoadRunner's [Scene Builder](https://www.mathworks.com/products/roadrunner-scene-builder.html)).
+The answer to that is much simpler. Landscapes can be sculpted via Blueprints, and the roads' geometry is known using [OpenDRIVE](opendrive/). So if we just iterate over all roads and accordingly sculpt the landscape, we get a nice result.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This morning I wondered: can you auto-sculpt a <a href="https://twitter.com/hashtag/UE4?src=hash&amp;ref_src=twsrc%5Etfw">#UE4</a> Landscape from an <a href="https://twitter.com/hashtag/OpenDRIVE?src=hash&amp;ref_src=twsrc%5Etfw">#OpenDRIVE</a> file? The answer is yes, and as pretty much anything in <a href="https://twitter.com/hashtag/UE4?src=hash&amp;ref_src=twsrc%5Etfw">#UE4</a>, it&#39;s quite easy to implement. <a href="https://t.co/dAW8cyBGCK">pic.twitter.com/dAW8cyBGCK</a></p>&mdash; Bertrand Richard (@brifsttar) <a href="https://twitter.com/brifsttar/status/1377989866793877507?ref_src=twsrc%5Etfw">April 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Credits to Estelle De Baere, [Lucie Lévêque](https://lulvk.github.io/) and Jean-Charles Bornard for making the scene discussed in this post. None of them had any experience in 3D or scene building, making their work even more incredible.
 
