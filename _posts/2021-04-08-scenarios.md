@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Scenarios
 ---
 An important and critical stage in driving simulator experiments is scenario authoring. We want to offer as much control as possible to researchers, allowing them to build any experiment they can imagine. But we also want this process to be as easy and intuitive as possible, so that non-experts can start working on their scenario as early as possible in the experiment design phase, allowing for quick and iterative development.
@@ -26,11 +26,11 @@ So I'm not a big fan of OpenSCENARIO, but I'm still following their work, hoping
 
 One reason why OpenSCENARIO doesn't really fit our needs is because we tend to push the definition of what a scenario is. As an engineer, I'm always looking for new ways to allow researchers to expand simulator experiments beyond the current state of the art. We're finding new and innovative ways to study drivers' behavior.
 
-One example is a [study](https://www.researchgate.net/publication/343126505_Innovative_methodological_framework_for_virtual_human_centered_design_An_application_to_automated_driving_effects_on_driver's_decisions-making) by [Jonathan Deniel](https://www.researchgate.net/profile/Jonathan_Deniel), where he looked at automated driving effects on driver's decision-making. To do that, participants experienced multiple aumotated lane-changes, and based on their feedback for each, custom scenarios were procedurally generated at runtime to have more in-depth insights for each participant.
+One example is a [study](https://www.researchgate.net/publication/343126505_Innovative_methodological_framework_for_virtual_human_centered_design_An_application_to_automated_driving_effects_on_driver's_decisions-making) by [Jonathan Deniel](https://www.researchgate.net/profile/Jonathan_Deniel), where he looked at automated driving effects on driver's decision-making. To do that, participants experienced multiple autonomous lane-changes, and based on their feedback for each, custom scenarios were procedurally generated at runtime to have more in-depth insights for each participant.
 
 Another example is a complex study on take-over from automated driving in critical situations, where we designed and tested multiple HMIs to help the driver take over. For this experiment, we had to implement various innovative HMIs, sometimes requiring complex interactions, and develop scenarios to make it so that each one could be run with each HMI.
 
-In our latest experiment, which studies CAV-pedestrian interactions, we made basic modular scenario elements, allowing combination of those to create a very wide range of *scenario variants*. With our modular elements, we were able to easily change the CAV's braking pattern, the pedestrian's behavior (e.g. making a "thank you" gesture), or even buildings and itineraries (to ensure that the participant wouldn't have an habituation effect from driving around the same city). The modular units were tailored-made for this project, but the idea can be applied to any driving simulation experiment.
+In our latest experiment, which studies CAV-pedestrian interactions, we made basic modular scenario elements, allowing combination of those to create a very wide range of *scenario variants* (more on that later!). With our modular elements, we were able to easily change the CAV's braking pattern, the pedestrian's behavior (e.g. making a "thank you" gesture), or even buildings and itineraries (to ensure that the participant wouldn't have an habituation effect from driving around the same city). The modular units were tailored-made for this project, but the idea can be applied to any driving simulation experiment.
 
 Those examples illustrate some ways in which we're expanding the usual definition of what a scenario is, allowing researchers to study more subjects at greater depth, and requiring agile development of the platform.
 
@@ -44,7 +44,7 @@ So we added the idea of *Passation* into our platform. *Passation* is french wor
 
 A *Passation* is the combination of all the activities that the participant will go through. You can think of it as a "meta-scenario". For the most basic experiment, it's just a series of scenarios. But, as with the examples mentioned above, it can include much more than that.
 
-With *Passation*, the researcher configures beforehand all the activities, the various orders that they can follow, etc. Once this is done, running a *Passation* is just a single button press. When your participant gets into your facilities, you start the process, and the platform takes care of the rest. The experimenter only has to provide input when the experiment designs requires it. Otherwise, human intervention is not required. This means less work for the experimenter, less expertise required as to how to run the platform, less risk of manual error (e.g. wrong scenario started).
+With *Passation*, the researcher configures beforehand all the activities, the various orders that they can follow, etc. Once this is done, running a *Passation* is just a single button press. When your participant gets into your facilities, you start the process, and the platform takes care of the rest. The experimenter only has to provide input when the experiment design requires it. Otherwise, human intervention is not required. This means less work for the experimenter, less expertise required as to how to run the platform, less risk of manual error (e.g. wrong scenario started).
 
 Using our *Passation* system, we've been able to reduce the overall length of experiments by removing human interventions. We've also made new things possible, as any activity, not just scenarios, can now be included at any point in an experiment.
 
@@ -54,7 +54,7 @@ So how do we implement all of those scenarios in Unreal Engine? The [Level Bluep
 
 ![lvlbp.png]({{site.baseurl}}/images/lvlbp.png)
 
-Above is a very basic example taken from our driving simulator, which makes use of some features we added to the engine. Basically, this just says that when the vehicle *Ego* is closer than 20m from the next junction, the car named *Incoming* will turn left at the junction, and a *Pedestrian* will start moving to a point previously placed in the scene. Simple as that!
+Above is a very basic example taken from our driving simulator, which makes use of some features we added to the engine. Basically, this just says that when the vehicle *Ego* is closer than 20m from the next junction, the car named *Incoming* will turn left (-1) at the junction, and a *Pedestrian* will start moving to a point previously placed in the scene. Simple as that!
 
 Of course this example isn't exactly "pushing the boundaries" of what a scenario is, but it's just showing how to do a basic scenario in our platform. Starting from that, we can easily scale up to the more complex and innovative examples that we've discussed in this post.
 
