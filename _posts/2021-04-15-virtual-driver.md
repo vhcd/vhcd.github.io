@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Virtual Driver
 ---
 In most driving simulation scenarios, there are two types of cars. The one that's driven by the participant (commonly refered to as *ego*), and others that are controlled from the scenario. With the rise of autonomous driving, it's not uncommon to have scenarios where *ego* also is controlled from the scenario. How do we control all those cars, making sure that their external behavior appears realistic, all the while being easy to configure for researchers building their experiment?
@@ -47,7 +47,7 @@ This last project is, of course, very challenging and will require extensive wor
 
 ![lvlbp.png]({{site.baseurl}}/images/lvlbp.png)
 
-Each car has a *Virtual Driver*, and if you want it to cross a junction, there's a box for that! And if you don't really want to individually control each car, there's a checkbox named "Autonomous", which as its name suggests, will let the *Virtual Driver* decide what to do. For now, it simply wanders around the scene, following its lane (and crossing junctions, of course). But we're already started to make it smarter, and that will be the subject of another future entry.
+Each car has a *Virtual Driver*, and if you want it to cross a junction, there's a box for that! And if you don't really want to individually control each car, there's a checkbox named "Autonomous", which as its name suggests, will let the *Virtual Driver* decide what to do. For now, it simply wanders around the scene, following its lane (and crossing junctions, of course). But we've already started to make it smarter, and that will be the subject of another future entry.
 
 [1]: https://www.researchgate.net/publication/281074875_A_computational_model_for_car_drivers_situation_awareness_simulation_Cosmodrive
 [2]: https://www.researchgate.net/publication/242182916_Modelisation_et_simulation_cognitive_de_l'operateur_humain_une_application_a_la_conduite_automobile
