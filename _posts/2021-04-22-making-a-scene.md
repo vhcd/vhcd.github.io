@@ -22,19 +22,19 @@ So what you see in the image above is the end product as far as RoadRunner is co
 
 As mentioned, all our "above ground" scene creation is done within Unreal Engine, as it offers tools that are easy to use and ensure optimal performance, since we want our scenes to render at (at least) 60Hz.
 
-Beyond tooling, Unreal Engine's [Marketplace] offers a huge collection of ready-to-use assets, at very attractive prices. Epic Games is even giving away free assets as part of their [Free For The Month] and [Permanently Free Collection](https://www.unrealengine.com/marketplace/en-US/assets?tag=4906). All that allowed us to grow our asset library at very low cost.
+Beyond tooling, Unreal Engine's [Marketplace] offers a huge collection of ready-to-use assets, at very attractive prices. Epic Games is even giving away free assets as part of their [Free For The Month] and [Permanently Free Collection](https://www.unrealengine.com/marketplace/en-US/assets?tag=4906). All that allowed us to grow our asset library at a very low cost.
 
 It's also worth mentioning that all of [CARLA](http://carla.org/)'s assets are free to use under a permissive licence (CC BY-SA, IIRC), you can find them [here](https://github.com/carla-simulator/carla/blob/master/Util/ContentVersions.txt). They include everything you need to build driving simulation environments, so that's a great way to get started.
 
 ## Vegetation
 
-Whatever type of scene you're doing, you'll probably want some sort of vegetation within it. From forests and fields along highway, to plants and trees along sidewalks, vegetation is something that makes your scene feel more realistic. 
+Whatever type of scene you're doing, you'll probably want some sort of vegetation within it. From forests and fields along highways, to plants and trees along sidewalks, vegetation is something that makes your scene feel more realistic. 
 
 ![foliage.png]({{site.baseurl}}/images/foliage.png)
 
 Unreal Engine has a great [Foliage Tool](https://docs.unrealengine.com/en-US/BuildingWorlds/Foliage/index.html), which makes it very easy to place large amounts of various kind of vegetation, all the while ensuring optimal performance, so that your framerate won't drop even if you have a wheat field with 3 million blades.
 
-The [Marketplace] has tons of foliage assets, some of them free! The [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature) is one example of a mutitude of high-quality and free vegetation. Between those and all the assets that went [Free For The Month], I don't think we'll ever need to buy a vegetation asset pack.
+The [Marketplace] has tons of foliage assets, some of them free! The [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature) is one example of a mutitude of high-quality and free vegetation. Between those, all the assets that went [Free For The Month], and the whole [Quixel Megascans](https://quixel.com/megascans/) collection, I don't think we'll ever need to buy a vegetation asset pack.
 
 ## Buildings
 
@@ -48,7 +48,7 @@ By far, our favorite is [City Downtown](https://www.unrealengine.com/marketplace
 
 This package also allows creation of custom buildings types, that can then be generated with its wonderful creation tools. So we've been able to import other assets, such as [European Buildings](https://www.unrealengine.com/marketplace/en-US/product/european-buildings-facades) or some [Quixel](https://quixel.com/megascans/collections?category=environment&category=urban&category=neoclassical-modular-building) façades, which by themselves are too cumbersome to manipulate to create full buildings. Now we can create a full row of Paris-looking buildings in a couple of minutes!
 
-Some other assets we use include [Urban City](https://www.unrealengine.com/marketplace/en-US/item/f60f01b8bbbb45d293c72d4a6a6ad136) or [Suburban Houses](https://www.unrealengine.com/marketplace/en-US/item/29640076ec15451a8e70a29ec629736d). If you're interested, I can give a more thorough list of useful marketplace assets, but feel free to browse youself.
+Some other assets we use include [Urban City](https://www.unrealengine.com/marketplace/en-US/product/urban-city) or [Suburban Houses](https://www.unrealengine.com/marketplace/en-US/product/suburban-houses-vol). If you're interested, I can give a more thorough list of useful marketplace assets, but feel free to browse youself.
 
 ## Props
 
@@ -56,9 +56,9 @@ In the 3D world, props (coming from theater's [property](https://en.wikipedia.or
 
 ![props.png]({{site.baseurl}}/images/props.png)
 
-Placing them can be tedious, and also requires some creativity to arrange them in a realistic manner. Assets from the Marketplace often come with demo scene (e.g. [City Asset Pack](https://www.unrealengine.com/marketplace/en-US/item/83dd68e4ce774c18b89f042cb52670e4)), which you can use as reference. To go even further, you can also find complete scenes (e.g. [Downtown West](https://www.unrealengine.com/marketplace/en-US/item/cffe32471e5f442b9aff97b48a235e82), [Construction Site](https://www.unrealengine.com/marketplace/en-US/item/83bf93f36f794cdab4ecfb70aec4a703)), that contain a variety of assets, which you can use individually, or copy as a whole into your own scene.
+Placing them can be tedious, and also requires some creativity to arrange them in a realistic manner. Assets from the Marketplace often come with demo scene (e.g. [City Asset Pack](https://www.unrealengine.com/marketplace/en-US/product/city-asset-pack)), which you can use as reference. To go even further, you can also find complete scenes (e.g. [Downtown West](https://www.unrealengine.com/marketplace/en-US/item/cffe32471e5f442b9aff97b48a235e82), [Construction Site](https://www.unrealengine.com/marketplace/en-US/product/construction-site-01)), that contain a variety of assets, which you can use individually, or copy as a whole into your own scene.
 
-The Marketplace not only has assets, but also tools. [NVSplineMesh](https://www.unrealengine.com/marketplace/en-US/item/bfeae2f849004189a73a5af98d6f7d8b) is a must-have for any props that you'll want to distribute along a [spline](https://en.wikipedia.org/wiki/Spline_(mathematics)), such as fences or poles.
+The Marketplace not only has assets, but also tools. [NVSplineMesh](https://www.unrealengine.com/marketplace/en-US/product/nv-spline-tools) is a must-have for any props that you'll want to distribute along a [spline](https://en.wikipedia.org/wiki/Spline_(mathematics)), such as fences or poles.
 
 ## Landscapes?
 
