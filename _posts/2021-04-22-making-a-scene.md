@@ -58,11 +58,11 @@ In the 3D world, props (coming from theater's [property](https://en.wikipedia.or
 
 Placing them can be tedious, and also requires some creativity to arrange them in a realistic manner. Assets from the Marketplace often come with demo scene (e.g. [City Asset Pack](https://www.unrealengine.com/marketplace/en-US/product/city-asset-pack)), which you can use as reference. To go even further, you can also find complete scenes (e.g. [Downtown West](https://www.unrealengine.com/marketplace/en-US/item/cffe32471e5f442b9aff97b48a235e82), [Construction Site](https://www.unrealengine.com/marketplace/en-US/product/construction-site-01)), that contain a variety of assets, which you can use individually, or copy as a whole into your own scene.
 
-The Marketplace not only has assets, but also tools. [NVSplineMesh](https://www.unrealengine.com/marketplace/en-US/product/nv-spline-tools) is a must-have for any props that you'll want to distribute along a [spline](https://en.wikipedia.org/wiki/Spline_(mathematics)), such as fences or poles.
+The Marketplace not only has assets, but also tools. [NVSplineMesh](https://www.unrealengine.com/marketplace/en-US/product/nv-spline-tools) is a must-have for any props that you'll want to distribute along a [spline](https://en.wikipedia.org/wiki/Spline_(mathematics)), such as fences or poles. The [Level Design Assistant](https://unrealengine.com/marketplace/en-US/product/level-design-assistant) also makes your scene creation process much easier.
 
 ## Landscapes?
 
-One last thing to mention is the ability to [create](https://docs.unrealengine.com/en-US/BuildingWorlds/Landscape/Creation/index.html) complete landscapes, or buy some from the Marketplace (e.g. [France Fields](https://www.unrealengine.com/marketplace/en-US/product/32a96e6b005344b49d93d888f2e0ec59) [Landscape Smart Material](https://www.unrealengine.com/marketplace/en-US/item/227d99e4b78048ce934ce0afabf523d1)).
+One last thing to mention is the ability to [create](https://docs.unrealengine.com/en-US/BuildingWorlds/Landscape/Creation/index.html) complete landscapes, or buy some from the Marketplace (e.g. [France Fields](https://www.unrealengine.com/marketplace/en-US/product/france-fields-real-scale-satellite-data), [Landscape Smart Material](https://www.unrealengine.com/marketplace/en-US/product/landscape-smart-material)).
 
 [![landscape.jpg]({{site.baseurl}}/images/landscape.jpg)][France Fields]
 
@@ -77,11 +77,15 @@ From there, you still need to ensure both softwares use the same scales and coor
 
 ![landscape_rr.png]({{site.baseurl}}/images/landscape_rr.png)
 
-Another way to solve the problem is to look at it from the other side: how to alter the *landscape* geometry to git the *roads*?
+Another way to solve the problem is to look at it from the other side: how to alter the *landscape* geometry to fit the *roads*?
 
 The answer to that is much simpler. Landscapes can be sculpted via Blueprints, and the roads' geometry is known using [OpenDRIVE](opendrive/). So if we just iterate over all roads and accordingly sculpt the landscape, we get a nice result.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This morning I wondered: can you auto-sculpt a <a href="https://twitter.com/hashtag/UE4?src=hash&amp;ref_src=twsrc%5Etfw">#UE4</a> Landscape from an <a href="https://twitter.com/hashtag/OpenDRIVE?src=hash&amp;ref_src=twsrc%5Etfw">#OpenDRIVE</a> file? The answer is yes, and as pretty much anything in <a href="https://twitter.com/hashtag/UE4?src=hash&amp;ref_src=twsrc%5Etfw">#UE4</a>, it&#39;s quite easy to implement. <a href="https://t.co/dAW8cyBGCK">pic.twitter.com/dAW8cyBGCK</a></p>&mdash; Bertrand Richard (@brifsttar) <a href="https://twitter.com/brifsttar/status/1377989866793877507?ref_src=twsrc%5Etfw">April 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+We're just starting to use landscapes, and it look very promising. We'll probably share more on that in the future.
+
+![landscape_tunnel.png]({{site.baseurl}}/images/landscape_tunnel.png)
 
 Credits to Estelle De Baere, [Lucie Lévêque](https://lulvk.github.io/) and Jean-Charles Bornard for making the scene discussed in this post. None of them had any experience in 3D or scene building, making their work even more incredible.
 
