@@ -18,11 +18,11 @@ To work with CARLA, you need to write Python scripts to load, configure and run 
 
 Unreal Engine comes with two programming languages: [C++](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/index.html) and [Blueprints](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/index.html). It also has [Python](https://docs.unrealengine.com/en-US/ProductionPipelines/ScriptingAndAutomation/Python/index.html) support, but for editor scripting only. And it will soon have a whole new language with *Verse*. Why add runtime Python to that already complex ecosystem?
 
-I'm guessing they chose to do so since it's the go-to language for [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) (e.g. [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/). That way, from a single Python script, you can setup your simulation environment, connect it to your machine-learning and voila, you're all set. I get the appeal.
+I'm guessing they chose to do so since it's the go-to language for [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) (e.g. [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/)). That way, from a single Python script, you can setup your simulation environment, connect it to your machine-learning and voila, you're all set. I get the appeal.
 
 But if, like us, your workflow isn't exactly that, it suddenly becomes much more complex. CARLA's Python API encapsulates Unreal as a whole, so you can't easily switch between let's say Blueprint and Python.
 
-Using the Python API, you lose something so important: the Unreal Editor. Everything you do is through scripting. Which could be ok, but in its implementation, is not. And we'll see that in the next sections
+Using the Python API, you lose something so important: the Unreal Editor. Everything you do is through scripting. Which could be ok, but due to its implementation and our often [exotic scenarios](/scenarios) is not. And we'll see that in the next sections
 
 ## Incomplete interface
 
@@ -56,11 +56,11 @@ CARLA is not a driving simulation platform. It shares a lot of similarities and 
 
 As in the Venn diagram above, there's overlap between the two. But there are missing features, and features we don't need.
 
-As illustrated with the nDisplay case above, missing features are not just a case of "you'll have to add them anyway", whether in CARLA or Unreal. You'll also have to integrate them in *a platform that was designed to answer a problem that is not the problem you want to solve*. Driving simulation comes with its own set of challenges, and solving them might imply different design decisions than what CARLA did.
+As illustrated with the nDisplay case earlier, missing features are not just a case of "you'll have to add them anyway", whether in CARLA or Unreal. You'll also have to integrate them in *a platform that was designed to answer a problem that is not the problem you want to solve*. Driving simulation comes with its own set of challenges, and solving them might imply different design decisions than what CARLA did.
 
-The same goes for CARLA-specific features that are of no use for driving simulation. The Python API shines as a striking example. CARLA probably added this API for machine-learning reasons. We don't do machine learning, but if we wanted to use CARLA, we'd have to leave with those consequences anyway.
+The same goes for CARLA-specific features that are of no use for driving simulation. The Python API shines as a striking example. CARLA probably added this API for machine-learning reasons. We don't do machine learning, but if we wanted to use CARLA, we'd have to live with those consequences anyway.
 
-The Venn diagram could be as high as 90% overlap between CARLA a driving simulation, but the missing 10% could still be enough to justify incompatible design decision on one side of the other. If you decide from the start that your platform will be used both for autonomous driving machine learning *and* driving simulation, you can design around all requirements and ensure and architecture that will satisfy everybody.
+The Venn diagram could be as high as 90% overlap between CARLA a driving simulation, but the missing 10% could still be enough to justify incompatible design decision on one side or the other. If you decide from the start that your platform will be used both for autonomous driving machine learning *and* driving simulation, you can design around all requirements and ensure and architecture that will satisfy everybody.
 
 CARLA is a project focused on autonomous driving, and is designed as so.
 
@@ -88,7 +88,7 @@ But we could imagine an alternative world where CARLA was designed another way, 
 
 Instead of relying on a Python API, CARLA could have used Unreal's native Editor for user interaction, adding some [Editor Utilities](https://docs.unrealengine.com/en-US/ProductionPipelines/ScriptingAndAutomation/index.html) to make things even easier and more intuitive for car-related simulation.
 
-They could have added multiple standalone Unreal Engine plugins for automotive standards. First, related to scene and scenario, such as [OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) or [OpenSCENARIO](https://www.asam.net/standards/detail/openscenario/), which they support in their Python API. But also related to the simulation itself, such as [OSI](https://opensimulationinterface.github.io/osi-documentation/index.html), [DDS](https://www.omg.org/omg-dds-portal/) or [FMI](https://fmi-standard.org/).
+They could have added multiple Unreal Engine plugins for automotive standards. First, related to scene and scenario, such as [OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) or [OpenSCENARIO](https://www.asam.net/standards/detail/openscenario/), which they support in their Python API. But also related to the simulation itself, such as [OSI](https://opensimulationinterface.github.io/osi-documentation/index.html), [DDS](https://www.omg.org/omg-dds-portal/) or [FMI](https://fmi-standard.org/).
 
 All those standards could also have been implemented in Python (some implementations already exist), which would have resulted in the same required behaviour: everything can be done from a single Python script. Except it would have been much more modular and standardized, allowing all implemented components to be re-used beyond CARLA. For example, Python scripts would work in a similar fashion with other simulation tool implementing the same standards (e.g. Unity, [VIRES VTD](https://vires.mscsoftware.com/)). On the other side, the resulting simulation platform could load and simulate anything using those standards, instead of realying on a single Python API.
 
