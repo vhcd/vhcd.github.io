@@ -76,11 +76,24 @@ CARLA being open-source, it obviously can't rely on Marketplace content. So they
 
 # Too early
 
-not 1.0, quality not perfect (e.g. opendrive)
+CARLA has not yet reached 1.0, so it's still under heavy development. As such, building on top of it would be a risky bet (and was even more back when we make our choice). We don't have much visibility of future decisions and impacts they'll have on the platform. We don't even know if CARLA will live on.
+
+Being in early stages also shows in term of overall maturity and quality. For example, CARLA's [OpenDRIVE](/opendrive) library is a lot less complete than [esmini](https://github.com/esmini/esmini)'s. Working with their assets also shows a lot of inconsistencies (they've recently renamed most assets, which obviously breaks a lot of things on depending projects).
 
 # What could have been?
 
-re: simulation email
-py/ml integration, everything else in-editor (euw/eubp)
+Given all the points above, we didn't see the benefit of using CARLA over native Unreal. We still added all of their assets into our platform, as most of them are useful to us. But beyond that, the Unreal Editor and its ecosystem (Plugins, Marketplace) has too much value over a Python API.
+
+But we could imagine an alternative world where CARLA was designed another way, that would perfectly fit our requirements.
+
+Instead of relying on a Python API, CARLA could have used Unreal's native Editor for user interaction, adding some [Editor Utilities](https://docs.unrealengine.com/en-US/ProductionPipelines/ScriptingAndAutomation/index.html) to make things even easier and more intuitive for car-related simulation.
+
+They could have added multiple standalone Unreal Engine plugins for automotive standards. First, related to scene and scenario, such as [OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) or [OpenSCENARIO](https://www.asam.net/standards/detail/openscenario/), which they support in their Python API. But also related to the simulation itself, such as [OSI](https://opensimulationinterface.github.io/osi-documentation/index.html), [DDS](https://www.omg.org/omg-dds-portal/) or [FMI](https://fmi-standard.org/).
+
+All those standards could also have been implemented in Python (some implementations already exist), which would have resulted in the same required behaviour: everything can be done from a single Python script. Except it would have been much more modular and standardized, allowing all implemented components to be re-used beyond CARLA. For example, Python scripts would work in a similar fashion with other simulation tool implementing the same standards (e.g. Unity, [VIRES VTD](https://vires.mscsoftware.com/)). On the other side, the resulting simulation platform could load and simulate anything using those standards, instead of realying on a single Python API.
+
+Those standards (or others) could also be used in other domains than autonomous driving simulation, for example [synthetic data](https://en.wikipedia.org/wiki/Synthetic_data) in non-driving environments, which also have a lot of feature overlap with CARLA, but can't really leverage it due to its design choices.
+
+Because right now, you can neither do driving simulation nor [general-purpose computer vision](https://blogs.unity3d.com/2020/06/10/use-unitys-computer-vision-tools-to-generate-and-analyze-synthetic-data-at-scale-to-train-your-ml-models/) using CARLA, which I really think is a missed opportunity.
 
 [0]: https://www.lucidchart.com/pages/fr/exemple/diagramme-de-venn-en-ligne
