@@ -42,7 +42,11 @@ But even with all that, there are some things I just can't imagine working. Take
 
 ## Why oh why
 
-Given all that, I really wonder
+Given all that, I do not see a single reason, for us, to use this Python API. It's extra work, but for what?
+
+I feel that this Python API is a substitute to Unreal's [Level Blueprint](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/LevelBlueprint/index.html), or even [Levels](https://docs.unrealengine.com/en-US/Basics/Levels/index.html). From my point of view, there is *nothing* I can do using CARLA's Python API that I can't do in a Level and Level Blueprint.
+
+And I'd much rather using native, fully documented, supported and widely-adopted native tools that Unreal provide. The Python API just adds layers and layers of complexity on top of Unreal, for no apparent benefit.
 
 # Not a *driving simulator*
 
