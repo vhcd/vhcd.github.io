@@ -46,11 +46,23 @@ Given all that, I do not see a single reason, for us, to use this Python API. It
 
 I feel that this Python API is a substitute to Unreal's [Level Blueprint](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/LevelBlueprint/index.html), or even [Levels](https://docs.unrealengine.com/en-US/Basics/Levels/index.html). From my point of view, there is *nothing* I can do using CARLA's Python API that I can't do in a Level and Level Blueprint.
 
-And I'd much rather using native, fully documented, supported and widely-adopted native tools that Unreal provide. The Python API just adds layers and layers of complexity on top of Unreal, for no apparent benefit.
+And I'd much rather using native, fully documented, supported and widely-adopted tools that Unreal provide. The Python API just adds layers and layers of complexity on top of Unreal, for no apparent benefit.
 
 # Not a *driving simulator*
 
-Useless features for us
+CARLA is not a driving simulation platform. It shares a lot of similarities and features with such tools, but that's not what it is.
+
+[![Two-Set-Venn-Diagram.jpeg]({{site.baseurl}}/images/Two-Set-Venn-Diagram.jpeg)][0]
+
+As in the Venn diagram above, there's overlap between the two. But there are missing features, and features we don't need.
+
+As illustrated with the nDisplay case above, missing features are not just a case of "you'll have to add them anyway", whether in CARLA or Unreal. You'll also have to integrate them in *a platform that was designed to answer a problem that is not the problem you want to solve*. Driving simulation comes with its own set of challenges, and solving them might imply different design decisions than what CARLA did.
+
+The same goes for CARLA-specific features that are of no use for driving simulation. The Python API shines as a striking example. CARLA probably added this API for machine-learning reasons. We don't do machine learning, but if we wanted to use CARLA, we'd have to leave with those consequences anyway.
+
+The Venn diagram could be as high as 90% overlap between CARLA a driving simulation, but the missing 10% could still be enough to justify incompatible design decision on one side of the other. If you decide from the start that your platform will be used both for autonomous driving machine learning *and* driving simulation, you can design around all requirements and ensure and architecture that will satisfy everybody.
+
+CARLA is a project focused on autonomous driving, and is designed as so.
 
 # Re-implementing the wheel
 
@@ -64,3 +76,5 @@ not 1.0, quality not perfect (e.g. opendrive)
 
 re: simulation email
 py/ml integration, everything else in-editor (euw/eubp)
+
+[0]: https://www.lucidchart.com/pages/fr/exemple/diagramme-de-venn-en-ligne
