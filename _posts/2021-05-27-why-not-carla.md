@@ -66,7 +66,13 @@ CARLA is a project focused on autonomous driving, and is designed as so.
 
 # Re-implementing the wheel
 
-Many MP products redev
+CARLA comes ready-to-use, with existing cars, buildings, scenes and much more. All of that free! That is absolutely amazing, especially since those assets are licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), meaning you can use those even without CARLA.
+
+However, when you look at those assets, you'll realize that they spent a large amount of work on content you can buy for not much in the Marketplace. CARLA has free equivalent of [Procedural Buildings](https://www.unrealengine.com/marketplace/en-US/product/city-downtown-pack), [Spline Meshes](https://www.unrealengine.com/marketplace/en-US/product/nv-spline-tools), [Sky and Weather](https://www.unrealengine.com/marketplace/en-US/product/ultra-dynamic-sky) and much more. But in all cases, the Marketplace products are of higher quality, with better documentation, etc.
+
+Before we bought any Marketplace item, we relied a lot on CARLA's assets. But slowly, we started phasing out those and replacing them with Marketplace products.
+
+CARLA being open-source, it obviously can't rely on Marketplace content. So they have no other choice than to re-implement existing products. But from our perspective, we much prefer using Marketplace products.
 
 # Too early
 
