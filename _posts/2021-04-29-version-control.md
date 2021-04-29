@@ -12,7 +12,7 @@ Currently, the platform is an Unreal Engine project, which includes assets, plug
 
 This in itself isn't a really novel use of source control. However, the content of the project is. We have assets, and lots of them. Meshes, materials, textures, sounds, etc. All in binary format. Currently, we have over 150GB of them, coming from over 150 assets packs from the [Marketplace](https://www.unrealengine.com/marketplace/en-US/store).
 
-Do we need to version those? In my opinion, yes. We tend to modify a lot of assets we bought, to tailor them for our needs. Sometimes we fix bugs, or expend features. This requires versioning.
+Do we need to version those? In my opinion, yes. We tend to modify a lot of assets we bought, to tailor them to our needs. Sometimes we fix bugs, or expend features. This requires versioning.
 
 On top of that, we need version control to be simple to use. Most our users aren't too familiar with version control systems, so we need our version control to be intuitive, and not just writting dozens of `git` commands in a terminal.
 
@@ -20,11 +20,11 @@ On top of that, we need version control to be simple to use. Most our users aren
 
 What tools are there for us? Well, you have the common ones, such as [Git](https://en.wikipedia.org/wiki/Git) or [SVN](https://en.wikipedia.org/wiki/Apache_Subversion). And then you have some that are more focused on using game engines, such as [Plastic SCM](https://en.wikipedia.org/wiki/Plastic_SCM) or [Perforce](https://en.wikipedia.org/wiki/Perforce). How to choose?
 
-Well, we don't have that much money lying around, so even though Perforce probably is the gold standard for Unreal Engine development, we can't really use it. They have a free tier, but their 5-user limit is a no-go for us. Same for Plastic SCM, which is also more oriented towards Unity, which actually bought the company, in what I think is a very good move on their part.
+Well, we don't have that much money lying around, so even though Perforce probably is the gold standard for Unreal Engine development, we can't really use it. They have a free tier, but their 5-user limit is a no-go for us. Same for Plastic SCM, which is also more oriented towards Unity, which actually bought the company, in what I think is a very smart move on their part.
 
 So, we're left with Git or SVN. Git notoriously doesn't work well with binary content, which we have *a lot* of. However, the [Git LFS](https://git-lfs.github.com/) extension brings better support on that front. SVN, though declining overall, is still liked in the game-engine world for its simplicity, native binary and file-locking support.
 
-In the end, we chose Git. As a research support, all our existing projects (e.g. data acquisition/wrangling) are already using Git. It's the tool that people are most familiar with. And if, like us, you need an external host, there's really not much alternative.
+In the end, we chose Git. Our existing software projects (e.g. data acquisition/wrangling) are already using Git. It's the tool that people are most familiar with. And if, like us, you need an external host, there's really not much alternative.
 
 # Which host?
 
@@ -46,13 +46,13 @@ We have a 150GB project, of mostly binary assets, which we want to version using
 
 ## Setup
 
-Our main repository is what we call a [superproject](https://en.wikibooks.org/wiki/Git/Submodules_and_Superprojects), as it's mostly a container of [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Since we have well over a hundred asset packs from the Marketplace, we put each one in a submodule. Thankfully, nearly all of them are under 10GB in size, so they fit within GitLab's limits. We also have submodules for each plugins we use (around a dozen), and for each [scene](/making-a-scene) we create. Not only does it solve the 10GB issue, it's also cleaner to have each of those in its own repository, as it makes for a better and clearer version log on each. Instead of having 10 commits that modify wildly different assets on a single repo, we have 10 repos, each having a single commit. Cleaner, but a bit more difficult to work with.
+Our main repository is what we call a [superproject](https://en.wikibooks.org/wiki/Git/Submodules_and_Superprojects), as it's mostly a container of [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Since we have well over a hundred asset packs from the Marketplace, we put each one in a submodule. Thankfully, nearly all of them are under 10GB in size, so they fit within GitLab's limits. We also have submodules for each plugin we use (around two dozens), and for each [scene](/making-a-scene) we create. Not only does it solve the 10GB issue, it's also cleaner to have each of those in its own repository, as it makes for a better and clearer version log on each. Instead of having 10 commits that modify wildly different assets on a single repo, we have 10 repos, each having a single commit. Cleaner, but a bit more difficult to work with.
 
 On the client side, we recommend our users to try [TortoiseGit](https://tortoisegit.org/), which has a nice Windows shell integration, making it easy to work with. We also wrote some shell scripts that can do some of the more complex tasks (e.g. merging upstream from a fork).
 
 ## The bad
 
-Now for the bad. Being used to version control for C++ or Python based software projects, I have very disappointed by how this particular subject is handled in Unreal Engine. Compared to everything else in the engine, version control can be quite painful to work with on a day to day basis.
+Now for the bad. Being used to version control for C++ or Python based software projects, I have been very disappointed by how this particular subject is handled in Unreal Engine. Compared to everything else in the engine, version control can be quite painful to work with on a day to day basis.
 
 There's no official Git support from Unreal Engine, but there's an [unofficial plugin](https://github.com/SRombauts/UE4GitPlugin) that's used by most Git users. If you read through the features, it looks great and seems like it would fit most needs. But the reality is different.
 
