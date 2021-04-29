@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Version control
 ---
 As a software engineer, [version control](https://en.wikipedia.org/wiki/Version_control) is mandatory for any project I work on. A driving simulation platform, or experiment, is no exception. However, such projects have quite a few differences from traditional software. In this post, we'll explain the challenges we faced regarding source control, and how we answered them (or failed to).
