@@ -70,9 +70,15 @@ Not only that, it has [mixed reality](https://en.wikipedia.org/wiki/Mixed_realit
 
 On another front, [Manus](https://www.manus-vr.com/mocap-gloves) has motion tracking gloves, which makes it possible (and easy) to see your hands in VR, and opens the door to more cockpit interactions.
 
-## nDisplay
+## No more CAVE!
 
-## Portable and development setup
+Running an experiment on a CAVE-like setup like ours is costly, both in time and money. Our most advanced simulator runs on 13 displays, powered by 9 computers. That's not cheap to install, and not cheap to maintain. You have to handle networking, synchronization, cables, sessions, etc. Just powering the thing on is its own little adventure. When building an experiment, there's always a pretty big gap between getting the scenario running on your desktop and getting it to run on the simulator cluster. And a major part of my job is solving issues related to the latter.
+
+So a VR headset would make everything easier, cheaper and faster. And by a wide margin. So  at some point, those benefits will outweigh all the issues identified earlier.
+
+For now, we use lightweight headsets (e.g. [Vive Cosmos](https://www.vive.com/eu/product/vive-cosmos/features/)) during experiment development, so that researchers and developers can test their [scenarios](scenarios/) from their desktop (or their home office!) with high immersion, therefore making test runs on CAVE simulator less frequent.
+
+So even if the VR "revolution" hasn't reached driving simulation yet, it doesn't mean it won't. And I sure hope it will.
 
 [0]: https://www.reddit.com/r/oculus/comments/40x9f9/has_anyone_managed_to_get_a_photo_from_cv1_screen/
 [1]: https://lescot.univ-gustave-eiffel.fr/
