@@ -58,9 +58,15 @@ Even with all those issues, I still think we'll use VR headsets for driving simu
 
 ## Varjo
 
-We don't currently own a [Varjo XR-3](https://varjo.com/products/xr-3/), but I hope we'll soon, as this headset seems
+We don't currently own a [Varjo XR-3](https://varjo.com/products/xr-3/), but I hope we'll soon. This headset seems to solve multiple problems at once.
 
-![varjo_tech.gif]({{site.baseurl}}/_posts/varjo_tech.gif)
+![](https://thumbs.gfycat.com/DistortedSkeletalAdouri-size_restricted.gif)
+
+First, they have a very smart feature, which is similar to foveated rendering, except it's hardware: they have a 4MP display dedicated to the focus area (27°x27°), which follows your gaze thanks to eye tracking. So that should solve both the resolution and eye-tracking at once, right?
+
+Not only that, it has [mixed reality](https://en.wikipedia.org/wiki/Mixed_reality)!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tCv0hJGBo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Manus-VR
 
