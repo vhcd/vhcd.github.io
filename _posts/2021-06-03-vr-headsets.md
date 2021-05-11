@@ -10,6 +10,14 @@ The title is voluntarily misleading, as we own and use multiple VR headsets, but
 
 ## Low resolution
 
+HTC recently announced its [Vive Pro 2](https://www.roadtovr.com/htc-vive-pro-2-specs-price-release-date-announcement/) with a single eye resolution of 2448×2448, compared to the original Vive's 1080x1200. So there's a lot of progress on the resolution front, but is that enough for driving simulation? I'm still not sure.
+
+[![screendoor.jpeg]({{site.baseurl}}/images/screendoor.jpeg)][0]
+
+On a driving simulator, you need to be able to see a lot of things, far and accurately. When driving at 90km/h, you perceive objects that can be well over 100m and cover only a very small fraction of your field of view. If drivers can't make up *what* it is they see in the distance because there's not enough pixels, that's a big issue. As a consequences, drivers might alter their driving behaviour for *simulation* reasons, which is something we try to avoid as much as we can (even though we obviously can't totally get rid of).
+
+You also want to see your dashboard with as much accuracy as possible. Nowadays, needle displays tend to disappear for more digital interfaces, but there's still a lot of information on the dashboard (or [infotainment system](https://en.wikipedia.org/wiki/In-car_entertainment)), which is often hard to read on VR headsets.
+
 ## Eye and face tracking
 
 ## Mirrors
@@ -25,3 +33,5 @@ The title is voluntarily misleading, as we own and use multiple VR headsets, but
 ## nDisplay
 
 ## Portable and development setup
+
+[0]: https://www.reddit.com/r/oculus/comments/40x9f9/has_anyone_managed_to_get_a_photo_from_cv1_screen/
