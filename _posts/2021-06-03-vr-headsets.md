@@ -40,8 +40,11 @@ And that's the tip of the iceberg. We often use what we call "non-driving relate
 
 All that in a VR headset would be challenging to say the least. You could probably design a new NDRT that don't require physical interaction (i.e. no touchscreen), but that would obvisouly be very difficult. Integrating a side display into the virtual car is also a challenge on its own, as you'll once again face the resolution issues mentionned previously.
 
-Overall, during the experiment, the driver might have to interact with a lot of things in the real car. Being immersed in a virtual car, without visible hands, is too much of a hassle in most cases.![varjo_tech.gif]({{site.baseurl}}/_posts/varjo_tech.gif)
-play/#mirrors) on CAVE simulators, but it's not a walk in the park in VR either.
+Overall, during the experiment, the driver might have to interact with a lot of things in the real car. Being immersed in a virtual car, without visible hands, is too much of a hassle in most cases.
+
+## Mirrors
+
+I've already talked about the [challenges of mirrors](ndisplay/#mirrors) on CAVE simulators, but it's not a walk in the park in VR either.
 
 First, we obviously still have the same resolution issue as mentionned above: the mirror covers a small fractions of the headset field of view, therefore only few pixels are available to render it. But that small space contains *a lot* of information, and you need to be able to see it as clearly as possible. In our CAVE-like simulator, we use 1920x1080 displays for mirrors, but even with a Vive Pro 2, I doubt that you can get even 10% of that resolution for mirrors.
 
@@ -57,7 +60,7 @@ Even with all those issues, I still think we'll use VR headsets for driving simu
 
 We don't currently own a [Varjo XR-3](https://varjo.com/products/xr-3/), but I hope we'll soon, as this headset seems
 
-
+![varjo_tech.gif]({{site.baseurl}}/_posts/varjo_tech.gif)
 
 ## Manus-VR
 
