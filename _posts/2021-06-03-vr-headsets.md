@@ -26,11 +26,29 @@ Historically, we've been using video recordings of driver's face to gauge their 
 
 [![fnirs.png]({{site.baseurl}}/images/fnirs.png)][1]
 
-We also make heavy use of [eye tracking](https://en.wikipedia.org/wiki/Eye_tracking)
+Both [EEG](https://en.wikipedia.org/wiki/Electroencephalography) and [fNIRS](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy) require sensors over most part of the head, which is usually not compatible with headset straps. Those measurement devices are commonly used in our experiments, which therefore work easier in our existing monitor-based simulators.
+
+We also make heavy use of [eye tracking](https://en.wikipedia.org/wiki/Eye_tracking), though on that front, more and more VR headsets started integrating such features (e.g. [Vive Pro Eye](https://www.vive.com/eu/product/vive-pro-eye/overview/)), mainly driven by the prospect of [foveated rendering](https://en.wikipedia.org/wiki/Foveated_rendering).
+
+## Car interaction
+
+In a driving simulation, your hands are mostly on the steering wheel. But by default, you don't see your hands in VR! So right off the bat, we're faced with quite an immersion breaker: your hands will hold a steering wheel in the real world, while in the virtual world, you would just see an steering wheel, but no hands.
+
+And that's the tip of the iceberg. We often use what we call "non-driving related tasks" (NDRT), which most of the time is a side screen which the driver has to interact with, most of the time to play a small game.
+
+[![ndrt.png]({{site.baseurl}}/images/ndrt.png)][2]
+
+All that in a VR headset would be challenging to say the least. You could probably design a new NDRT that don't require physical interaction (i.e. no touchscreen), but that would obvisouly be very difficult. Integrating a side display into the virtual car is also a challenge on its own, as you'll once again face the resolution issues mentionned previously.
+
+Overall, during the experiment, the driver might have to interact with a lot of things in the real car. Being immersed in a virtual car, without visible hands, is too much of a hassle in most cases.
 
 ## Mirrors
 
-## Dashboard interaction
+I've already talked about the [challenges of mirrors](ndisplay/#mirrors) on CAVE simulators, but it's not a walk in the park in VR either.
+
+First, we obviously still have the same resolution issue as mentionned above: the mirror covers a small fractions of the headset field of view, therefore only few pixels are available to render it. But that small space contains *a lot* of information, and you need to be able to see it as clearly as possible. In our CAVE-like simulator, we use 1920x1080 displays for mirrors, but even with a Vive Pro 2, I doubt that you can get even 10% of that resolution for mirrors.
+
+Mirrors are also very costly, in terms of computing power, to render. Each mirror is basically equivalent to rendering the scene once more. And we have 3 mirrors. Once again, on our clusters, we have dedicated computer for each mirror, as each one is a monitor. That's not possible with VR, as only one computer can render the whole scene. By the way, with a Vive Pro Eye 2, to render a scene properly, you have to generate two (one for each eye) 6MP (2448x2448) image in 8.3ms (120Hz). That's a throughput of 1.43Gbps, compared to 124Mbps for "classic" display (1080p60Hz). Having to render mirrors on top of that is close to madness.
 
 # Why we will
 
@@ -44,3 +62,4 @@ We also make heavy use of [eye tracking](https://en.wikipedia.org/wiki/Eye_track
 
 [0]: https://www.reddit.com/r/oculus/comments/40x9f9/has_anyone_managed_to_get_a_photo_from_cv1_screen/
 [1]: https://lescot.univ-gustave-eiffel.fr/
+[2]: https://www.researchgate.net/figure/Definition-of-areas-of-interest-AOIs-Driving-scene-incorporates-windshield-side_fig7_313502460
