@@ -56,21 +56,19 @@ Mirrors are also very costly, in terms of computing power, to render. Each mirro
 
 Even with all those issues, I still think we'll use VR headsets for driving simulation in the near future. Probably not for all experiments, as some problems just don't have easy solutions. But VR headsets also have a lot of benefits, and new products are tackling some of the shortcomings discussed in the previous section.
 
-## Varjo
+## New tech
 
-We don't currently own a [Varjo XR-3](https://varjo.com/products/xr-3/), but I hope we'll soon. This headset seems to solve multiple problems at once.
+We don't currently own a [Varjo XR-3](https://varjo.com/products/xr-3/), but I hope we'll soon, because this headset seems to solve multiple of our problems at once.
 
 ![](https://thumbs.gfycat.com/DistortedSkeletalAdouri-size_restricted.gif)
 
 First, they have a very smart feature, which is similar to foveated rendering, except it's hardware: they have a 4MP display dedicated to the focus area (27°x27°), which follows your gaze thanks to eye tracking. So that should solve both the resolution and eye-tracking at once, right?
 
-Not only that, it has [mixed reality](https://en.wikipedia.org/wiki/Mixed_reality)!
+Not only that, it has [mixed reality](https://en.wikipedia.org/wiki/Mixed_reality)! Thanks to their high resolution and cameras, the headset is able to create impressive augmented reality. [This demo](https://www.youtube.com/watch?v=NGAb9WX4AMY&t=2404s) showing helicopter simulation with a real-world dashboard is pretty close to the perfect solution for our interaction and hands issue.
 
-<div class="embed-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tCv0hJGBo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
-## Manus-VR
+On another front, [Manus](https://www.manus-vr.com/mocap-gloves) has motion tracking gloves, which makes it possible (and easy) to see your hands in VR, and opens the door to more cockpit interactions.
 
 ## nDisplay
 
