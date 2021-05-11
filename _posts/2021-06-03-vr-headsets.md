@@ -65,8 +65,9 @@ We don't currently own a [Varjo XR-3](https://varjo.com/products/xr-3/), but I h
 First, they have a very smart feature, which is similar to foveated rendering, except it's hardware: they have a 4MP display dedicated to the focus area (27°x27°), which follows your gaze thanks to eye tracking. So that should solve both the resolution and eye-tracking at once, right?
 
 Not only that, it has [mixed reality](https://en.wikipedia.org/wiki/Mixed_reality)!
-
+<div class="embed-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tCv0hJGBo_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Manus-VR
 
