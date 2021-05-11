@@ -48,7 +48,9 @@ I've already talked about the [challenges of mirrors](ndisplay/#mirrors) on CAVE
 
 First, we obviously still have the same resolution issue as mentionned above: the mirror covers a small fractions of the headset field of view, therefore only few pixels are available to render it. But that small space contains *a lot* of information, and you need to be able to see it as clearly as possible. In our CAVE-like simulator, we use 1920x1080 displays for mirrors, but even with a Vive Pro 2, I doubt that you can get even 10% of that resolution for mirrors.
 
-Mirrors are also very costly, in terms of computing power, to render. Each mirror is basically equivalent to rendering the scene once more. And we have 3 mirrors. Once again, on our clusters, we have dedicated computer for each mirror, as each one is a monitor. That's not possible with VR, as only one computer can render the whole scene. By the way, with a Vive Pro Eye 2, to render a scene properly, you have to generate two (one for each eye) 6MP (2448x2448) image in 8.3ms (120Hz). That's a throughput of 1.43Gbps, compared to 124Mbps for "classic" display (1080p60Hz). Having to render mirrors on top of that is close to madness.
+[![vr-mirrors.jpg]({{site.baseurl}}/images/vr-mirrors.jpg)][3]
+
+Mirrors are also very costly, in terms of computing power, to render. Each mirror is basically equivalent to rendering the scene once more. And we have 3 mirrors. Once again, on our clusters, we have dedicated computer for each mirror, as each one is a monitor. That's not possible with VR, as only one computer can render the whole scene. By the way, with a Vive Pro Eye 2, to render a scene properly, you have to generate two (one for each eye) 6MP (2448x2448) image in 8.3ms (120Hz). That's a throughput of 1.43Gbps, compared to 124Mbps for "classic" display (1080p60Hz). If you want to render mirrors on top of that, you'll have to turn the visual quality of your simulation way down.
 
 # Why we will
 
@@ -63,3 +65,4 @@ Mirrors are also very costly, in terms of computing power, to render. Each mirro
 [0]: https://www.reddit.com/r/oculus/comments/40x9f9/has_anyone_managed_to_get_a_photo_from_cv1_screen/
 [1]: https://lescot.univ-gustave-eiffel.fr/
 [2]: https://www.researchgate.net/figure/Definition-of-areas-of-interest-AOIs-Driving-scene-incorporates-windshield-side_fig7_313502460
+[3]: https://www.roadtovr.com/project-cars-2-vr-review-oculus-rift-htc-vive/
