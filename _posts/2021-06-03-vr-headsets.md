@@ -18,7 +18,15 @@ On a driving simulator, you need to be able to see a lot of things, far and accu
 
 You also want to see your dashboard with as much accuracy as possible. Nowadays, needle displays tend to disappear for more digital interfaces, but there's still a lot of information on the dashboard (or [infotainment system](https://en.wikipedia.org/wiki/In-car_entertainment)), which is often hard to read on VR headsets.
 
-## Eye and face tracking
+## Head data
+
+At [LESCOT](https://lescot.univ-gustave-eiffel.fr/), we study driver's behavior, and in order to do that, we use multiple data sources related to the head of the participant, which can be incompatible (to some degree) with VR headsets.
+
+Historically, we've been using video recordings of driver's face to gauge their reaction, expressions, or more recently emotions. With a headset covering half their faces, this becomes pretty much impossible.
+
+[![fnirs.png]({{site.baseurl}}/images/fnirs.png)][1]
+
+We also make heavy use of [eye tracking](https://en.wikipedia.org/wiki/Eye_tracking)
 
 ## Mirrors
 
@@ -35,3 +43,4 @@ You also want to see your dashboard with as much accuracy as possible. Nowadays,
 ## Portable and development setup
 
 [0]: https://www.reddit.com/r/oculus/comments/40x9f9/has_anyone_managed_to_get_a_photo_from_cv1_screen/
+[1]: https://lescot.univ-gustave-eiffel.fr/
