@@ -33,7 +33,7 @@ The second, higher, level merges lateral and longitudinal controls to offer a mo
 
 The *Virtual Driver* produces human-like outputs, that can directly be plugged into any simulator's car dynamic model. That way, from the participant's point of view, any car's external behaviour (e.g. dynamics) looks realistic enough to ensure optimal immersion. 
 
-On the technical side, the output from the *Virtual Driver* actually are exactly the same as you would get from a real human using a standard controller. This means we can swap from real to virtual driver (and vice versa) at any point within our scenarios! This is especially useful for autonomous driving or take-over studies, where shared car control can be challenging. 
+On the technical side, the output from the *Virtual Driver* actually are exactly the same as what you would get from a real human being using a standard controller. This means we can swap from real to virtual driver (and vice versa) at any point within our scenarios! This is especially useful for autonomous driving or take-over studies, where shared car control can be challenging. 
 
 # Back towards Cosmodrive
 

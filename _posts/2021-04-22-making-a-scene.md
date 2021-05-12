@@ -2,7 +2,7 @@
 published: true
 title: Making a scene
 ---
-When you start implementing your driving simulator experiment, the first thing you'll work on probably is the scene. You may want to reuse an existing one from a previous project, maybe modify it, or start from scratch to build something tailored to your needs.
+When you start implementing your driving simulator experiment, the first thing you'll work on is probably the scene. You may want to reuse an existing one from a previous project, maybe modify it, or start from scratch to build something tailored to your needs.
 
 ![scene.png]({{site.baseurl}}/images/scene.png)
 

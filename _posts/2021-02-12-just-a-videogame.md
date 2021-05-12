@@ -28,7 +28,7 @@ The most obvious one is an editor to create virtual world. Creating a scene, add
 
 [![Unity](/images/unity.png)][1]
 
-But it's not just that, game engines offer vehicle dynamics, controller mappings, sound spatialization, basic AI, characters, and most important: the ability to add and modify anything you want, either by creating it yourself, or by purchasing someone else's work on their *store*, which features thousands of assets and plugins that will save you a lot of time for not that much money.
+But it's not just that, game engines offer vehicle dynamics, controller mappings, sound spatialization, basic AI, characters, and most importantly: the ability to add and modify anything you want, either by creating it yourself, or by purchasing someone else's work on their *store*, which features thousands of assets and plugins that will save you a lot of time for not that much money.
 
 ### What they don't (necessarily) do
 
@@ -61,7 +61,7 @@ Even with the rise of consumer-grade VR headsets, [CAVE](https://en.wikipedia.or
 
 [![CAVE](/images/360sim.jpg)][2]
 
-CAVEs come with a great challenge: how do you render on all the screens? Whereas a videogame might run on a wide-screen, here we're talking 360° of field of view, with multiple 4K screens. A single computer won't be powerful enough to render on all screens. So you're going to have to somehow distribute the rendering across a cluster, and synchronize it so that all screens display the same scene state at the exact same time. Not a small feat to accomplish
+CAVEs come with a great challenge: how do you render on all the screens? Whereas a videogame might run on a wide-screen, here we're talking 360° of field of view, with multiple 4K screens. A single computer won't be powerful enough to render on all screens. So you're going to have to somehow distribute the rendering across a cluster, and synchronize it so that all screens display the same scene state at the exact same time. Not a small feat to accomplish.
 
 ## What we'll talk about next
 
