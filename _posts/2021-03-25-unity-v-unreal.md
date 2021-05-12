@@ -39,7 +39,7 @@ The C# vs. C++ debate is a whole other topic that I'll gloss over. Let's just sa
 
 [![uebp.png]({{site.baseurl}}/images/uebp.png)][1]
 
-On the visual programming subject, I was heavily conflicted. On the one side, it's easy to use, especially for some researchers that may not be to keen on writing code. On the other side, well, [there's a lot of other sides][vpbad]. Versioning can be difficult, [spaghetti code][spaghet] can take a very literal [meaning][hell], etc.
+On the visual programming subject, I was heavily conflicted. On the one side, it's easy to use, especially for some researchers that may not be too keen on writing code. On the other side, well, [there's a lot of other sides][vpbad]. Versioning can be difficult, [spaghetti code][spaghet] can take a very literal [meaning][hell], etc.
 
 # CAVE rendering
 
@@ -55,7 +55,7 @@ Unreal is straightforward with its answer to the problem: [nDisplay]. This solut
 
 # Miscellaneous
 
-Unity has a stronger foothold in education curriculum, meaning the available workforce is probably higher for Unity developers. Unity also a more furnished [Asset Store] than Unreal's [Marketplace], though you'll probably find anything you want for your driving simulation in both.
+Unity has a stronger foothold in education curriculum, meaning the available workforce is probably higher for Unity developers. Unity also has a more furnished [Asset Store] than Unreal's [Marketplace], though you'll probably find anything you want for your driving simulation in both.
 
 If you regularly browse [Hacker News], it's not uncommon to have people complaining about Unity. Here's a [recent example][garry], which was also discussed on Reddit ([r/gamedev], [r/Unity3D]). Even if Unreal Engine obviously has its pitfalls, it's always interesting to read these discussions to get feedback from others users.
 
