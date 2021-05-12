@@ -15,7 +15,7 @@ An OpenDRIVE file follows the [XML](https://en.wikipedia.org/wiki/XML) standard 
 
 # Why do we need it?
 
-So an OpenDRIVE file is an "HD map". But why do we need that?
+So an OpenDRIVE file is an "[HD map](https://en.wikipedia.org/wiki/High-definition_map)". But why do we need that?
 
 One answer lies in the reason why we use driving simulators: to run experiments. As such, we're interested in data that will be generated when subjects are driving. Some of that data include
 
