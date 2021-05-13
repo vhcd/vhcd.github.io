@@ -1,12 +1,12 @@
 ---
-published: false
+published: true
 title: Scenario Variants
 ---
 The basis of a driving simulation experiment is the [scenario](/scenarios). But quite often, an experiment requires not one but multiple scenarios. And most often, those multiple scenarios can be described as some kinds of *variants* from one another. How do we structure our experiment around this *variant* concept?
 
 # What's a variant?
 
-Before getting into, I'll first mention that this subject is closely related the [Design of experiments](https://en.wikipedia.org/wiki/Design_of_experiments), including all of its problematics (e.g. *learning effect*). As this is a tech blog, I won't cover any of those aspects.
+Before getting into it, I'll first mention that this subject is closely related the [Design of experiments](https://en.wikipedia.org/wiki/Design_of_experiments), including all of its problematics (e.g. *learning effect*). As this is a tech blog, I won't cover any of those aspects.
 
 To get better insights into driver's behavior, one way is to immerse them in not just one situation, but multiple *variants* of that kind of situation, and study how their behavior varies based on the situation differences.
 
@@ -30,7 +30,7 @@ And with all that, it's time to actully build the scenario as you would usually 
 
 ![variant_scenario.png]({{site.baseurl}}/images/variant_scenario.png)
 
-This system is very flexible, as you can change a variant without ever touching the scenario. This proves useful if the researcher, who specifies and tunes the variants, isn't actually implementing the scenario. Using our variant system, the researcher can simply edit the variants from the data table and immediatly test the scenario to have feedback and adjust accordingly.
+This system is very flexible, as you can change a variant without ever touching the scenario. This proves useful if the researcher, who specifies and tunes variants, isn't actually implementing the scenario. Using our variant system, the researcher can simply edit the variants from the data table and immediatly test the scenario to have feedback and adjust accordingly.
 
 And if during your initial tests, you realize that you need another varying parameter (e.g. weather condition), you just add an attribute to your `Structure`, update the new `Data Table` column with the values you want for this attribute, and update the scenario to now use and apply this variable.
 
