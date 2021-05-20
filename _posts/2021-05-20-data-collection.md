@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Data Collection
 ---
 The main point of a driving simulation experiment is to collect data relevant to our study. This includes both simulation related data (e.g. speed), but also physiological data, such as eye-tracking or heart rate; all of which need to be synchronized. Today we'll discuss how we solve this in our platform.
@@ -16,7 +16,7 @@ Obviously, we didn't use all of them at once, but still, even just a few of thos
 
 > [RTMaps](https://intempora.com/products/rtmaps/)™ stands for Real-Time Multisensor Applications, it is a highly-optimized component-based development and execution software tool. Thanks to RTMaps™ you can design, develop, test, benchmark and validate multisensor applications for Advanced Driver Assistance Systems (ADAS) and Highly Automated Driving (HAD) software functions but also advanced features in other domains such as autonomous and mobile robotics, energy, system monitoring, complex instrumentation and human factors.
 
-Mosty developed for [ADAS](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems) development, this tool can read and synchronize many data-sources, which then can be manipulated to provide output, or simply recorded. It natively supports most car-related data sources, and over time keeps adding support for other sources closely related to driving studies. And you can quite easily your own custom data sources, so no worries there.
+Mosty designed for [ADAS](https://en.wikipedia.org/wiki/Advanced_driver-assistance_systems) development, this tool can read and synchronize many data sources, which then can be manipulated to provide outputs, or simply recorded. It natively supports most car-related data sources, and over time keeps adding support for other sources closely related to driving studies. And you can quite easily your own custom data sources, so no worries there.
 
 [![rtmaps.png]({{site.baseurl}}/images/rtmaps.png)][0]
 
