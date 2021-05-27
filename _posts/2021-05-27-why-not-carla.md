@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Why not CARLA?
 ---
 > [CARLA](http://carla.org/) is an open-source simulator for autonomous driving research. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites and environmental conditions.
