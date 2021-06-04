@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: VR Headsets
 ---
 For the past ten years, the world of [Virtual Reality headsets](https://en.wikipedia.org/wiki/Virtual_reality_headset) has been redefined, lead by Facebook's [Oculus](https://www.oculus.com/) and HTC's [Vive](https://www.vive.com/). Those relatively cheap devices allow for better immersion in various types of environments, and are now being used in a wide range of both industry and research entities. But, even though we've previously mentionned use of [CAVE](/nDisplay) simulators, we never talked about VR headsets. Why is that?
@@ -26,7 +26,7 @@ Historically, we've been using video recordings of driver's face to gauge their 
 
 [![fnirs.png]({{site.baseurl}}/images/fnirs.png)][1]
 
-Both [EEG](https://en.wikipedia.org/wiki/Electroencephalography) and [fNIRS](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy) require sensors over most part of the head, which is usually not compatible with headset straps. Those measurement devices are commonly used in our experiments, which therefore work easier in our existing monitor-based simulators.
+Both [EEG](https://en.wikipedia.org/wiki/Electroencephalography) and [fNIRS](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy) require sensors over most parts of the head, which is usually not compatible with headset straps. Those measurement devices are commonly used in our experiments, so it's easier to have them in our existing monitor-based simulators.
 
 We also make heavy use of [eye tracking](https://en.wikipedia.org/wiki/Eye_tracking), though on that front, more and more VR headsets started integrating such features (e.g. [Vive Pro Eye](https://www.vive.com/eu/product/vive-pro-eye/overview/)), mainly driven by the prospect of [foveated rendering](https://en.wikipedia.org/wiki/Foveated_rendering).
 
@@ -50,7 +50,7 @@ First, we obviously still have the same resolution issue as mentionned above: th
 
 [![vr-mirrors.jpg]({{site.baseurl}}/images/vr-mirrors.jpg)][3]
 
-Mirrors are also very costly, in terms of computing power, to render. Each mirror is basically equivalent to rendering the scene once more. And we have 3 mirrors. Once again, on our clusters, we have dedicated computer for each mirror, as each one is a monitor. That's not possible with VR, as only one computer can render the whole scene. By the way, with a Vive Pro Eye 2, to render a scene properly, you have to generate two (one for each eye) 6MP (2448x2448) image in 8.3ms (120Hz). That's a throughput of 1.43Gbps, compared to 124Mbps for "classic" display (1080p60Hz). If you want to render mirrors on top of that, you'll have to turn the visual quality of your simulation way down.
+Mirrors are also very costly, in terms of computing power, to render. Each mirror is basically equivalent to rendering the scene once more. And we have 3 mirrors. Once again, on our clusters, we have dedicated computer for each mirror, as each one is a monitor. That's not possible with VR, as only one computer can render the whole scene. By the way, with a Vive Pro 2, to render a scene properly, you have to generate two (one for each eye) 6MP (2448x2448) image in 8.3ms (120Hz). That's a throughput of 1.43Gbps, compared to 124Mbps for "classic" display (1080p60Hz). If you want to render mirrors on top of that, you'll have to turn the visual quality of your simulation way down.
 
 # Why we will
 
