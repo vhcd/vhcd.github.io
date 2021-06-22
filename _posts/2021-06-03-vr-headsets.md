@@ -56,7 +56,7 @@ Mirrors are also very costly, in terms of computing power, to render. Each mirro
 
 Even with all those issues, I still think we'll use VR headsets for driving simulation in the near future. Probably not for all experiments, as some problems just don't have easy solutions. But VR headsets also have a lot of benefits, and new products are tackling some of the shortcomings discussed in the previous section.
 
-## New tech
+## New tech
 
 We don't currently own a [Varjo XR-3](https://varjo.com/products/xr-3/), but I hope we will soon, because this headset seems to solve multiple of our problems at once.
 
