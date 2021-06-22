@@ -32,7 +32,7 @@ We also make heavy use of [eye tracking](https://en.wikipedia.org/wiki/Eye_track
 
 ## Car interaction
 
-In a driving simulation, your hands are mostly on the steering wheel. But by default, you don't see your hands in VR! So right off the bat, we're faced with quite an immersion breaker: your hands will hold a steering wheel in the real world, while in the virtual world, you would just see an steering wheel, but no hands.
+In a driving simulation, your hands are mostly on the steering wheel. But by default, you don't see your hands in VR! So right off the bat, we're faced with quite an immersion breaker: your hands will hold a steering wheel in the real world, while in the virtual world, you would just see a steering wheel, but no hands.
 
 And that's the tip of the iceberg. We often use what we call "non-driving related tasks" (NDRT), which most of the time is a side screen which the driver has to interact with, most of the time to play a small game.
 
@@ -58,7 +58,7 @@ Even with all those issues, I still think we'll use VR headsets for driving simu
 
 ## New tech
 
-We don't currently own a [Varjo XR-3](https://varjo.com/products/xr-3/), but I hope we'll soon, because this headset seems to solve multiple of our problems at once.
+We don't currently own a [Varjo XR-3](https://varjo.com/products/xr-3/), but I hope we will soon, because this headset seems to solve multiple of our problems at once.
 
 ![](https://thumbs.gfycat.com/DistortedSkeletalAdouri-size_restricted.gif)
 
