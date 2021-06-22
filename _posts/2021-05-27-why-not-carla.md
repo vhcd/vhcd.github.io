@@ -4,7 +4,7 @@ title: Why not CARLA?
 ---
 > [CARLA](http://carla.org/) is an open-source simulator for autonomous driving research. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites and environmental conditions.
 
-Seeing how close it is to our platform, one common question we're asked is why we didn't build it on top of CARLA, given that we even chose to same engine as them. That's what we'll explain today.
+Seeing how close it is to our platform, one common question we're asked is why we didn't build it on top of CARLA, given that we even chose the same engine as them. That's what we'll explain today.
 
 # Disclaimer
 
@@ -16,7 +16,7 @@ To work with CARLA, you need to write Python scripts to load, configure and run 
 
 ## One language to rule them all
 
-Unreal Engine comes with two programming languages: [C++](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/index.html) and [Blueprints](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/index.html). It also has [Python](https://docs.unrealengine.com/en-US/ProductionPipelines/ScriptingAndAutomation/Python/index.html) support, but for editor scripting only. And it will soon have a whole new language with *Verse*. Why add runtime Python to that already complex ecosystem?
+Unreal Engine comes with two programming languages: [C++](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/index.html) and [Blueprints](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/index.html). It also has [Python](https://docs.unrealengine.com/en-US/ProductionPipelines/ScriptingAndAutomation/Python/index.html) support, but for editor scripting only. And it will soon have a whole new language with *Verse*. Why add Python runtime to that already complex ecosystem?
 
 I'm guessing they chose to do so since it's the go-to language for [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) (e.g. [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/)). That way, from a single Python script, you can setup your simulation environment, connect it to your machine-learning and voila, you're all set. I get the appeal.
 
@@ -26,7 +26,7 @@ Using the Python API, you lose something so important: the Unreal Editor. Everyt
 
 ## Incomplete interface
 
-The Python API obviously has its limits. It's focused on what CARLA does: car simulation for machine learning. Which means that most of Unreal API, that's available either through Blueprint of C++, isn't available in CARLA's Python API.
+The Python API obviously has its limits. It's focused on what CARLA does: car simulation for machine learning. Which means that most of Unreal API, that's available either through Blueprint or C++, isn't available in CARLA's Python API.
 
 Using the available API subset won't get you much farther than what CARLA is designed to do. Don't expect to easily add a dog crossing a road, or generate random licence plates. That's not available in the API. To do that, you'll have to go back to Unreal, implement it, and most important: interface it to Python.
 
@@ -46,7 +46,7 @@ Given all that, I do not see a single reason, for us, to use this Python API. It
 
 I feel that this Python API is a substitute to Unreal's [Level Blueprint](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/LevelBlueprint/index.html), or even [Levels](https://docs.unrealengine.com/en-US/Basics/Levels/index.html). From my point of view, there is *nothing* I can do using CARLA's Python API that I can't do in a Level and Level Blueprint.
 
-And I'd much rather using native, fully documented, supported and widely-adopted tools that Unreal provide. The Python API just adds layers and layers of complexity on top of Unreal, for no apparent benefit.
+And I'd much rather use the native, fully documented, supported and widely-adopted tools that Unreal provide. The Python API just adds layers and layers of complexity on top of Unreal, for no apparent benefit.
 
 # Not a *driving simulator*
 
@@ -60,7 +60,7 @@ As illustrated with the nDisplay case earlier, missing features are not just a c
 
 The same goes for CARLA-specific features that are of no use for driving simulation. The Python API shines as a striking example. CARLA probably added this API for machine-learning reasons. We don't do machine learning, but if we wanted to use CARLA, we'd have to live with those consequences anyway.
 
-The Venn diagram could be as high as 90% overlap between CARLA a driving simulation, but the missing 10% could still be enough to justify incompatible design decision on one side or the other. If you decide from the start that your platform will be used both for autonomous driving machine learning *and* driving simulation, you can design around all requirements and ensure and architecture that will satisfy everybody.
+The Venn diagram could be as high as 90% overlap between CARLA and driving simulation, but the missing 10% could still be enough to justify incompatible design decision on one side or the other. If you decide from the start that your platform will be used both for autonomous driving machine learning *and* driving simulation, you can design around all requirements and ensure an architecture that will satisfy everybody.
 
 CARLA is a project focused on autonomous driving, and is designed as so.
 
@@ -76,7 +76,7 @@ CARLA being open-source, it obviously can't rely on Marketplace content. So they
 
 # Too early
 
-CARLA has not yet reached 1.0, so it's still under heavy development. As such, building on top of it would be a risky bet (and was even more back when we make our choice). We don't have much visibility of future decisions and impacts they'll have on the platform. We don't even know if CARLA will live on.
+CARLA has not yet reached 1.0, so it's still under heavy development. As such, building on top of it would be a risky bet (and was even more back when we make our choice). We don't have much visibility on future decisions and impacts they'll have on the platform. We don't even know if CARLA will live on.
 
 Being in early stages also shows in term of overall maturity and quality. For example, CARLA's [OpenDRIVE](/opendrive) library is a lot less complete than [esmini](https://github.com/esmini/esmini)'s. Working with their assets also shows a lot of inconsistencies (they've recently renamed most assets, which obviously breaks a lot of things on depending projects).
 
