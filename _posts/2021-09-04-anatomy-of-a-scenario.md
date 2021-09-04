@@ -38,11 +38,11 @@ Then, we have [Skeletal Mesh Actors](https://docs.unrealengine.com/4.26/en-US/Ba
 
 The third kind of pedestrian we have is smart enough to move within the world. They're still using RenderPeople meshes for visuals, but the animation is driven by the [Advanced Locomotion System](https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1) (ALS). To guide them within the crowd, target points are placed on the plaza, and the handy [Simple Move to Location](https://docs.unrealengine.com/4.26/en-US/BlueprintAPI/AI/Navigation/SimpleMovetoLocation/) takes care of the rest.
 
-And last but not least, our smartest pedestrians can walk along sidewalk. For appearance, we use elements from the [Citizen NPC](https://www.unrealengine.com/marketplace/en-US/product/citizen-npc) pack, for which we made a small Blueprint that allows us to assemble them easily. For animation, we either use ALS or a simple walking animation. And to follow the sidewalk, we rely on the [OpenDRIVE](opendrive/) description of the road network, which includes information about sidewalks.
+And last but not least, our smartest pedestrians can walk along sidewalk. For appearance, we use elements from the [Citizen NPC](https://www.unrealengine.com/marketplace/en-US/product/citizen-npc) pack, for which we made a small Blueprint that allows us to assemble them easily. For animation, we either use ALS or a simple walking animation. And to follow the sidewalk, we rely on the [OpenDRIVE](/opendrive) description of the road network, which includes information about sidewalks.
 
 # Bus
 
-The bus is an [Irisbus Citelis](https://en.wikipedia.org/wiki/Irisbus_Citelis), which was made by [Marsupi3D](http://www.marsupi3d.net/), who very kindly allowed us to use some of his work for our research. We're very pleased with this bus, as it is the same exact model that our local transportation agency uses! Meaning we get that "realism" bonus for our experiments' participants.
+The bus is an [Irisbus Citelis](https://en.wikipedia.org/wiki/Irisbus_Citelis), made by [Marsupi3D](http://www.marsupi3d.net/), who very kindly allowed us to use some of his work for our research. We're very pleased with this bus, as it is the same exact model that our local transportation agency uses! Meaning we get that "realism" bonus for our experiments' participants.
 
 ![citelis.jpg]({{site.baseurl}}/images/citelis.jpg)
 
@@ -50,7 +50,7 @@ I rigged the bus in [Blender](https://www.blender.org/), including the doors. In
 
 If you look at the picture above, you can catch a glimpse of the kid, which is inside the bus from the get go. Before making the scenario, I wondered how I would get the kid to move with the bus and then get out. It turns out it couldn't be simpler: just place the kid on the bus, and he will move with it. No trick required!
 
-The bus is also driven by our Virtual Driver, with basic spline following for lateral control, and our [new stop goal](whats-new-2021-08/#virtual-driver), which allows us to accurately stop the bus at the... well, bus stop.
+The bus is also driven by our Virtual Driver, with basic spline following for lateral control, and our [new stop goal](/whats-new-2021-08#virtual-driver), which allows us to accurately stop the bus at the... well, bus stop.
 
 # Collision
 
