@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Anatomy of a Scenario
 ---
 Recently I shared a short [scenario](/scenarios) I made, involving an e-scooter, a crowd, a bus and an unfortunate ending. It's definitely *not* a usual scenario from our "driving-oriented" perspective, so I thought it'd be interesting to explain how it came to life.
