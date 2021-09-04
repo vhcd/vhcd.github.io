@@ -22,7 +22,7 @@ The scene is re-used from another project we're currently working on ([SUaaVE](h
 
 The E-Scooter was bought from [a pack](https://www.unrealengine.com/marketplace/en-US/product/vehicle-pack-gest) of static vehicles, which I then [rigged](https://en.wikipedia.org/wiki/Skeletal_animation) to create a ridable version of it. I also made a small [animation blueprint](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimBlueprints/) for the rider, which places hands and feet at the right position using [two-bone IK](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/NodeReference/SkeletalControls/TwoBoneIK/).
 
-The e-scooter is moved by its [Virtual Driver](virtual-driver/), though in this instance it's definitely not  an advanced use case, as it's a simple spline following.
+The e-scooter is moved by its [Virtual Driver](/virtual-driver), though in this instance it's definitely not  an advanced use case, as it's a simple spline following.
 
 ![scooter-spline.jpg]({{site.baseurl}}/images/scooter-spline.jpg)
 
