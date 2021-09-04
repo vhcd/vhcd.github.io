@@ -10,8 +10,12 @@ Recently I shared a short [scenario](/scenarios) I made, involving an e-scooter,
 
 The scene is re-used from another project we're currently working on ([SUaaVE](https://www.suaave.eu/)), and we've already talked about it in a [previous post](/making-a-scene), some I'm not going into too much details here. Basically, we use [RoadRunner](https://www.mathworks.com/products/roadrunner.html) to create the road network, and then everything above-ground is built in Unreal Engine, using a very wide range of [Marketplace](https://www.unrealengine.com/marketplace/en-US/store) products.
 
-![scene_rr.png]({{site.baseurl}}/images/scene_rr.png)
+![scene_rr.png]({{site.baseurl}}/images/scene.png)
 
 # E-Scooter
 
-The E-Scooter was bought from [a pack](https://www.unrealengine.com/marketplace/en-US/product/vehicle-pack-gest) of static vehicles, which I then rigged to create a ridable version of it. I also made an small [animation blueprint](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimBlueprints/)
+The E-Scooter was bought from [a pack](https://www.unrealengine.com/marketplace/en-US/product/vehicle-pack-gest) of static vehicles, which I then rigged to create a ridable version of it. I also made an small [animation blueprint](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimBlueprints/) for the rider, which places hands and foot on the right position using [two-bone IK](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/NodeReference/SkeletalControls/TwoBoneIK/).
+
+The e-scooter is moved by its [Virtual Driver](virtual-driver/), though in this instance it's definitely not the an advanced use case, as it's a simple spline following.
+
+![scooter-spline.jpg]({{site.baseurl}}/images/scooter-spline.jpg)
