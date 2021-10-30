@@ -26,7 +26,7 @@ PolySphere is pretty much the reference for procedural buildings. High quality, 
 
 Meik.W's product aren't the best looking you'll find on the Marketplace, but they cover a wide range of scene elements needed for driving simulation. They're optimized, cheap and varied, and that's fine by me.
 
-# Must have
+# "Must have" products
 
 First of all, let's go over the *must have* Marketplace products for driving simulation. They mostly cover the basics: vehicles, buildings, props, actors. Once you have all that, you're already most of the way.
 
