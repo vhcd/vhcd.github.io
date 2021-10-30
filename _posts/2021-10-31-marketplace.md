@@ -178,84 +178,104 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 
 # Extra
 
-Finally, an unsorted list of everything else that's in our Vault. A bunch of it was grabbed for free during [Free for the Month](https://www.unrealengine.com/marketplace/en-US/assets?count=20&sortBy=effectiveDate&sortDir=DESC&start=0&tag=4910) offers. Some of it 
+Finally, a list of everything else that's in our Vault. A bunch of it was grabbed for free during [Free for the Month](https://www.unrealengine.com/marketplace/en-US/assets?count=20&sortBy=effectiveDate&sortDir=DESC&start=0&tag=4910) offers.
 
-* [Survivor Vision - Advanced Outline, Fill and Tagging System](https://www.unrealengine.com/marketplace/en-US/product/survivor-vision)
-* [Modern City Downtown with Interiors Megapack (Modular Urban Buildings)](https://www.unrealengine.com/marketplace/en-US/product/modern-city-downtown-with-interiors-megapack)
+## Vehicles & actors
 * [Drivable Cars Basic Pack: 3D assets and Blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-basic-pack)
-* [FARM ANIMALS PACK](https://www.unrealengine.com/marketplace/en-US/product/farm-animals-pack)
-* [MCO Mocap Basics](https://www.unrealengine.com/marketplace/en-US/product/28fc3cc4332541e3b0037d67a65e5d6d)
-* [Meadow - Environment Set](https://www.unrealengine.com/marketplace/en-US/product/meadow-environment-set)
-* [Dynamic Grass System Lite](https://www.unrealengine.com/marketplace/en-US/product/fe0a7c01da854223bda935f111aab4f4)
-* [Tropical Jungle Pack](https://www.unrealengine.com/marketplace/en-US/product/tropical-jungle-pack)
-* [Construction Site VOL. 2 - Tools, Parts, and Machine Props](https://www.unrealengine.com/marketplace/en-US/product/construction-site-vol-2-tools-parts-and-machine-props)
-* [Construction Site VOL. 1 - Supply and Material Props](https://www.unrealengine.com/marketplace/en-US/product/construction-site-vol-1-supply-and-material-props)
-* [ANIMAL VARIETY PACK](https://www.unrealengine.com/marketplace/en-US/product/17c2d7d545674204a7644c3c0c4c58ba)
-* [GOOD SKY](https://www.unrealengine.com/marketplace/en-US/product/good-sky)
-* [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature)
-* [GOOD FX : Rain](https://www.unrealengine.com/marketplace/en-US/product/good-rain)
-* [Dynamic Rain Overlay](https://www.unrealengine.com/marketplace/en-US/product/dynamic-rain-overlay)
-* [Orbit Weather and Seasons](https://www.unrealengine.com/marketplace/en-US/product/orbit-weather-and-seasons)
 * [Character Editor](https://www.unrealengine.com/marketplace/en-US/product/character-editor)
-* [Bunker](https://www.unrealengine.com/marketplace/en-US/product/bunker)
-* [Modular Procedural Scaffold System](https://www.unrealengine.com/marketplace/en-US/product/modular-procedural-scaffold-system)
+* [ANIMAL VARIETY PACK](https://www.unrealengine.com/marketplace/en-US/product/17c2d7d545674204a7644c3c0c4c58ba)
 * [Cats Big Pack](https://www.unrealengine.com/marketplace/en-US/product/cats-big-pack)
 * [Birds](https://www.unrealengine.com/marketplace/en-US/product/birds)
 * [Animal Pack Ultra 2](https://www.unrealengine.com/marketplace/en-US/product/animal-pack-ultra-01)
 * [HatchBack Car Driveable / Animated / Realistic](https://www.unrealengine.com/marketplace/en-US/product/hatchback-car-driveable-animated-realistic)
 * [Realistic Casual Dog](https://www.unrealengine.com/marketplace/en-US/product/realistic-casual-dog)
-* [PowerLine Generator Pack](https://www.unrealengine.com/marketplace/en-US/product/allpacs-powerlines-generator-pack)
-* [Urban Outdoors Pack 1](https://www.unrealengine.com/marketplace/en-US/product/urban-outdoors-pack)
-* [Modular Storefronts](https://www.unrealengine.com/marketplace/en-US/product/modular-storefronts)
+* [FARM ANIMALS PACK](https://www.unrealengine.com/marketplace/en-US/product/farm-animals-pack)
 * [Train Template](https://www.unrealengine.com/marketplace/en-US/product/train-template)
-* [Print Formatted String](https://www.unrealengine.com/marketplace/en-US/product/print-formatted-string)
-* [Food Pack 01](https://www.unrealengine.com/marketplace/en-US/product/food-pack)
-* [Property Transfer Tool](https://www.unrealengine.com/marketplace/en-US/product/property-transfer-tool)
-* [Tower Crane Set](https://www.unrealengine.com/marketplace/en-US/product/tower-crane-set)
-* [Cemetery - VOL.1](https://www.unrealengine.com/marketplace/en-US/product/cemetery-vol-02)
-* [Plants Pack](https://www.unrealengine.com/marketplace/en-US/product/plants-pack)
-* [Garden Props](https://www.unrealengine.com/marketplace/en-US/product/garden-props)
-* [Blueprint: Victorian House Builder](https://www.unrealengine.com/marketplace/en-US/product/modular-victorian-buildings-part)
-* [Hand Holding](https://www.unrealengine.com/marketplace/en-US/product/hand-holding)
-* [Fence Set Vol 1](https://www.unrealengine.com/marketplace/en-US/product/fence-set-vol)
-* [Smart Phone](https://www.unrealengine.com/marketplace/en-US/product/smart-phone)
-* [Smartphone](https://www.unrealengine.com/marketplace/en-US/product/smartphone-system)
 * [HQ Bikes Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/bikes-vol)
-* [Automotive Bridge Scene](https://www.unrealengine.com/marketplace/en-US/product/automotive-bridge-scene)
-* [Train Yard](https://www.unrealengine.com/marketplace/en-US/product/train-yard)
-* [Log Cabin](https://www.unrealengine.com/marketplace/en-US/product/log-cabin)
-* [Modular Snap System](https://www.unrealengine.com/marketplace/en-US/product/modular-snap-system)
-* [Volumetric Glass](https://www.unrealengine.com/marketplace/en-US/product/volumetric-glass)
-* [Rain Effects](https://www.unrealengine.com/marketplace/en-US/product/rain-effects)
-* [Advanced road materials](https://www.unrealengine.com/marketplace/en-US/product/advanced-road-materials)
-* ["Road" - Materials and Decals](https://www.unrealengine.com/marketplace/en-US/product/road-materials-and-decals)
+* [Drivable Cars: Micro Car Assets + Blueprints](https://www.unrealengine.com/marketplace/en-US/product/drivable-cars-micro-car-assets-blueprints)
+* [Van Car (And Coffee Bar)](https://www.unrealengine.com/marketplace/en-US/product/van-car-and-coffee-bar)
+
+## Scenes
+
+### Urban
+
+* [Modern City Downtown with Interiors Megapack (Modular Urban Buildings)](https://www.unrealengine.com/marketplace/en-US/product/modern-city-downtown-with-interiors-megapack)
+* [Construction Site VOL. 2 - Tools, Parts, and Machine Props](https://www.unrealengine.com/marketplace/en-US/product/construction-site-vol-2-tools-parts-and-machine-props)
+* [Construction Site VOL. 1 - Supply and Material Props](https://www.unrealengine.com/marketplace/en-US/product/construction-site-vol-1-supply-and-material-props)
+* [Modular Procedural Scaffold System](https://www.unrealengine.com/marketplace/en-US/product/modular-procedural-scaffold-system)
+* [Tower Crane Set](https://www.unrealengine.com/marketplace/en-US/product/tower-crane-set)
+* [Modular Storefronts](https://www.unrealengine.com/marketplace/en-US/product/modular-storefronts)
+* [Blueprint: Victorian House Builder](https://www.unrealengine.com/marketplace/en-US/product/modular-victorian-buildings-part)
 * [City Asset Pack](https://www.unrealengine.com/marketplace/en-US/product/city-asset-pack)
+* [Suburbs - City Pack](https://www.unrealengine.com/marketplace/en-US/product/suburbs-city-pack)
+
+### Foliage
+
+* [Meadow - Environment Set](https://www.unrealengine.com/marketplace/en-US/product/meadow-environment-set)
+* [Dynamic Grass System Lite](https://www.unrealengine.com/marketplace/en-US/product/fe0a7c01da854223bda935f111aab4f4)
+* [Tropical Jungle Pack](https://www.unrealengine.com/marketplace/en-US/product/tropical-jungle-pack)
+* [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature)
+* [Plants Pack](https://www.unrealengine.com/marketplace/en-US/product/plants-pack)
+* [Realistic Forest Pack](https://www.unrealengine.com/marketplace/en-US/product/realistic-forest-pack)
+
+### Atmosphere
+
+* [GOOD SKY](https://www.unrealengine.com/marketplace/en-US/product/good-sky)
+* [GOOD FX : Rain](https://www.unrealengine.com/marketplace/en-US/product/good-rain)
+* [Dynamic Rain Overlay](https://www.unrealengine.com/marketplace/en-US/product/dynamic-rain-overlay)
+* [Orbit Weather and Seasons](https://www.unrealengine.com/marketplace/en-US/product/orbit-weather-and-seasons)
+* [Rain Effects](https://www.unrealengine.com/marketplace/en-US/product/rain-effects)
+
+### Props
+
+* [Fence Set Vol 1](https://www.unrealengine.com/marketplace/en-US/product/fence-set-vol)
+* [Cemetery - VOL.1](https://www.unrealengine.com/marketplace/en-US/product/cemetery-vol-02)
+* [Garden Props](https://www.unrealengine.com/marketplace/en-US/product/garden-props)
+* [200+ Grunge Decals](https://www.unrealengine.com/marketplace/en-US/product/200-grunge-decals)
+
+### Environments
+
+* [Train Yard](https://www.unrealengine.com/marketplace/en-US/product/train-yard)
+* [Automotive Bridge Scene](https://www.unrealengine.com/marketplace/en-US/product/automotive-bridge-scene)
+* [Modular Swimming Pool Megapack](https://www.unrealengine.com/marketplace/en-US/product/modular-swimming-pool-megapack)
+* [City Subway Tunnel](https://www.unrealengine.com/marketplace/en-US/product/city-subway-tunnel)
+* [Industrial Area Hangar](https://www.unrealengine.com/marketplace/en-US/product/industrial-area-hangar)
+* [Medieval Castle Modular Vol 1](https://www.unrealengine.com/marketplace/en-US/product/medieval-castle-modular-vol)
+* [Atmospheric Gas Station](https://www.unrealengine.com/marketplace/en-US/product/atmospheric-gas-station)
+
+### Road
+
 * [TinyseT 08 Pavement](https://www.unrealengine.com/marketplace/en-US/product/tinyset-08-pavement)
 * [Photo Asphalt Set](https://www.unrealengine.com/marketplace/en-US/product/photo-asphalt-set)
 * [Customizable Cracks](https://www.unrealengine.com/marketplace/en-US/product/customizable-cracks)
 * [Advanced Sidewalk Materials](https://www.unrealengine.com/marketplace/en-US/product/advanced-sidewalk-materials)
 * [Graffiti Tag Pack Decals](https://www.unrealengine.com/marketplace/en-US/product/graffiti-tag-pack-decals)
 * [Road Accessories: Manhole Pack - Deferred Decal](https://www.unrealengine.com/marketplace/en-US/product/road-accessories-manhole-pack-deferred-decal)
-* [Realistic Forest Pack](https://www.unrealengine.com/marketplace/en-US/product/realistic-forest-pack)
-* [Modular Swimming Pool Megapack](https://www.unrealengine.com/marketplace/en-US/product/modular-swimming-pool-megapack)
-* [200+ Grunge Decals](https://www.unrealengine.com/marketplace/en-US/product/200-grunge-decals)
-* [UE4All: Pivot Building](https://www.unrealengine.com/marketplace/en-US/product/ue4all-pivot-building)
-* [City Subway Tunnel](https://www.unrealengine.com/marketplace/en-US/product/city-subway-tunnel)
+* [Advanced road materials](https://www.unrealengine.com/marketplace/en-US/product/advanced-road-materials)
+* ["Road" - Materials and Decals](https://www.unrealengine.com/marketplace/en-US/product/road-materials-and-decals)
+
+
+## Tools
+* [Print Formatted String](https://www.unrealengine.com/marketplace/en-US/product/print-formatted-string)
+* [Property Transfer Tool](https://www.unrealengine.com/marketplace/en-US/product/property-transfer-tool)
+
+## Misc
+
+* [Survivor Vision - Advanced Outline, Fill and Tagging System](https://www.unrealengine.com/marketplace/en-US/product/survivor-vision)
+* [MCO Mocap Basics](https://www.unrealengine.com/marketplace/en-US/product/28fc3cc4332541e3b0037d67a65e5d6d)
+* [Urban Outdoors Pack 1](https://www.unrealengine.com/marketplace/en-US/product/urban-outdoors-pack)
+* [Hand Holding](https://www.unrealengine.com/marketplace/en-US/product/hand-holding)
+* [Smart Phone](https://www.unrealengine.com/marketplace/en-US/product/smart-phone)
+* [Smartphone](https://www.unrealengine.com/marketplace/en-US/product/smartphone-system)
+* [Volumetric Glass](https://www.unrealengine.com/marketplace/en-US/product/volumetric-glass)
 * [Clip Works](https://www.unrealengine.com/marketplace/en-US/product/clip-works)
-* [Industrial Area Hangar](https://www.unrealengine.com/marketplace/en-US/product/industrial-area-hangar)
-* [Winter Forest Set](https://www.unrealengine.com/marketplace/en-US/product/winter-forest-set)
-* [Vitruvio CityEngine Plugin](https://www.unrealengine.com/marketplace/en-US/product/vitruvio-cityengine-plugin)
 * [Advanced Vehicle System](https://www.unrealengine.com/marketplace/en-US/product/advanced-vehicle-system)
-* [Office Scene](https://www.unrealengine.com/marketplace/en-US/product/office-scene)
-* [Medieval Castle Modular Vol 1](https://www.unrealengine.com/marketplace/en-US/product/medieval-castle-modular-vol)
-* [Physical Layout Tool](https://www.unrealengine.com/marketplace/en-US/product/349bf2d4b1a945fa8f31db80fabf8058)
-* [Drivable Cars: Micro Car Assets + Blueprints](https://www.unrealengine.com/marketplace/en-US/product/drivable-cars-micro-car-assets-blueprints)
 * [Animated HUD Elements](https://www.unrealengine.com/marketplace/en-US/product/animated-hud-elements)
 * [Have A Sit Animation Pack](https://www.unrealengine.com/marketplace/en-US/product/have-a-sit-animation-pack)
-* [Atmospheric Gas Station](https://www.unrealengine.com/marketplace/en-US/product/atmospheric-gas-station)
-* [Van Car (And Coffee Bar)](https://www.unrealengine.com/marketplace/en-US/product/van-car-and-coffee-bar)
-* [Suburbs - City Pack](https://www.unrealengine.com/marketplace/en-US/product/suburbs-city-pack)
 * [World Director NPC](https://www.unrealengine.com/marketplace/en-US/product/world-director-npc)
+
+
+
 * [France Fields - Real Scale Satellite Data](https://www.unrealengine.com/marketplace/en-US/product/france-fields-real-scale-satellite-data)
 * [Old Man Animset](https://www.unrealengine.com/marketplace/en-US/product/old-man-animset)
 * [Modular House](https://www.unrealengine.com/marketplace/en-US/product/modular-houses)
