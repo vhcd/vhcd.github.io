@@ -32,6 +32,8 @@ First of all, let's go over the *must have* Marketplace products for driving sim
 
 ## Free
 
+The Marketplace is full of free stuff, and maybe surprinsigly, most of it is very high-quality. By spending literally no money, you can already go quite far.
+
 * [Advanced Locomotion System V4](https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1)
 
 Referred as ALS in the community, this Blueprint is super useful if you want to have pedestrians walking around your scene. No need to handle animations, layering or blendspaces, ALS does all that for you.
@@ -70,12 +72,24 @@ Because every language needs a [style guide](https://github.com/Allar/ue5-style-
 
 ## Vehicles & actors
 
+Want to add moving things? Here are a few.
+
 * [7 Cars Pack](https://www.unrealengine.com/marketplace/en-US/product/7-cars-pack)
+
+By far and large my favorite car pack, I pretty much only use those for moving vehicles.
+
 * [Truck and Trailers](https://www.unrealengine.com/marketplace/en-US/product/truck-and-trailers)
-* [Citizen NPC](https://www.unrealengine.com/marketplace/en-US/product/citizen-npc)
 * [Bus](https://www.unrealengine.com/marketplace/en-US/product/bus)
 
+Both by the same creator ([VMR](https://www.unrealengine.com/marketplace/en-US/profile/VMR)), those vehicles are great if you want to have *not just cars* in your world.
+
+* [Citizen NPC](https://www.unrealengine.com/marketplace/en-US/product/citizen-npc)
+
+When we need to populate our scene with random people, we just use one from this. They're modular, so pretty much infinite combinations can be done.
+
 ## Scene
+
+To build a realistic driving scenario, you need a realistic scene. That includes various types of buildings (residential, commercial, factories, etc.) and props.
 
 ### Buildings
 
@@ -84,8 +98,6 @@ Because every language needs a [style guide](https://github.com/Allar/ue5-style-
 * [Modular European Buildings (Facades)](https://www.unrealengine.com/marketplace/en-US/product/european-buildings-facades)
 * [Construction Site](https://www.unrealengine.com/marketplace/en-US/product/construction-site-01)
 * [Procedural Background Buildings](https://www.unrealengine.com/marketplace/en-US/product/procedural-background-buildings)
-* [Wind Turbine](https://www.unrealengine.com/marketplace/en-US/product/wind-turbine)
-* [Electric Transmission Towers](https://www.unrealengine.com/marketplace/en-US/product/electric-transmission-towers)
 
 ### Road props
 
@@ -98,15 +110,24 @@ Because every language needs a [style guide](https://github.com/Allar/ue5-style-
 
 ### Misc
 
-* [Fence Pack Vol.1](https://www.unrealengine.com/marketplace/en-US/product/fence-pack-vol-01)
 * [Ultra Dynamic Sky](https://www.unrealengine.com/marketplace/en-US/product/ultra-dynamic-sky)
+
+Ultra Dynamic Sky is the reference when it comes to sky, atmosphere and weather. Just drag it to your scene, and let the magic happen.
+
+* [Wind Turbine](https://www.unrealengine.com/marketplace/en-US/product/wind-turbine)
+* [Electric Transmission Towers](https://www.unrealengine.com/marketplace/en-US/product/electric-transmission-towers)
+* [Fence Pack Vol.1](https://www.unrealengine.com/marketplace/en-US/product/fence-pack-vol-01)
 * [Landscape Smart Material](https://www.unrealengine.com/marketplace/en-US/product/landscape-smart-material)
 
 ## Tools
 
 * [NV Spline Tools](https://www.unrealengine.com/marketplace/en-US/product/nv-spline-tools)
 
+There are quite a few spline mesh tools on the Marketplace, but this is the one we use, and we love it. Speeds up scene creation.
+
 # Useful
+
+Once we've gone over the *must have*, there are still quite a lot of high quality useful products on the Marketplace, that can help take your simulations to the next level.
 
 ## Vehicles & actors
 
@@ -150,8 +171,11 @@ Because every language needs a [style guide](https://github.com/Allar/ue5-style-
 ## Misc
 
 * [Pivot Tool](https://www.unrealengine.com/marketplace/en-US/product/pivot-tool)
+* [Kantan Charts](https://www.unrealengine.com/marketplace/en-US/product/kantan-charts)
 
 # Extra
+
+Finally, an unsorted list of everything else that's in our Vault. A bunch of it was grabbed for free during [Free for the Month](https://www.unrealengine.com/marketplace/en-US/assets?count=20&sortBy=effectiveDate&sortDir=DESC&start=0&tag=4910) offers. Some of it 
 
 * [Survivor Vision - Advanced Outline, Fill and Tagging System](https://www.unrealengine.com/marketplace/en-US/product/survivor-vision)
 * [Modern City Downtown with Interiors Megapack (Modular Urban Buildings)](https://www.unrealengine.com/marketplace/en-US/product/modern-city-downtown-with-interiors-megapack)
@@ -159,7 +183,6 @@ Because every language needs a [style guide](https://github.com/Allar/ue5-style-
 * [FARM ANIMALS PACK](https://www.unrealengine.com/marketplace/en-US/product/farm-animals-pack)
 * [MCO Mocap Basics](https://www.unrealengine.com/marketplace/en-US/product/28fc3cc4332541e3b0037d67a65e5d6d)
 * [Meadow - Environment Set](https://www.unrealengine.com/marketplace/en-US/product/meadow-environment-set)
-* [Kantan Charts](https://www.unrealengine.com/marketplace/en-US/product/kantan-charts)
 * [Dynamic Grass System Lite](https://www.unrealengine.com/marketplace/en-US/product/fe0a7c01da854223bda935f111aab4f4)
 * [Tropical Jungle Pack](https://www.unrealengine.com/marketplace/en-US/product/tropical-jungle-pack)
 * [Construction Site VOL. 2 - Tools, Parts, and Machine Props](https://www.unrealengine.com/marketplace/en-US/product/construction-site-vol-2-tools-parts-and-machine-props)
