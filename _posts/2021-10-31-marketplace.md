@@ -178,9 +178,10 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 
 # Extra
 
-Finally, a list of everything else that's in our Vault. A bunch of it was grabbed for free during [Free for the Month](https://www.unrealengine.com/marketplace/en-US/assets?count=20&sortBy=effectiveDate&sortDir=DESC&start=0&tag=4910) offers.
+Finally, a list of everything else that's in our Vault and that we either *used* or perceive some potential future use. A bunch of it was grabbed for free during [Free for the Month](https://www.unrealengine.com/marketplace/en-US/assets?count=20&sortBy=effectiveDate&sortDir=DESC&start=0&tag=4910) offers.
 
 ## Vehicles & actors
+
 * [Drivable Cars Basic Pack: 3D assets and Blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-basic-pack)
 * [Character Editor](https://www.unrealengine.com/marketplace/en-US/product/character-editor)
 * [ANIMAL VARIETY PACK](https://www.unrealengine.com/marketplace/en-US/product/17c2d7d545674204a7644c3c0c4c58ba)
@@ -194,10 +195,18 @@ Finally, a list of everything else that's in our Vault. A bunch of it was grabbe
 * [HQ Bikes Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/bikes-vol)
 * [Drivable Cars: Micro Car Assets + Blueprints](https://www.unrealengine.com/marketplace/en-US/product/drivable-cars-micro-car-assets-blueprints)
 * [Van Car (And Coffee Bar)](https://www.unrealengine.com/marketplace/en-US/product/van-car-and-coffee-bar)
+* [Animalia - German Shepherd v2.2.1](https://www.unrealengine.com/marketplace/en-US/product/animalia-german-shepherd-m)
+* [Cableway Template](https://www.unrealengine.com/marketplace/en-US/product/cableway-template-quick-track-creator)
+* [Twinmotion Boats Pack 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-boats-pack-1)
+* [Ridable MotorBikes: Multiplayer Advanced Pack - 3 Bikes - damage & animations](https://www.unrealengine.com/marketplace/en-US/product/ridable-motorbikes-multiplayer-advanced-pack)
+* [Intercity Train](https://www.unrealengine.com/marketplace/en-US/product/intercity-train)
+* [Drivable Cars: Minivan Assets + Blueprints](https://www.unrealengine.com/marketplace/en-US/product/drivable-cars-minivan-1-assets-blueprints)
+* [Drivable Cars: Cargo Truck  3d assets and blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-cargo-truck-1-3d-assets-blueprints)
+* [Drivable Cars: Van   3D assets and Blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-van-1-3d-assets-blueprints)
 
 ## Scenes
 
-### Urban
+### Urban & buildings
 
 * [Modern City Downtown with Interiors Megapack (Modular Urban Buildings)](https://www.unrealengine.com/marketplace/en-US/product/modern-city-downtown-with-interiors-megapack)
 * [Construction Site VOL. 2 - Tools, Parts, and Machine Props](https://www.unrealengine.com/marketplace/en-US/product/construction-site-vol-2-tools-parts-and-machine-props)
@@ -208,6 +217,10 @@ Finally, a list of everything else that's in our Vault. A bunch of it was grabbe
 * [Blueprint: Victorian House Builder](https://www.unrealengine.com/marketplace/en-US/product/modular-victorian-buildings-part)
 * [City Asset Pack](https://www.unrealengine.com/marketplace/en-US/product/city-asset-pack)
 * [Suburbs - City Pack](https://www.unrealengine.com/marketplace/en-US/product/suburbs-city-pack)
+* [Modular House](https://www.unrealengine.com/marketplace/en-US/product/modular-houses)
+* [Next Gen Modular Victorian Neoclassical City [Bundle - Exterior & Interior]](https://www.unrealengine.com/marketplace/en-US/product/next-gen-modular-victorian-neoclassical-city-bundle-exterior-interior)
+* [Red Stadium](https://www.unrealengine.com/marketplace/en-US/product/red-stadium)
+* [Medieval Gothic Cathedral Dungeon - Modular](https://www.unrealengine.com/marketplace/en-US/product/medieval-gothic-cathedral-modular-pack)
 
 ### Foliage
 
@@ -217,6 +230,7 @@ Finally, a list of everything else that's in our Vault. A bunch of it was grabbe
 * [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature)
 * [Plants Pack](https://www.unrealengine.com/marketplace/en-US/product/plants-pack)
 * [Realistic Forest Pack](https://www.unrealengine.com/marketplace/en-US/product/realistic-forest-pack)
+* [Light Foliage](https://www.unrealengine.com/marketplace/en-US/product/light-foliage)
 
 ### Atmosphere
 
@@ -232,6 +246,10 @@ Finally, a list of everything else that's in our Vault. A bunch of it was grabbe
 * [Cemetery - VOL.1](https://www.unrealengine.com/marketplace/en-US/product/cemetery-vol-02)
 * [Garden Props](https://www.unrealengine.com/marketplace/en-US/product/garden-props)
 * [200+ Grunge Decals](https://www.unrealengine.com/marketplace/en-US/product/200-grunge-decals)
+* [Greenhouse - Gardening  Tools](https://www.unrealengine.com/marketplace/en-US/product/greenhouse-gardening-tools)
+* [European Collection : Trash and Dump    Mr.P-Edition](https://www.unrealengine.com/marketplace/en-US/product/european-collection-trash-and-dump-mr-p-edition)
+* [European Collection: Street Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-street-props-vol-1)
+* [European Collection: Parking Garage Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-parking-garage-props-vol)
 
 ### Environments
 
@@ -242,6 +260,10 @@ Finally, a list of everything else that's in our Vault. A bunch of it was grabbe
 * [Industrial Area Hangar](https://www.unrealengine.com/marketplace/en-US/product/industrial-area-hangar)
 * [Medieval Castle Modular Vol 1](https://www.unrealengine.com/marketplace/en-US/product/medieval-castle-modular-vol)
 * [Atmospheric Gas Station](https://www.unrealengine.com/marketplace/en-US/product/atmospheric-gas-station)
+* [France Fields - Real Scale Satellite Data](https://www.unrealengine.com/marketplace/en-US/product/france-fields-real-scale-satellite-data)
+* [Underground Subway](https://www.unrealengine.com/marketplace/en-US/product/underground-subway)
+* [Container Yard Environment Set](https://www.unrealengine.com/marketplace/en-US/product/container-yard-environment-set)
+* [Classical Modular Gardens](https://www.unrealengine.com/marketplace/en-US/product/classical-modular-gardens)
 
 ### Road
 
@@ -254,8 +276,8 @@ Finally, a list of everything else that's in our Vault. A bunch of it was grabbe
 * [Advanced road materials](https://www.unrealengine.com/marketplace/en-US/product/advanced-road-materials)
 * ["Road" - Materials and Decals](https://www.unrealengine.com/marketplace/en-US/product/road-materials-and-decals)
 
-
 ## Tools
+
 * [Print Formatted String](https://www.unrealengine.com/marketplace/en-US/product/print-formatted-string)
 * [Property Transfer Tool](https://www.unrealengine.com/marketplace/en-US/product/property-transfer-tool)
 
@@ -273,54 +295,15 @@ Finally, a list of everything else that's in our Vault. A bunch of it was grabbe
 * [Animated HUD Elements](https://www.unrealengine.com/marketplace/en-US/product/animated-hud-elements)
 * [Have A Sit Animation Pack](https://www.unrealengine.com/marketplace/en-US/product/have-a-sit-animation-pack)
 * [World Director NPC](https://www.unrealengine.com/marketplace/en-US/product/world-director-npc)
-
-
-
-* [France Fields - Real Scale Satellite Data](https://www.unrealengine.com/marketplace/en-US/product/france-fields-real-scale-satellite-data)
 * [Old Man Animset](https://www.unrealengine.com/marketplace/en-US/product/old-man-animset)
-* [Modular House](https://www.unrealengine.com/marketplace/en-US/product/modular-houses)
-* [Animalia - German Shepherd v2.2.1](https://www.unrealengine.com/marketplace/en-US/product/animalia-german-shepherd-m)
-* [Animal Farm Sounds](https://www.unrealengine.com/marketplace/en-US/product/animal-farm-sounds)
-* [Farm Animal Sounds](https://www.unrealengine.com/marketplace/en-US/product/farm-animal-sounds)
-* [LEVEL DESIGN ASSISTANT](https://www.unrealengine.com/marketplace/en-US/product/level-design-assistant)
-* [Light Foliage](https://www.unrealengine.com/marketplace/en-US/product/light-foliage)
 * [Strike A Pose - Animation Pack](https://www.unrealengine.com/marketplace/en-US/product/strike-a-pose-animation-pack)
-* [Underground Subway](https://www.unrealengine.com/marketplace/en-US/product/underground-subway)
-* [ProInstance Tools Plugin](https://www.unrealengine.com/marketplace/en-US/product/proinstance-tools-plugin)
-* [Cableway Template](https://www.unrealengine.com/marketplace/en-US/product/cableway-template-quick-track-creator)
-* [Container Yard Environment Set](https://www.unrealengine.com/marketplace/en-US/product/container-yard-environment-set)
 * [Procedural City Generator](https://www.unrealengine.com/marketplace/en-US/product/procedural-city-generator)
-* [Next Gen Modular Victorian Neoclassical City [Bundle - Exterior & Interior]](https://www.unrealengine.com/marketplace/en-US/product/next-gen-modular-victorian-neoclassical-city-bundle-exterior-interior)
-* [Greenhouse - Gardening  Tools](https://www.unrealengine.com/marketplace/en-US/product/greenhouse-gardening-tools)
 * [MeshBake](https://www.unrealengine.com/marketplace/en-US/product/meshbake)
-* [Red Stadium](https://www.unrealengine.com/marketplace/en-US/product/red-stadium)
-* [Water Planes](https://www.unrealengine.com/marketplace/en-US/product/water-planes)
-* [Open World Demo Collection](https://www.unrealengine.com/marketplace/en-US/product/open-world-demo-collection-01)
-* [Custom Shape Volumes](https://www.unrealengine.com/marketplace/en-US/product/custom-shape-volumes)
-* [Magic Circle Creator](https://www.unrealengine.com/marketplace/en-US/product/magic-circle-creator)
-* [Easy Texture Creator](https://www.unrealengine.com/marketplace/en-US/product/easy-texture-creator)
-* [Twinmotion Boats Pack 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-boats-pack-1)
-* [Modular Sci Fi Office](https://www.unrealengine.com/marketplace/en-US/product/modular-sci-fi-office)
 * [LabStreamingLayer Plugin](https://www.unrealengine.com/marketplace/en-US/product/labstreaminglayer-plugin)
-* [Ridable MotorBikes: Multiplayer Advanced Pack - 3 Bikes - damage & animations](https://www.unrealengine.com/marketplace/en-US/product/ridable-motorbikes-multiplayer-advanced-pack)
-* [European Collection : Trash and Dump    Mr.P-Edition](https://www.unrealengine.com/marketplace/en-US/product/european-collection-trash-and-dump-mr-p-edition)
 * [Car Sound Effects Pack. Vol. 1 (100+ SFX)](https://www.unrealengine.com/marketplace/en-US/product/car-sound-effects-pack-vol-1-100-sfx)
-* [European Collection: Street Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-street-props-vol-1)
-* [Intercity Train](https://www.unrealengine.com/marketplace/en-US/product/intercity-train)
 * [Retro Display](https://www.unrealengine.com/marketplace/en-US/product/retro-display)
-* [Drivable Cars: Minivan Assets + Blueprints](https://www.unrealengine.com/marketplace/en-US/product/drivable-cars-minivan-1-assets-blueprints)
-* [Medieval Gothic Cathedral Dungeon - Modular](https://www.unrealengine.com/marketplace/en-US/product/medieval-gothic-cathedral-modular-pack)
-* [Classical Modular Gardens](https://www.unrealengine.com/marketplace/en-US/product/classical-modular-gardens)
 * [Hand Tracking Asset Bundle](https://www.unrealengine.com/marketplace/en-US/product/hand-tracking-asset-bundle)
 * [Icon Pack: Hands](https://www.unrealengine.com/marketplace/en-US/product/icon-pack-hands)
-* [European Collection: Parking Garage Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-parking-garage-props-vol)
 * [Smart Cable Connector](https://www.unrealengine.com/marketplace/en-US/product/smart-cable-connector)
 * [Full Pack of Traffic Signs](https://www.unrealengine.com/marketplace/en-US/product/full-pack-of-traffic-signs)
 * [Hologram](https://www.unrealengine.com/marketplace/en-US/product/hologram)
-* [Drivable Cars: Cargo Truck  3d assets and blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-cargo-truck-1-3d-assets-blueprints)
-* [Drivable Cars: Van   3D assets and Blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-van-1-3d-assets-blueprints)
-* [Old Brick House](https://www.unrealengine.com/marketplace/en-US/product/old-brick-house)
-* [Southeastern US Plants and Ecosystems](https://www.unrealengine.com/marketplace/en-US/product/southeastern-us-plants-and-ecosystems)
-* [Dismemberment and Bone Break](https://www.unrealengine.com/marketplace/en-US/product/dismemberment-and-bone-break)
-* [Elite Landscapes: Bundle Pack](https://www.unrealengine.com/marketplace/en-US/product/elite-landscapes-bundle-pack)
-* [Surface Trails](https://www.unrealengine.com/marketplace/en-US/product/surface-trails-with-snow-deformation-example)
