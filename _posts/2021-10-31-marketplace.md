@@ -6,8 +6,29 @@ For us, one of the major benefit of using Unreal Engine is its [Marketplace](htt
 
 Note before we start: I recently wrote a [small script](https://github.com/brifsttar/UnrealMarketplaceVaultExtractor) to extract the content of one's  [Vault](https://www.unrealengine.com/marketplace/en-US/vault), which is what led to this article.
 
+# Creators to follow
+
+Before getting into the actual (long) list of items, I'd first like to mention a few Marketplace creators who make great products, perfect for driving or overall immersive simulation, and for which I'm always eagerly waiting their next creation.
+
+* [Der Sky](https://www.unrealengine.com/marketplace/en-US/profile/Der+Sky)
+
+If you want road signs or road props, look no further: Der Sky has everything you need. Quality, content, low prices; it's hard not to buy everything.
+
+* [lyoshko](https://www.unrealengine.com/marketplace/en-US/profile/lyoshko)
+
+Not only does lyoshko create the best cars in the whole Marketplace, they also have a wide variety of products that are really useful, and which I often didn't know I needed until I saw them.
+
+* [PolySphere Studio](https://www.unrealengine.com/marketplace/en-US/profile/PolySphere+Studio)
+
+PolySphere is pretty much the reference for procedural buildings. High quality, high performance, heavily customizable, complete documentation, amazing support. I only wished they had more european buildings, but I recommend them nonetheless.
+
+* [Meik.W Models](https://www.unrealengine.com/marketplace/en-US/profile/Meik.W+Models)
+
+Meik.W's product aren't the best looking you'll find on the Marketplace, but they cover a wide range of scene elements needed for driving simulation. They're optimized, cheap and varied, and that's fine by me.
 
 # Must have
+
+First of all, let's 
 
 ## Free
 
@@ -26,6 +47,7 @@ Note before we start: I recently wrote a [small script](https://github.com/brifs
 
 ## Vehicles & actors
 
+* [7 Cars Pack](https://www.unrealengine.com/marketplace/en-US/product/7-cars-pack)
 * [Truck and Trailers](https://www.unrealengine.com/marketplace/en-US/product/truck-and-trailers)
 * [Citizen NPC](https://www.unrealengine.com/marketplace/en-US/product/citizen-npc)
 * [Bus](https://www.unrealengine.com/marketplace/en-US/product/bus)
@@ -44,7 +66,6 @@ Note before we start: I recently wrote a [small script](https://github.com/brifs
 
 ### Road props
 
-* [Der Sky products](https://www.unrealengine.com/marketplace/en-US/profile/Der+Sky)
 * [Urban Props France (Blueprint)](https://www.unrealengine.com/marketplace/en-US/product/urban-props-france-blueprint)
 * [French Road Signs Pack](https://www.unrealengine.com/marketplace/en-US/product/france-road-signs-pack)
 * [Ground Port Decals](https://www.unrealengine.com/marketplace/en-US/product/ground-port-decals)
@@ -123,7 +144,6 @@ Note before we start: I recently wrote a [small script](https://github.com/brifs
 * [ANIMAL VARIETY PACK](https://www.unrealengine.com/marketplace/en-US/product/17c2d7d545674204a7644c3c0c4c58ba)
 * [GOOD SKY](https://www.unrealengine.com/marketplace/en-US/product/good-sky)
 * [Project Nature](https://www.unrealengine.com/marketplace/en-US/profile/Project+Nature)
-* [7 Cars Pack](https://www.unrealengine.com/marketplace/en-US/product/7-cars-pack)
 * [GOOD FX : Rain](https://www.unrealengine.com/marketplace/en-US/product/good-rain)
 * [Dynamic Rain Overlay](https://www.unrealengine.com/marketplace/en-US/product/dynamic-rain-overlay)
 * [Orbit Weather and Seasons](https://www.unrealengine.com/marketplace/en-US/product/orbit-weather-and-seasons)
