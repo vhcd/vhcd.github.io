@@ -45,8 +45,9 @@ This is a freebie pack from [RenderPeople](https://renderpeople.com/). I tried i
 * [City Park Environment Collection](https://www.unrealengine.com/marketplace/en-US/product/city-park-environment-collection)
 * [Downtown West Modular Pack](https://www.unrealengine.com/marketplace/en-US/product/6bb93c7515e148a1a0a0ec263db67d5b)
 * [Factory Environment Collection](https://www.unrealengine.com/marketplace/en-US/product/factory-environment-collection)
+* [Rural Australia](https://www.unrealengine.com/marketplace/en-US/product/rural-australia)
 
-Those 3 environments are just amazing. You get high quality environments to explore and learn from; assets to reuse and kitbash.
+Those environments are just amazing. You get high quality environments to explore and learn from; assets to reuse and kitbash.
 
 * [Twinmotion Posed Humans 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-posed-humans)
 * [Twinmotion Construction Vehicles 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-construction-vehicles)
@@ -147,6 +148,7 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 * [Drivable Tractor](https://www.unrealengine.com/marketplace/en-US/product/drivable-tractor)
 * [SUV Bundle Driveable / Animated / Realistic ( Set of 4 )](https://www.unrealengine.com/marketplace/en-US/product/suv-bundle-driveable-animated-realistic-set-of)
 * [Car Interact Animations VOL. 1](https://www.unrealengine.com/marketplace/en-US/product/car-interact-animations-vol-1)
+* [Truck, Garbage truck](https://www.unrealengine.com/marketplace/en-US/product/truck-garbage-truck-truck-for-anti-aircraft-guns)
 
 ## Scene
 
@@ -167,6 +169,7 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 * [Vista Buildings](https://www.unrealengine.com/marketplace/en-US/product/vista-buildings)
 * [Road Toll](https://www.unrealengine.com/marketplace/en-US/product/road-toll)
 * [Modular Village Vol 1](https://www.unrealengine.com/marketplace/en-US/product/modular-village-vol-1)
+* [Sidewalk Debris & Trash - Cigarettes, Masks, Gum, Cans](https://www.unrealengine.com/marketplace/en-US/product/sidewalk-debris-trash-cigarettes-masks-gum-cans)
 
 ## Misc
 
@@ -214,7 +217,6 @@ Finally, an unsorted list of everything else that's in our Vault. A bunch of it 
 * [Garden Props](https://www.unrealengine.com/marketplace/en-US/product/garden-props)
 * [Blueprint: Victorian House Builder](https://www.unrealengine.com/marketplace/en-US/product/modular-victorian-buildings-part)
 * [Hand Holding](https://www.unrealengine.com/marketplace/en-US/product/hand-holding)
-* [Sidewalk Debris & Trash - Cigarettes, Masks, Gum, Cans](https://www.unrealengine.com/marketplace/en-US/product/sidewalk-debris-trash-cigarettes-masks-gum-cans)
 * [Fence Set Vol 1](https://www.unrealengine.com/marketplace/en-US/product/fence-set-vol)
 * [Smart Phone](https://www.unrealengine.com/marketplace/en-US/product/smart-phone)
 * [Smartphone](https://www.unrealengine.com/marketplace/en-US/product/smartphone-system)
@@ -233,7 +235,6 @@ Finally, an unsorted list of everything else that's in our Vault. A bunch of it 
 * [Customizable Cracks](https://www.unrealengine.com/marketplace/en-US/product/customizable-cracks)
 * [Advanced Sidewalk Materials](https://www.unrealengine.com/marketplace/en-US/product/advanced-sidewalk-materials)
 * [Graffiti Tag Pack Decals](https://www.unrealengine.com/marketplace/en-US/product/graffiti-tag-pack-decals)
-* [Truck, Garbage truck](https://www.unrealengine.com/marketplace/en-US/product/truck-garbage-truck-truck-for-anti-aircraft-guns)
 * [Road Accessories: Manhole Pack - Deferred Decal](https://www.unrealengine.com/marketplace/en-US/product/road-accessories-manhole-pack-deferred-decal)
 * [Realistic Forest Pack](https://www.unrealengine.com/marketplace/en-US/product/realistic-forest-pack)
 * [Modular Swimming Pool Megapack](https://www.unrealengine.com/marketplace/en-US/product/modular-swimming-pool-megapack)
@@ -262,7 +263,6 @@ Finally, an unsorted list of everything else that's in our Vault. A bunch of it 
 * [Animal Farm Sounds](https://www.unrealengine.com/marketplace/en-US/product/animal-farm-sounds)
 * [Farm Animal Sounds](https://www.unrealengine.com/marketplace/en-US/product/farm-animal-sounds)
 * [LEVEL DESIGN ASSISTANT](https://www.unrealengine.com/marketplace/en-US/product/level-design-assistant)
-* [Rural Australia](https://www.unrealengine.com/marketplace/en-US/product/rural-australia)
 * [Light Foliage](https://www.unrealengine.com/marketplace/en-US/product/light-foliage)
 * [Strike A Pose - Animation Pack](https://www.unrealengine.com/marketplace/en-US/product/strike-a-pose-animation-pack)
 * [Underground Subway](https://www.unrealengine.com/marketplace/en-US/product/underground-subway)
