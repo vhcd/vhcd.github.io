@@ -28,22 +28,45 @@ Meik.W's product aren't the best looking you'll find on the Marketplace, but the
 
 # Must have
 
-First of all, let's 
+First of all, let's go over the *must have* Marketplace products for driving simulation. They mostly cover the basics: vehicles, buildings, props, actors. Once you have all that, you're already most of the way.
 
 ## Free
 
 * [Advanced Locomotion System V4](https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1)
+
+Referred as ALS in the community, this Blueprint is super useful if you want to have pedestrians walking around your scene. No need to handle animations, layering or blendspaces, ALS does all that for you.
+
 * [Scanned 3D People Pack](https://www.unrealengine.com/marketplace/en-US/product/9c3fab270dfe468a9a920da0c10fa2ad)
+
+This is a freebie pack from [RenderPeople](https://renderpeople.com/). I tried it, and immediatly decided that from then on, I wouldn't ever worry about creating human models; I now just buy them from RenderPeople, but this free pack is a great way to get started.
+
 * [City Park Environment Collection](https://www.unrealengine.com/marketplace/en-US/product/city-park-environment-collection)
-* [TCP Socket Plugin](https://www.unrealengine.com/marketplace/en-US/product/tcp-socket-plugin)
 * [Downtown West Modular Pack](https://www.unrealengine.com/marketplace/en-US/product/6bb93c7515e148a1a0a0ec263db67d5b)
+* [Factory Environment Collection](https://www.unrealengine.com/marketplace/en-US/product/factory-environment-collection)
+
+Those 3 environments are just amazing. You get high quality environments to explore and learn from; assets to reuse and kitbash.
+
 * [Twinmotion Posed Humans 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-posed-humans)
 * [Twinmotion Construction Vehicles 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-construction-vehicles)
+
+Epic is bringing over content from [TwinMotion](https://www.unrealengine.com/en-US/twinmotion), and I can't wait to see what's next, because those two are just perfect for us.
+
 * [Landscape Pro 2.0 Auto-Generated Material](https://www.unrealengine.com/marketplace/en-US/product/landscape-pro-auto-generated-material)
+
+I didn't play that much with this Landscape Material (I bought one before this one was free), but from what I saw, it's just a perfect way to get started to use [Landscape](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/Landscape/Creation/) on your scene. Use it, and you won't ever need to worry about creating a forest anymore, the Material will take care of it for you.
+
 * [Procedural Building Generator](https://www.unrealengine.com/marketplace/en-US/product/procedural-building-generator)
 * [Vehicle Variety Pack](https://www.unrealengine.com/marketplace/en-US/product/bbcb90a03f844edbb20c8b89ee16ea32)
+
+Building and vehicles. I'm not a huge fan of either of those, but hey, it's free, so I'm not complaining.
+
+* [TCP Socket Plugin](https://www.unrealengine.com/marketplace/en-US/product/tcp-socket-plugin)
+
+Because we all need to send TCP messages at some point.
+
 * [Linter v2](https://www.unrealengine.com/marketplace/en-US/product/linter-v2)
-* [Factory Environment Collection](https://www.unrealengine.com/marketplace/en-US/product/factory-environment-collection)
+
+Because every language needs a [style guide](https://github.com/Allar/ue5-style-guide), Blueprint is no exception. This linter makes sure that you follow the rules!
 
 ## Vehicles & actors
 
