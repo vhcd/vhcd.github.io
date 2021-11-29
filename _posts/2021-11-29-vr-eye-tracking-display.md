@@ -8,6 +8,12 @@ Eye-tracking is widely used to study driver's behavior in simulated environment.
 
 # Eye-tracking data
 
+So before getting into the details, it's important to mention why we use eye-tracking, and what type of information we're looking to get from it.
+
+Whether in [CAVE](/just-a-videogame#cave-rendering) or in VR, we want to know *what* the driver is looking at, and most importantly, *when* in relation to events happening in the scenarios. One common question in car and pedestrian interaction is "Did the driver see the pedestrian? If so, how far were they when it happened?".
+
+For the "when" part, we already covered at least part of it in our [data collection](data-collection/) article.
+
 # Why live visualization?
 
 # Implementation
