@@ -1,6 +1,6 @@
 ---
 published: false
-title: Displaying live VR eye-tracking data
+title: Live VR eye-tracking data visualization
 ---
 Eye-tracking is widely used to study driver's behavior in simulated environment. However, we're used to either have glasses (e.g. [Pupil Core](https://pupil-labs.com/products/core/)) or fixed setups (e.g [Smart Eye Pro](https://smarteye.se/research-instruments/se-pro/)); and the newly released VR headsets with included eye-tracking (e.g. [Vive Pro Eye](https://www.vive.com/eu/product/vive-pro-eye/overview/) bring new challenges. The one we'll cover today is the visualization of live eye-tracking data, why and how we managed to implement it in our platform.
 
