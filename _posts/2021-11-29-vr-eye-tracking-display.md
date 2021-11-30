@@ -74,6 +74,16 @@ Our widget is mostly empty, meaning the eye view under it will be visible on the
 
 Now we're able to render a UMG Widget on the spectator screen. But how do we draw eye-tracking data on the widget?
 
+First, we need to know what data we're getting from the eye-tracker. One thing is for sure: it won't give us 2D gaze coordinate in *spectator screen* coordinate. What's the closest thing we have? Alongside the *actor being looked at*, we also have the *gaze target*, which is the 3D coordinate where the gaze is currently aimed at.
+
+Next up is converting this 3D world coordinate to 2D spectator screen space. Thankfully, there's a built-in method for that! [`Project World Location to Widget Position`](https://docs.unrealengine.com/4.26/en-US/BlueprintAPI/Viewport/ProjectWorldLocationtoWidgetPosi-/) does just that, and magically solves that otherwise not trivial issue.
+
+We're almost done, we now just need to draw a circle at that point, and that's it! Well, actually, it's easier to draw a box ([`Draw Box`](https://docs.unrealengine.com/4.26/en-US/BlueprintAPI/Painting/DrawBox/)), so we'll settle for that. While we're at it, we might as well buffer the last 10 gaze points, and draw all of them (with reducing sizes over times) with lines connecting adjacent gazes.
+
+![paint_eye_tracker.png]({{site.baseurl}}/images/paint_eye_tracker.png)
+
+<iframe src="https://blueprintue.com/render/q3d4m793/" scrolling="no" allowfullscreen></iframe>
+
 ## Recording
 
 [0]: https://pupil-labs.com/products/core/
