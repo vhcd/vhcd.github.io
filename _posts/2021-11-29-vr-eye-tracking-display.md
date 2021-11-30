@@ -50,6 +50,8 @@ A final advantage to having the video is that it can easily be used to illustrat
 
 # Implementation
 
+Now that we've explained why we want "red-dot" live visualization for VR eye-tracking data, let's dive into how we actually implemented it in our Unreal Engine simulation platform.
+
 ## Spectator screen
 
 ## Drawing
