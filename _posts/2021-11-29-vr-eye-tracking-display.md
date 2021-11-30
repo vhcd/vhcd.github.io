@@ -88,4 +88,12 @@ And voila, we now have live eye-tracking data displayed on the VR spectator scre
 
 ## Recording
 
+So there's one bonus step, which is recording the live visualization and synchronizing it with other datastreams (e.g. raw eye-tracking data).
+
+As mentioned earlier, we use [LabStreamingLayer](https://github.com/sccn/labstreaminglayer) for data collection, so the idea it to send all that data to it. Can we send video to LSL? The answer is *kinda*. There's an open-source component for that, called [VideoAcq](https://bitbucket.org/neatlabs/videoacq), but it's not really perfect for us. So instead we built our own small video component, which add small features, such as remote control (used alongside [LabRecorder](https://github.com/labstreaminglayer/App-LabRecorder)'s) and IP camera support. Maybe this will be open-sourced down the line, but for now it's only used internally.
+
+And finally: how do we grab the spectator screen video feed so that it can be sent to LSL? Given that we tend to separate the data acquisition computer from the simulation computer, we chose an [HDMI to USB screen grabber](https://www.startech.com/en-en/audio-video-products/uvchdcap) from StarTech, which does exactly that. With that tool, the video stream from the simulation computer is seen as a standard [UVC](https://en.wikipedia.org/wiki/USB_video_device_class) device (e.g. webcam) from the data acquisition computer.
+
+So with all that, we can now not only display, but also record live eye-tracking data on a VR spectator screen. That's more data for us to actually look at, and a nice visualization for our next on-site demos!
+
 [0]: https://pupil-labs.com/products/core/
