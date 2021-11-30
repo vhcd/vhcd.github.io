@@ -54,4 +54,6 @@ A final advantage to having the video is that it can easily be used to illustrat
 
 ## Drawing
 
+## Recording
+
 [0]: https://pupil-labs.com/products/core/
