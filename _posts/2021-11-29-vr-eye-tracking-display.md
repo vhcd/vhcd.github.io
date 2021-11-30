@@ -34,7 +34,9 @@ The main change is that the *what* issue is now much simpler. Since both the eye
 
 # Why live visualization?
 
+So, if eye-tracking-VR-headsets are so great and can give tell us, in realtime, what object is being looked at; why would we want a live "2D-red-dot" visualization, that was previously only used as last resort for manual annotation? Indeed, that video should be pretty much useless to us now.
 
+Well
 
 # Implementation
 
