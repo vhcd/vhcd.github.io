@@ -56,9 +56,19 @@ Now that we've explained why we want "red-dot" live visualization for VR eye-tra
 
 One obvious thing is that we want the live eye-tracking visualization to *not* appear in the participant's headset; only the experimenter should be able to see it. That's where the [Spectator Screen](https://docs.unrealengine.com/4.27/en-US/SharingAndReleasing/XRDevelopment/VR/VRHowTos/VRSpectatorScreen/) comes into play.
 
-As its name suggest, this screen is used to spectate the world the participant is currently interacting with. The mode offers multiple types of display, one of which is named `TexturePlusEye`, and allows displaying the
+As its name suggest, this screen is used to spectate the world the participant is currently interacting with. The view offers multiple modes of display, one of which is named `TexturePlusEye`, and allows displaying a view as seen from the participant, fitted to ths spectator screen ratio, with a texture overlaid on part of it.
+
+So our idea was to use this spectator screen mode and somehow overlay a [UMG Widget](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/UMG/UserGuide/) on top of it. The widget would be used to draw the eye-tracking data, but also other experiment data.
 
 ## UMG Widget
+
+The spectator screen accepts a texture as input, but a UMG widget isn't exactly a texture. How to connect them both?
+
+![getrendertarget.png]({{site.baseurl}}/images/getrendertarget.png)
+
+Well, you can use a [Widget Component](https://docs.unrealengine.com/4.27/en-US/Basics/Components/Widget/) and call its `GetRenderTarget` method, which is a valid texture for the spectator screen. Before doing that, you need to configure the right render/display size on the widget, the component and the spectator screen; otherwise you can get a very distorted overlay.
+
+Our widget is mostly empty, meaning the eye view under it will be visible on the spectator screen. Otherwise, an opaque widget will obviously hide everything.
 
 ## Drawing
 
