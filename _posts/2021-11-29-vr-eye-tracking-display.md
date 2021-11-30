@@ -16,6 +16,8 @@ Whether in [CAVE](/just-a-videogame#cave-rendering) or in VR, we want to know *w
 
 For the *when* part, we already covered at least part of it in our [data collection](data-collection/) article, which dives a bit into the multiple data sources synchronization problematic. But to sums things up, this is the easy part, thanks to tools like [LabStreamingLayer](https://github.com/sccn/labstreaminglayer).
 
+[![pupil_core.jpg]({{site.baseurl}}/images/pupil_core.jpg)][0]
+
 The *what* part, on the other end, is usually quite challenging. In non-headset setups, it's fairly difficult to get the information of the actual object in the simulated world being looked at, and getting more accurate than that (e.g. what part of the object) is nearly impossible. This is mainly because both the participant and the scene are dynamic: ego and [NPCs](https://en.wikipedia.org/wiki/Non-player_character) both are moving in the world, pushing even the advanced workflows (e.g. dynamic area of interests) to their limits. And when you add on top of that the inherent relative inaccuracy of eye-trackers, it gets really complex to automate any kind of data-processing about *what* the participant is looking at.
 
 Since we mainly work with glasses, our best alternative has been manual annotation. That is, after the experiment, we go over each video and manually annotate what object is being looked at, based on the "red dot" which is overlaid on the sene video (captured from the glasses), using eye-tracker processed data.
@@ -43,3 +45,5 @@ Well
 ## Spectator screen
 
 ## Drawing
+
+[0]: https://pupil-labs.com/products/core/
