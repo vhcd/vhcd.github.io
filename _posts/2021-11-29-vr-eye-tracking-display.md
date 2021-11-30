@@ -54,6 +54,8 @@ Now that we've explained why we want "red-dot" live visualization for VR eye-tra
 
 ## Spectator screen
 
+One obvious thing is that we want the live eye-tracking visualization to *not* appear in the participant's headset; only the experimenter should be able to see it. That's where the [Spectator Screen](https://docs.unrealengine.com/4.27/en-US/SharingAndReleasing/XRDevelopment/VR/VRHowTos/VRSpectatorScreen/) comes into play.
+
 ## Drawing
 
 ## Recording
