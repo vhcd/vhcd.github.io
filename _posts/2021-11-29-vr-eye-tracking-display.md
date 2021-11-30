@@ -72,6 +72,8 @@ Our widget is mostly empty, meaning the eye view under it will be visible on the
 
 ## Drawing
 
+Now we're able to render a UMG Widget on the spectator screen. But how do we draw eye-tracking data on the widget?
+
 ## Recording
 
 [0]: https://pupil-labs.com/products/core/
