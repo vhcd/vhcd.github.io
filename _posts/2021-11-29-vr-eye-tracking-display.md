@@ -84,6 +84,8 @@ We're almost done, we now just need to draw a circle at that point, and that's i
 
 <iframe src="https://blueprintue.com/render/q3d4m793/" scrolling="no" allowfullscreen></iframe>
 
+And voila, we now have live eye-tracking data displayed on the VR spectator screen.
+
 ## Recording
 
 [0]: https://pupil-labs.com/products/core/
