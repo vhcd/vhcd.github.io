@@ -63,7 +63,7 @@ Now that we've explained why we want "red-dot" live visualization for VR eye-tra
 
 One obvious thing is that we want the live eye-tracking visualization to *not* appear in the participant's headset; only the experimenter should be able to see it. That's where the [Spectator Screen](https://docs.unrealengine.com/4.27/en-US/SharingAndReleasing/XRDevelopment/VR/VRHowTos/VRSpectatorScreen/) comes into play.
 
-As its name suggest, this screen is used to spectate the world the participant is currently interacting with. The view offers multiple modes of display, one of which is named `TexturePlusEye`, and allows displaying a view as seen from the participant, fitted to ths spectator screen ratio, with a texture overlaid on part of it.
+As its name suggest, this screen is used to spectate the world the participant is currently interacting with through the VR headset. The view offers multiple modes of display, one of which is named `TexturePlusEye`, and allows displaying a view as seen from the participant, fitted to ths spectator screen ratio, with a texture overlaid on part of it.
 
 So our idea was to use this spectator screen mode and somehow overlay a [UMG Widget](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/UMG/UserGuide/) on top of it. The widget would be used to draw the eye-tracking data, but also other experiment data.
 
