@@ -49,7 +49,7 @@ Second is that the eye-tracking data, whether in VR or glasses, still has accura
   <source type="video/mp4" src="https://cdn.discordapp.com/attachments/725724080526852126/910204297466220564/eye_tracking.mp4_compressed.mp4">
 </video>
 
-If we look back at the example from the top of this post, I was actually looking at the two wheels, then the licence plate. But if I were to look at the "object being looked at" data, it would just say "ground". Quick disclaimer though: I didn't calibrate the eye-tracker before recording this, so usually we don't have that big offsets.
+If we look back at the example from the top of this post, I was actually looking at the two wheels, then the licence plate. But if the "object being looked at" data just says "ground". Quick disclaimer though: I didn't calibrate the eye-tracker before recording this, so usually we don't have that big offsets.
 
 The third reason behind the need for this type of visualization is as a safety measure so that the experimenter can check, during the experiment, that the eye-tracker is working as intended. We also implemented live [smoke tests](https://en.wikipedia.org/wiki/Smoke_testing_(software)) for that, but having a mean for a human to verify it is always reassuring for the experimenter.
 
