@@ -85,7 +85,7 @@ First, we need to know what data we're getting from the eye-tracker. One thing i
 
 Next up is converting this 3D world coordinate to 2D spectator screen space. Thankfully, there's a built-in method for that! [`Project World Location to Widget Position`](https://docs.unrealengine.com/4.26/en-US/BlueprintAPI/Viewport/ProjectWorldLocationtoWidgetPosi-/) does just that, and magically solves that otherwise not trivial issue.
 
-We're almost done, we now just need to draw a circle at that point, and that's it! Well, actually, it's easier to draw a box ([`Draw Box`](https://docs.unrealengine.com/4.26/en-US/BlueprintAPI/Painting/DrawBox/)), so we'll settle for that. While we're at it, we might as well buffer the last 10 gaze points, and draw all of them (with reducing sizes over times) with lines connecting adjacent gazes.
+We're almost done, we now just need to draw a circle at that point, and that's it! Well, actually, it's easier to draw a box ([`Draw Box`](https://docs.unrealengine.com/4.26/en-US/BlueprintAPI/Painting/DrawBox/)), so we'll settle for that. While we're at it, we might as well buffer the last 10 gaze points, and draw all of them (with reducing sizes over time) with lines connecting adjacent gazes.
 
 ![paint_eye_tracker.png]({{site.baseurl}}/images/paint_eye_tracker.png)
 
