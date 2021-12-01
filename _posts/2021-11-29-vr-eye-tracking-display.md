@@ -40,7 +40,7 @@ The main change is that the *what* issue is now much easier. Since both the eye-
 
 So, if eye-tracking-VR-headsets are so great and can tell us, in realtime, what object is being looked at; why would we want a live "2D-red-dot" visualization, that was previously only used as last resort for manual annotation? Indeed, that video should be pretty much useless to us now.
 
-Well, multiple reasons. The first is that such video is still useful during the analysis phase if you want to get a quick glimpse at the dataset. For humans, a video with a red dot is much easier to understand than a time-series dataset, and if you want to get a "feel" of your data, it's great material.
+Well, multiple reasons. The first is that such video is still useful during the analysis phase, for example if you want to get a quick glimpse at the dataset. For humans, a video with a red dot is much easier to understand than a time-series dataset, and if you want to get a "feel" of your data, it's great material.
 
 Second is that the eye-tracking data, whether in VR or glasses, still has accuracy limitations. Meaning we can't blindly trust its "actor being looked at" data, because it might actually be wrong. And during our tests, we found that it was way too often wrong. Whether your have multiple objects in close proximity at far range, if you're looking at the edge of an object, or a simple offset from the calibration; many things can induce error in that high level data.
 
