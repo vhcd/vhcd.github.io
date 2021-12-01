@@ -89,8 +89,8 @@ We're almost done, we now just need to draw a circle at that point, and that's i
 
 ![paint_eye_tracker.png]({{site.baseurl}}/images/paint_eye_tracker.png)
 
-<div style="display: flex; justify-content: center;">
-	<iframe src="https://blueprintue.com/render/q3d4m793/" width="1280" height="480" scrolling="no" allowfullscreen></iframe>
+<div style="margin-left: -200px;">
+	<iframe src="https://blueprintue.com/render/q3d4m793/" width="1120" height="480" scrolling="no" allowfullscreen></iframe>
 </div>
 
 And voila, we now have live eye-tracking data displayed on the VR spectator screen.
