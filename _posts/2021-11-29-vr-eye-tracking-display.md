@@ -16,7 +16,7 @@ Whether in [CAVE](/just-a-videogame#cave-rendering) or with VR headsets, we want
 
 > Did the driver see the pedestrian? If so, how far were they when it happened?
 
-For the *when* part, we already covered at least part of it in our [data collection](data-collection/) article, which dives a bit into the multiple data sources synchronization problematic. But to sums things up, this is the easy part, thanks to tools like [LabStreamingLayer](https://github.com/sccn/labstreaminglayer).
+For the *when* part, we've already covered at least part of it in our [data collection](data-collection/) article, which dives a bit into the multiple data sources synchronization problematic. But to sums things up, this is the easy part, thanks to tools like [LabStreamingLayer](https://github.com/sccn/labstreaminglayer).
 
 [![pupil_core.jpg]({{site.baseurl}}/images/pupil_core.jpg)][0]
 
