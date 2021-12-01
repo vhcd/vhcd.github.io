@@ -34,7 +34,7 @@ It's obviously time consuming and not very reliable, but given our set of constr
 
 But then came VR-headsets with integrated eye-tracking, which changed output data and downstream workflows quite a bit.
 
-The main change is that the *what* issue is now much easier. Since both the eye-tracker and the displays are in the same reference frame (headset), it's much easier to convert eye-tracking data to simulated world. In our case, the [SRanipal Unreal Plugin](https://developer-express.vive.com/resources/vive-sense/eye-and-facial-tracking-sdk/) can give us the scene actor being looked at, with no post-processing needed! So no more manual annotation and all its downsides; we can, at runtime, know what actor is being looked at. This makes post-processing analysis way easier.
+The main change is that the *what* issue is now much easier. Since both the eye-tracker and the displays are in the same reference frame (headset), eye-tracking gaze data can now be converted to the simulated world coordinate system without much overhead. In our case, the [SRanipal Unreal Plugin](https://developer-express.vive.com/resources/vive-sense/eye-and-facial-tracking-sdk/) can give us the scene actor being looked at, with no post-processing needed! So no more manual annotation and all its downsides; we can, at runtime, know what actor is being looked at. This makes post-processing analysis way easier.
 
 # Why live visualization?
 
