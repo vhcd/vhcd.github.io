@@ -87,8 +87,6 @@ Next up is converting this 3D world coordinate to 2D spectator screen space. Tha
 
 We're almost done, we now just need to draw a circle at that point, and that's it! Well, actually, it's easier to draw a box ([`Draw Box`](https://docs.unrealengine.com/4.26/en-US/BlueprintAPI/Painting/DrawBox/)), so we'll settle for that. While we're at it, we might as well buffer the last 10 gaze points, and draw all of them (with reducing sizes over time) with lines connecting adjacent gazes.
 
-![paint_eye_tracker.png]({{site.baseurl}}/images/paint_eye_tracker.png)
-
 <div style="margin-left: -200px;">
 	<iframe src="https://blueprintue.com/render/q3d4m793/" width="1120" height="480" scrolling="no" allowfullscreen></iframe>
 </div>
