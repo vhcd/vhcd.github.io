@@ -24,6 +24,7 @@ I'm a simulation & research software engineer at [Université Gustave Eiffel](ht
 
 * [V-HCD](/vhcd) (immersive driving simulator), Lead developer
 * Cosmodrive/Virtual Driver (driver cognitive model), Lead developer
+* [OpenDRIVE-UE4](https://github.com/brifsttar/OpenDRIVE), Maintainer
 * [esmini](https://github.com/esmini/esmini)/roadmanager (OpenDRIVE SDK), Contributor
 * [LabStreamingLayer-UE4](https://github.com/labstreaminglayer/plugin-UE4), Contributor
 * [PIPER](https://gitlab.inria.fr/piper/application) (HBM positionning/scaling), Contributor
