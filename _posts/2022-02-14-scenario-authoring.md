@@ -6,7 +6,23 @@ We've already talked about [scenarios](/scenarios), which are at the very core o
 
 # Requirements
 
-At [LESCOT](https://lescot.univ-gustave-eiffel.fr/), we've been authoring a very wide range of scenarios for decades, and we've gathered a lot of feedback from it over the years. When we started working on our Unreal Engine platform, we use that to create a small set of requirements, ensuring that what we create fits our needs as best as possible.
+At [LESCOT](https://lescot.univ-gustave-eiffel.fr/), we've been authoring a very wide range of scenarios for decades, and we've gathered a lot of feedback from it over the years. When we started working on our Unreal Engine platform, we use that to create a small set of requirements regarding scenario authoring, ensuring that what we create fits our needs as best as possible.
+
+## The what and who
+
+In a previous article, I quickly went over "[What are scenarios anyway?](/scenarios#what-are-scenarios-anyway)", illustrating some of the complex use-cases we previously encountered. From experience, scenario requirements complexity only grows over time, and future experiments will need more attention to various details.
+
+However, not all scenarios need to be complex. Or at least, not all *parts* of a scenario. We might want to create one or more abstraction levels, each with its own complexity. This is, for example, what we do with our [scenario variants](/scenario-variants).
+
+The reason behind all this is *who* designs and authors the scenario. The most common and natural way to describe a scenario is "When X happens, do Y", and chain all that together, in a similar fashion to [state diagrams](https://en.wikipedia.org/wiki/State_diagram). Researchers often think of scenarios that way, but depending on length and complexity, designing a whole scenario with that paradigm can become difficult to maintain. Engineers, on the other hand, might be more familiar with [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) and other methodologies, which might be easier to work with for experts, but too complex to grasp for non-programmers.
+
+So all in all, we wanted our authoring process to allow a wide range of paradigms, from natural "when... do..." to complete programming language interface.
+
+## Testing
+
+When authoring scenarios, the most time-consuming task often is testing. Once again, it depends on complexity, but if you have a 30+ minutes scenario, with lots of intertwined events, testing the part you're working on can be frustrating if it occurs at the 20th minute. Usually, authors try to subdivide scenarios in individual parts that can be tested independently; but that's not always possible, and you'll always have to test the connections eventually.
+
+We really wanted to try to improve that. Not only is this time-consuming, it's especially frustrating to whoever's doing it. And not only can frustration lead to errors, but we also want to make this authoring process as pleasant as possible for everyone involved.
 
 Different user skill levels
 From simple to complex
