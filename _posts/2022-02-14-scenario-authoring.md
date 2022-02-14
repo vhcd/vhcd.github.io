@@ -24,7 +24,17 @@ When authoring scenarios, the most time-consuming task often is testing. Once ag
 
 We really wanted to try to improve that. Not only is this time-consuming, it's especially frustrating to whoever's doing it. And not only can frustration lead to errors, but we also want to make this authoring process as pleasant as possible for everyone involved.
 
-# Stages
+# Solutions
+
+As discussed in a previous article, we mostly rely on [Blueprint Visual Scripting](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) to implement scenarios, which is the native Unreal Engine solution to scripting. It solves a lot of "scenario" issues by itself, but it's not really enough for our requirements.
+
+## Stages
+
+Most importantly, Blueprint aren't state machines. They're mostly designed for event-based scripting. Which, in theory, is what we want; "when... do..." is just that: react to events. However, videogame approch to events is mostly *cartesian-distance* based, whereas driving simulation is more *road-time* based. In other words, videogames rely on physical [trigger volumes](https://docs.unrealengine.com/4.27/en-US/Basics/Actors/Triggers/) that can be placed in the world, and that will execute stuff when the player gets in it. Driving simulation is usually more interested in *time* between actors on a *road*, e.g., "When ego is less than 3s from the traffic light, make it yellow".
+
+[![trigger_place.jpg]({{site.baseurl}}/images/trigger_place.jpg)][0]
+
+Not only do we want *road-time* events, but we also want them to happen in a very specific sequence, that we can have very strict control upon. Something like a state diagram
 
 3D Euclidean-space event-based
 
@@ -33,3 +43,5 @@ We really wanted to try to improve that. Not only is this time-consuming, it's e
 # Time dilation
 
 # Flow
+
+[0]: https://docs.unrealengine.com/4.27/en-US/Basics/Actors/Triggers/
