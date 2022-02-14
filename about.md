@@ -5,10 +5,6 @@ permalink: /about/
 published: true
 ---
 
-## VHC-what?
-
-Here's the introduction to the [V-HCD](/vhcd) platform
-
 ## Author - Bertrand Richard
 
 I'm a simulation & research software engineer at [Université Gustave Eiffel](https://www.univ-gustave-eiffel.fr/en/). I'm always happy to discuss and share about my activities with people working on similar fields, so feel free to reach out.
