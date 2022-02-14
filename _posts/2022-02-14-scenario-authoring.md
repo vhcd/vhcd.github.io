@@ -48,8 +48,6 @@ This node, along with [Events](https://docs.unrealengine.com/4.26/en-US/Programm
 
 This paradigm is also compatible with more traditional *cartesian-distance* event system, or with any other that can be done in Blueprint. And as you can see above, the [Blueprint debugger](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Debugging/) works particularly well with this "stages" paradigm, as we can clearly see going through the stages. If you end up in the wrong stage, the debugger will easily tell you where you are and why you're there.
 
-3D Euclidean-space event-based
-
 # Automate ego
 
 # Time dilation
