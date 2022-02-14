@@ -34,7 +34,7 @@ Most importantly, Blueprint aren't state machines. They're mostly designed for e
 
 [![trigger_place.jpg]({{site.baseurl}}/images/trigger_place.jpg)][0]
 
-Not only do we want *road-time* events, but we also want them to happen in a very specific sequence, that we can have very strict control upon. Something like a state diagram
+Not only do we want *road-time* events, but we also want them to happen in a very specific sequence, that we can have very strict control upon. Something like a state diagram, where we can ensure that everything will be played out the way we want to.
 
 3D Euclidean-space event-based
 
