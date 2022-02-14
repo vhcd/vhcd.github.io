@@ -42,11 +42,13 @@ My solution to that is **Stages**. It's a single new Blueprint node that allows 
 
 This node, along with [Events](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Events/), allows the scenario author to clearly define the sequence in which events will occur, and for each one, what will trigger it and what action will result from it. Since it's only a single node, we can still use all the other Blueprint features and nodes; and users can rely on all associated resources when authoring scenarios.
 
+This paradigm is also compatible with more traditional *cartesian-distance* event system, or with any other that can be done in Blueprint. For example, we also try to split scenario per-actor (when applicable), and stages can easily be used inside each actor's Blueprint. No limitation there!
+
 <video width="720" height="480" controls>
   <source type="video/mp4" src="{{site.baseurl}}/images/stages.mp4.mp4">
 </video>
 
-This paradigm is also compatible with more traditional *cartesian-distance* event system, or with any other that can be done in Blueprint. And as you can see above, the [Blueprint debugger](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Debugging/) works particularly well with this "stages" paradigm, as we can clearly see going through the stages. If you end up in the wrong stage, the debugger will easily tell you where you are and why you're there.
+And as you can see above, the [Blueprint debugger](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Debugging/) works particularly well with this "stages" paradigm, as we can clearly see going through the stages. If you end up in the wrong stage, the debugger will easily tell you where you are and why you're there.
 
 # Automate ego
 
