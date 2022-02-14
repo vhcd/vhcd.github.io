@@ -36,6 +36,10 @@ Most importantly, Blueprint aren't state machines. They're mostly designed for e
 
 Not only do we want *road-time* events, but we also want them to happen in a very specific sequence, that we can have very strict control upon. Something like a state diagram, where we can ensure that everything will be played out the way we want to.
 
+<video width="720" height="480" controls>
+  <source type="video/mp4" src="{{site.baseurl}}/images/stages.mp4.mp4">
+</video>
+
 3D Euclidean-space event-based
 
 # Automate ego
