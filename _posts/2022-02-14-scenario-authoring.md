@@ -24,7 +24,7 @@ When authoring scenarios, the most time-consuming task often is testing. Once ag
 
 We really wanted to try to improve that. Not only is this time-consuming, it's especially frustrating to whoever's doing it. And not only can frustration lead to errors, but we also want to make this authoring process as pleasant as possible for everyone involved.
 
-# The missing node
+# Stages
 
 3D Euclidean-space event-based
 
