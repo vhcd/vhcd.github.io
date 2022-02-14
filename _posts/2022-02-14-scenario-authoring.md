@@ -36,9 +36,17 @@ Most importantly, Blueprint aren't state machines. They're mostly designed for e
 
 Not only do we want *road-time* events, but we also want them to happen in a very specific sequence, that we can have very strict control upon. Something like a state diagram, where we can ensure that everything will be played out the way we want to.
 
+My solution to that is **Stages**. It's a single new Blueprint node that allows implementing the "when... do..." paradigm in traditional Blueprint scripting.
+
+![nextstage.jpg]({{site.baseurl}}/images/nextstage.jpg)
+
+This node, along with [Events](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Events/), allows the scenario author to clearly define the sequence in which events will occur, and for each one, what will trigger it and what action will result from it. Since it's only a single node, we can still use all the other Blueprint features and nodes; and users can rely on all associated resources when authoring scenarios.
+
 <video width="720" height="480" controls>
   <source type="video/mp4" src="{{site.baseurl}}/images/stages.mp4.mp4">
 </video>
+
+This paradigm is also compatible with more traditional *cartesian-distance* event system, or with any other that can be done in Blueprint. And as you can see above, the [Blueprint debugger](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Debugging/) works particularly well with this "stages" paradigm, as we can clearly see going through the stages. If you end up in the wrong stage, the debugger will easily tell you where you are and why you're there.
 
 3D Euclidean-space event-based
 
