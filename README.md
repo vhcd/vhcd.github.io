@@ -1,3 +1,3 @@
-# V-HCD
+# Driving Simulation in Unreal Engine
 
-GitHub page for the [V-HCD platform](https://vhcd.github.io/).
+GitHub page for our [devlog](https://vhcd.github.io/).
