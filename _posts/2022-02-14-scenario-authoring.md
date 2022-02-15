@@ -82,7 +82,7 @@ Having worked a lot on autonomous driving scenarios in the past years, I realize
 
 Obviously, traditional driving scenarios can't have an autonomous ego vehicle during the experiment itself, but they can very much have one during testing. So that's what we do: for each of our scenario, we implement the ego behavior we expect the participant to have in the ego vehicle's Blueprint, using our own [Virtual Driver](/virtual-driver), which is also used for all [NPC](https://en.wikipedia.org/wiki/Non-player_character) vehicles.
 
-One very obivous and immediate limitation is that participants aren't machines, and they won't all drive in the exact way we expected them; that's actually kind of the point of most experiments, to study the different behaviors. But this fact is not an issue if you acknowledge it.
+One very obivous and immediate limitation is that participants aren't machines, and they won't all drive in the exact way we expect them; that's actually kind of the point of most experiments, to study the different behaviors. But this fact is not an issue if you acknowledge it.
 
 First, you have to realize that automating ego isn't meant to replace manual testing. The process is just [virtual prototyping](https://en.wikipedia.org/wiki/Virtual_prototyping) applied to scenario authoring, so it's meant to catch the "obvious" scenario mistakes. You still have to manually test your scenario, but if all goes well, you'll need fewer runs of those before reaching your goal.
 
@@ -98,11 +98,11 @@ Unreal has a very simple way to do that: [time dilation](https://docs.unrealengi
 
 ![time_mouse.jpg]({{site.baseurl}}/images/time_mouse.jpg)
 
-We use time dilation in two ways to help with scenario testing. The first, is by binding time dilation to the mouse wheel: wheel up, time goes faster; wheel down, slower; wheel press, realtime. It's a very simple implementation, and actually one of the first thing I did when getting into Unreal. After that, just scroll during your test to get to where you want to be.
+We use time dilation in two ways to help with scenario testing. The first, is by binding time dilation to the mouse wheel: wheel up, time goes faster; wheel down, slower; wheel press, realtime. It's a very simple implementation, and actually one of the first thing I did when getting into Unreal. After that, just scroll during your automated test drive to get to where you want to be.
 
 ![time_box.jpg]({{site.baseurl}}/images/time_box.jpg)
 
-The second way to use time dilation is via [trigger volumes][trigger]. We have a simple Blueprint which will set the time dilation factor when the ego vehicle gets into it. That way, you don't even need to scroll anymore: just place you trigger boxes in the world, and time will adjust accordingly. This is especially useful when using [Simulation In Editor](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/InEditorTesting/#simulateineditor) (SIE), where you don't have access to controller bindings, i.e., no scrolling.
+The second way we use time dilation is via [trigger volumes][trigger]. We have a simple *Blueprint Actor* which will set the time dilation factor when the ego vehicle gets into it. That way, you don't even need to scroll anymore: just place you trigger boxes in the world, and time will adjust accordingly. This is especially useful when using [Simulation In Editor](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/InEditorTesting/#simulateineditor) (SIE), where you don't have access to controller bindings, i.e., no scrolling.
 
 # Conclusion
 
@@ -112,7 +112,7 @@ A single Blueprint node allowed us to work with natural "stages", while keeping 
 
 As for testing, programming the ego behavior, like any other scenario car, plus some bsaic time dilation, and we've managed to significantly reduce testing time and frustration.
 
-And as with everything in our platform, we're constantly improving, and always trying to make things better for everyone involved. The trigger-volume-time-dilation were implemented... this morning!
+And as with everything in our platform, we're constantly improving, and always trying to make things better for everyone involved. The trigger-volume-time-dilation Blueprint was implemented... this morning!
 
 [0]: https://docs.unrealengine.com/4.27/en-US/Basics/Actors/Triggers/
 [flow]: https://github.com/MothCocoon/FlowGraph
