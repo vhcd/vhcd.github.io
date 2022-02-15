@@ -26,9 +26,11 @@ We really wanted to try to improve that. Not only is this time-consuming, it's e
 
 # Solutions
 
-As discussed in a previous article, we mostly rely on [Blueprint Visual Scripting](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) to implement scenarios, which is the native Unreal Engine solution to scripting. It solves a lot of "scenario" issues by itself, but it's not really enough for our requirements.
+For each of our requirement category, we'll go over the solutions we implemented or envision.
 
 ## Scripting design
+
+As discussed in a previous article, we mostly rely on [Blueprint Visual Scripting](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) to implement scenarios, which is the native Unreal Engine solution to scripting. It solves a lot of "scenario" issues by itself, but it's not really enough for our requirements.
 
 ### Stages
 
