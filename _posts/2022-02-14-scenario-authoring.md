@@ -70,7 +70,7 @@ The plugin is still quite new and not officially supported by Epic Games, which 
 
 *Flow* really is something I want to explore as a solution to scenario design, but I think I'll wait for both the plugin to mature, and for us to have a stronger experience in Unreal Engine. And with UE5's *Verse* language around the corner, I think it's safer to see what Epic's new scripting language has to offer before jumping to an unofficial one.
 
-But I really encourage you to check the [Flow][flow] project out. It immediatly garned traction upon initial release, has lots of people interested and contributing, an active Discord server and a really experienced maintainer.
+But I really encourage you to check the [Flow][flow] project out. It immediatly garnered traction upon initial release, has lots of people interested and contributing, an active Discord server and a really experienced maintainer.
 
 ## Testing
 
