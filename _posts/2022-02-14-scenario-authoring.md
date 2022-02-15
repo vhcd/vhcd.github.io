@@ -34,7 +34,7 @@ As discussed in a previous article, we mostly rely on [Blueprint Visual Scriptin
 
 ### Stages
 
-Most importantly, Blueprint aren't state machines. They're mostly designed for event-based scripting. Which, in theory, is what we want; "when... do..." is just that: react to events. However, videogame approch to events is mostly *cartesian-distance* based, whereas driving simulation is more *road-time* based. In other words, videogames rely on physical [trigger volumes](https://docs.unrealengine.com/4.27/en-US/Basics/Actors/Triggers/) that can be placed in the world, and that will execute stuff when the player gets in it. Driving simulation is usually more interested in *time* between actors on a *road*, e.g., "When ego is less than 3s from the traffic light, make it yellow".
+Most importantly, Blueprint aren't state machines. They're mostly designed for event-based scripting. Which, in theory, is what we want; "when... do..." is just that: react to events. However, videogame approch to events is mostly *cartesian-distance* based, whereas driving simulation is more *road-time* based. In other words, videogames rely on physical [trigger volumes][trigger] that can be placed in the world, and that will execute stuff when the player gets in it. Driving simulation is usually more interested in *time* between actors on a *road*, e.g., "When ego is less than 3s from the traffic light, make it yellow".
 
 [![trigger_place.jpg]({{site.baseurl}}/images/trigger_place.jpg)][0]
 
@@ -92,5 +92,28 @@ Using the "automate ego" philosophy, you can then rely on all standard testing t
 
 ### Time dilation
 
+If you've automated the ego vehicle, then you probably don't have any more manual input to the simulation. And without manual input comes a great gift: no need to follow realtime! Indeed, if all actors have preset behaviors, we can now to run the simulation at 5x the normal speed. So if you're working on a situation that occurs at 2 minutes into the drive, you can get there in a matter of seconds.
+
+Unreal has a very simple way to do that: [time dilation](https://docs.unrealengine.com/4.27/en-US/BlueprintAPI/Utilities/Time/SetGlobalTimeDilation/). You can set the time dilation factor at any point during the simulation. Which means you can speed up along the scenario parts you don't care about, and slow down to realtime (or even slower) once you get near you situation of interest.
+
+![time_mouse.jpg]({{site.baseurl}}/images/time_mouse.jpg)
+
+We use time dilation in two ways to help with scenario testing. The first, is by binding time dilation to the mouse wheel: wheel up, time goes faster; wheel down, slower; wheel press, realtime. It's a very simple implementation, and actually one of the first thing I did when getting into Unreal. After that, just scroll during your test to get to where you want to be.
+
+![time_box.jpg]({{site.baseurl}}/images/time_box.jpg)
+
+The second way to use time dilation is via [trigger volumes][trigger]. We have a simple Blueprint which will set the time dilation factor when the ego vehicle gets into it. That way, you don't even need to scroll anymore: just place you trigger boxes in the world, and time will adjust accordingly. This is especially useful when using [Simulation In Editor](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/InEditorTesting/#simulateineditor) (SIE), where you don't have access to controller bindings, i.e., no scrolling.
+
+# Conclusion
+
+To sum things up, we didn't do much development to improve scenario authoring, but our minimal efforts still brought us a lot of improvements over previous workflows.
+
+A single Blueprint node allowed us to work with natural "stages", while keeping the Unreal native Blueprint editor. If that's not enough, we could still look toward the very promising [Flow][flow] plugin.
+
+As for testing, programming the ego behavior, like any other scenario car, plus some bsaic time dilation, and we've managed to significantly reduce testing time and frustration.
+
+And as with everything in our platform, we're constantly improving, and always trying to make things better for everyone involved. The trigger-volume-time-dilation were implemented... this morning!
+
 [0]: https://docs.unrealengine.com/4.27/en-US/Basics/Actors/Triggers/
 [flow]: https://github.com/MothCocoon/FlowGraph
+[trigger]: https://docs.unrealengine.com/4.27/en-US/Basics/Actors/Triggers/
