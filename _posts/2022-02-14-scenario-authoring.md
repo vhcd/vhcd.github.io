@@ -26,7 +26,7 @@ We really wanted to try to improve that. Not only is this time-consuming, it's e
 
 # Solutions
 
-For each of our requirement category, we'll go over the solutions we implemented or envision. For each case (and for our overall project), our philosophy is to avoid complex solutions, and to try to reuse existing features.
+For each of our requirement category, we'll go over the solutions we implemented or envision. Our philosophy is always to avoid complex solutions, and to try to reuse existing features.
 
 ## Scripting design
 
