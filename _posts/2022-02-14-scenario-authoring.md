@@ -6,7 +6,7 @@ We've already talked about [scenarios](/scenarios), which are at the very core o
 
 # Requirements
 
-At [LESCOT](https://lescot.univ-gustave-eiffel.fr/), we've been authoring a very wide range of scenarios for decades, and we've gathered a lot of feedback from it over the years. When we started working on our Unreal Engine platform, we used that to create a small set of requirements regarding scenario authoring, ensuring that what we create fits our needs as best as possible.
+At [LESCOT](https://lescot.univ-gustave-eiffel.fr/), we've been authoring a very wide range of scenarios for decades, and we've gathered a lot of feedback from it over the years. When we started working on our Unreal Engine platform, we used that to create a small set of requirements regarding scenario authoring, ensuring that what we were creating would fit our needs as best as possible.
 
 ## Scripting design
 
