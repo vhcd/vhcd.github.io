@@ -82,7 +82,13 @@ Having worked a lot on autonomous driving scenarios in the past years, I realize
 
 Obviously, traditional driving scenarios can't have an autonomous ego vehicle during the experiment itself, but they can very much have one during testing. So that's what we do: for each of our scenario, we implement the ego behavior we expect the participant to have in the ego vehicle's Blueprint, using our own [Virtual Driver](/virtual-driver), which is also used for all [NPC](https://en.wikipedia.org/wiki/Non-player_character) vehicles.
 
+One very obivous and immediate limitation is that participants aren't machines, and they won't all drive in the exact way we expected them; that's actually kind of the point of most experiments, to study the different behaviors. But this fact is not an issue if you acknowledge it.
 
+First, you have to realize that automating ego isn't meant to replace manual testing. The process is just [virtual prototyping](https://en.wikipedia.org/wiki/Virtual_prototyping) applied to scenario authoring, so it's meant to catch the "obvious" scenario mistakes. You still have to manually test your scenario, but if all goes well, you'll need fewer runs of those before reaching your goal.
+
+Second, you can add noise to your automation. When programming the ego vehicle, instead of setting it to follow a perfect 50km/h, you might want to add some random in there, let's say between 40km/h and 55km/h. That way, each time you run an automated test drive, you'll have a slightly different ego behavior, giving you a little bit more test coverage.
+
+Using the "automate ego" philosophy, you can then rely on all standard testing techniques, from [fuzzing](https://en.wikipedia.org/wiki/Fuzzing) to [smoke testing](https://en.wikipedia.org/wiki/Smoke_testing_(software)) and much more.
 
 ### Time dilation
 
