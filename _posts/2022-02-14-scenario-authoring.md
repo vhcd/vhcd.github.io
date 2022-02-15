@@ -74,9 +74,11 @@ But I really encourage you to check the [Flow][flow] project out. It immediatly 
 
 ## Testing
 
-To make testing easier, we 
+To make testing easier, we really went out of our way to have the easiest solutions possible, all the while bringing lots of improvements.
 
 ### Automate ego
+
+
 
 ### Time dilation
 
