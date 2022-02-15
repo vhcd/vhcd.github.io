@@ -56,6 +56,22 @@ And as you can see above, the [Blueprint debugger](https://docs.unrealengine.com
 
 ### Flow
 
+[Flow][flow] is an open-source community-lead Unreal Engine plugin.
+
+> Flow plug-in for Unreal Engine provides a graph editor tailored for scripting flow of events in virtual worlds.
+
+As soon as I read that, I was *very* interested in the plugin. It took me quite a while to fully grasp what the plugin offers, but I'm quite confident that this is the ultimate solution to scenario design and implementation in Unreal Engine.
+
+[![flow.png]({{site.baseurl}}/images/flow.png)][flow]
+
+But I haven't even tried to implement a scenario with *Flow*, and I don't plan on using it in the near future. Why, you may ask?
+
+The plugin is still quite new and not officially supported by Epic Games, which means much less resources to help users getting started. And even though the idea behind *Flow* is fairly easy to understand, implementing an actual flow seems much more technical than a standard Blueprint. It feels like a lot of groundwork is required to create *flow nodes* (mostly in C++), tailored to our driving simulation use case, that can then be used in higher level *flow graphs*.
+
+*Flow* really is something I want to explore as a solution to scenario design, but I think I'll wait for both the plugin to mature, and for us to have a stronger experience in Unreal Engine. And with UE5's *Verse* language around the corner, I think it's safer to see what Epic's new scripting language has to offer before jumping to an unofficial one.
+
+But I really encourage you to check the [Flow][flow] project out. It immediatly garned traction upon initial release, has lots of people interested and contributing, an active Discord server and a really experienced maintainer.
+
 ## Testing
 
 ### Automate ego
@@ -63,3 +79,4 @@ And as you can see above, the [Blueprint debugger](https://docs.unrealengine.com
 ### Time dilation
 
 [0]: https://docs.unrealengine.com/4.27/en-US/Basics/Actors/Triggers/
+[flow]: https://github.com/MothCocoon/FlowGraph
