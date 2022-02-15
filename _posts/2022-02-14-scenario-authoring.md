@@ -78,6 +78,10 @@ To make testing easier, we really went out of our way to have the easiest soluti
 
 ### Automate ego
 
+Having worked a lot on autonomous driving scenarios in the past years, I realized those where much more easier to test. Indeed, as in real life, you don't have to drive the car when testing! So at some point, it hit me: why not make all scenarios have an autonomous ego?
+
+Obviously, traditional driving scenarios can't have an autonomous ego vehicle during the experiment itself, but they can very much have one during testing. So that's what we do: for each of our scenario, we implement the ego behavior we expect the participant to have in the ego vehicle's Blueprint, using our own [Virtual Driver](/virtual-driver), which is also used for all [NPC](https://en.wikipedia.org/wiki/Non-player_character) vehicles.
+
 
 
 ### Time dilation
