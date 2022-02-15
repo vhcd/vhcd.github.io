@@ -8,7 +8,7 @@ We've already talked about [scenarios](/scenarios), which are at the very core o
 
 At [LESCOT](https://lescot.univ-gustave-eiffel.fr/), we've been authoring a very wide range of scenarios for decades, and we've gathered a lot of feedback from it over the years. When we started working on our Unreal Engine platform, we use that to create a small set of requirements regarding scenario authoring, ensuring that what we create fits our needs as best as possible.
 
-## The what and who
+## Scripting design
 
 In a previous article, I quickly went over "[What are scenarios anyway?](/scenarios#what-are-scenarios-anyway)", illustrating some of the complex use-cases we previously encountered. From experience, scenario requirements complexity only grows over time, and future experiments will need more attention to various details.
 
@@ -28,7 +28,9 @@ We really wanted to try to improve that. Not only is this time-consuming, it's e
 
 As discussed in a previous article, we mostly rely on [Blueprint Visual Scripting](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) to implement scenarios, which is the native Unreal Engine solution to scripting. It solves a lot of "scenario" issues by itself, but it's not really enough for our requirements.
 
-## Stages
+## Scripting design
+
+### Stages
 
 Most importantly, Blueprint aren't state machines. They're mostly designed for event-based scripting. Which, in theory, is what we want; "when... do..." is just that: react to events. However, videogame approch to events is mostly *cartesian-distance* based, whereas driving simulation is more *road-time* based. In other words, videogames rely on physical [trigger volumes](https://docs.unrealengine.com/4.27/en-US/Basics/Actors/Triggers/) that can be placed in the world, and that will execute stuff when the player gets in it. Driving simulation is usually more interested in *time* between actors on a *road*, e.g., "When ego is less than 3s from the traffic light, make it yellow".
 
@@ -50,12 +52,12 @@ This paradigm is also compatible with more traditional *cartesian-distance* even
 
 And as you can see above, the [Blueprint debugger](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Debugging/) works particularly well with this "stages" paradigm, as we can clearly see going through the stages. If you end up in the wrong stage, the debugger will easily tell you where you are and why you're there.
 
-## Automate ego
+### Flow
 
+## Testing
 
+### Automate ego
 
-## Time dilation
-
-# Flow
+### Time dilation
 
 [0]: https://docs.unrealengine.com/4.27/en-US/Basics/Actors/Triggers/
