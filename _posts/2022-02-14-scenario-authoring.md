@@ -10,7 +10,7 @@ At [LESCOT](https://lescot.univ-gustave-eiffel.fr/), we've been authoring a very
 
 ## Scripting design
 
-In a previous article, I quickly went over "[What are scenarios anyway?](/scenarios#what-are-scenarios-anyway)", illustrating some of the complex use-cases we previously encountered. From experience, scenario requirements complexity only grows over time, and future experiments will need more attention to various details.
+In a previous article, I quickly went over "[What are scenarios anyway?](/scenarios#what-are-scenarios-anyway)", illustrating some of the complex use-cases we encountered. From experience, scenario requirements complexity only grows over time, and future experiments will need more attention to various details.
 
 However, not all scenarios need to be complex. Or at least, not all *parts* of a scenario. We might want to create one or more abstraction levels, each with its own complexity. This is, for example, what we do with our [scenario variants](/scenario-variants).
 
