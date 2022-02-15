@@ -66,7 +66,7 @@ As soon as I read that, I was *very* interested in the plugin. It took me quite 
 
 But I haven't even tried to implement a scenario with *Flow*, and I don't plan on using it in the near future. Why, you may ask?
 
-The plugin is still quite new and not officially supported by Epic Games, which means much less resources to help users getting started. And even though the idea behind *Flow* is fairly easy to understand, implementing an actual flow seems much more technical than a standard Blueprint. It feels like a lot of groundwork is required to create *flow nodes* (mostly in C++), tailored to our driving simulation use case, that can then be used in higher level *flow graphs*.
+The plugin is still quite new and not officially supported by Epic Games, which means much less resources to help non-expert users getting started. And even though the idea behind *Flow* is fairly easy to understand, implementing an actual flow seems much more technical than a standard Blueprint. It feels like a lot of groundwork is required to create *flow nodes* (mostly in C++), tailored to our driving simulation use case, that can then be used in higher level *flow graphs*.
 
 *Flow* really is something I want to explore as a solution to scenario design, but I think I'll wait for both the plugin to mature, and for us to have a stronger experience in Unreal Engine. And with UE5's *Verse* language around the corner, I think it's safer to see what Epic's new scripting language has to offer before jumping to an unofficial one.
 
