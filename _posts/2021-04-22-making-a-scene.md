@@ -8,7 +8,7 @@ When you start implementing your driving simulator experiment, the first thing y
 
 In this article, we'll explain how we built the scene from the above screenshot, starting from nothing.
 
-# Road network
+# Road network
 
 As we [previously mentioned](/opendrive), the road network is a very important piece of our simulation, for which we need both the 3D representation and its logicial description (i.e. OpenDRIVE). To do that, we use [RoadRunner](https://www.mathworks.com/products/roadrunner.html), which is our favorite tool for that specific work. If you've played any [city-building game](https://en.wikipedia.org/wiki/City-building_game) (e.g. [SimCity](https://en.wikipedia.org/wiki/SimCity), [Cities: Skylines](https://en.wikipedia.org/wiki/Cities:_Skylines)), you know that creating roads and cities can be quite a fun activity if you're given the right tools. It really feels like RoadRunner understands that, and drawing any road network with this software is effortless and can even feel rewarding once you've accomplished your goal in such a short amount of time.
 
