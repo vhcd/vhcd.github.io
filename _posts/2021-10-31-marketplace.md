@@ -228,16 +228,19 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 ### Road
 
 * [European Collection: Street Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-street-props-vol-1)
+* [European Collection: Street Props Vol. 2](https://www.unrealengine.com/marketplace/en-US/product/european-collection-street-props-vol-2) *[22-08]*
 * [European Collection: Parking Garage Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-parking-garage-props-vol)
 * [Sidewalk Debris & Trash - Cigarettes, Masks, Gum, Cans](https://www.unrealengine.com/marketplace/en-US/product/sidewalk-debris-trash-cigarettes-masks-gum-cans)
 * [Signs for Buildings](https://www.unrealengine.com/marketplace/en-US/product/signs-for-buildings)
 * [Street Decorations](https://www.unrealengine.com/marketplace/en-US/product/street-decorations)
 * [Leaves aplenty](https://www.unrealengine.com/marketplace/en-US/product/leaves-aplenty)
 * [Normal Damage Decals](https://www.unrealengine.com/marketplace/en-US/product/normal-damage-decals)
+* [Modular Tunnels Pack Vol.1](https://www.unrealengine.com/marketplace/en-US/product/modular-tunnels-pack-vol-1) *[22-08]*
 
 ### Props
 
 * [Outdoor Pack - Furniture, Gazebo Tents, Swimming Pool & Accessories](https://www.unrealengine.com/marketplace/en-US/product/outdoor-pack-furniture-gazebo-tents-swimming-pool-accessories)
+* [Electric Central - Solar Pannel - Wind Turbine Pack](https://www.unrealengine.com/marketplace/en-US/product/electric-central-solar-pannel-wind-turbine-pack) *[22-08]*
 
 ## Misc
 
@@ -296,6 +299,8 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 * [Next Gen Modular Victorian Neoclassical City [Bundle - Exterior & Interior]](https://www.unrealengine.com/marketplace/en-US/product/next-gen-modular-victorian-neoclassical-city-bundle-exterior-interior)
 * [Red Stadium](https://www.unrealengine.com/marketplace/en-US/product/red-stadium)
 * [Medieval Gothic Cathedral Dungeon - Modular](https://www.unrealengine.com/marketplace/en-US/product/medieval-gothic-cathedral-modular-pack)
+* [Realistic Windows: Advanced Pack](https://www.unrealengine.com/marketplace/en-US/product/realistic-windows-advanced-pack) *[22-08]*
+* [Interior Cubemaps - Generic Offices](https://www.unrealengine.com/marketplace/en-US/product/interior-cubemaps-generic-offices) *[22-08]*
 
 ### Foliage
 
@@ -382,3 +387,5 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 * [Full Pack of Traffic Signs](https://www.unrealengine.com/marketplace/en-US/product/full-pack-of-traffic-signs)
 * [Hologram](https://www.unrealengine.com/marketplace/en-US/product/hologram)
 * [Procedural Text Tool](https://www.unrealengine.com/marketplace/en-US/product/procedural-text-tool) *[22-08]*
+* [Smart Traffic Light](https://www.unrealengine.com/marketplace/en-US/product/smart-traffic-light) *[22-08]*
+* [Traffic AI System](https://www.unrealengine.com/marketplace/en-US/product/traffic-ai-system) *[22-08]*
