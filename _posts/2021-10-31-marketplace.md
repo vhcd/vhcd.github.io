@@ -79,6 +79,7 @@ I didn't play that much with this Landscape Material (I bought one before this o
 
 * [Procedural Building Generator](https://www.unrealengine.com/marketplace/en-US/product/procedural-building-generator)
 * [Vehicle Variety Pack](https://www.unrealengine.com/marketplace/en-US/product/bbcb90a03f844edbb20c8b89ee16ea32)
+* [Vehicle Variety Pack Volume 2](https://www.unrealengine.com/marketplace/en-US/product/9a705589d1994c6e8757fdbedaf698af) *[22-08]*
 
 Building and vehicles. I'm not a huge fan of either of those, but hey, it's free, so I'm not complaining.
 
@@ -95,8 +96,9 @@ Because every language needs a [style guide](https://github.com/Allar/ue5-style-
 Want to add moving things? Here are a few.
 
 * [7 Cars Pack](https://www.unrealengine.com/marketplace/en-US/product/7-cars-pack)
+* [Velocity Cars Pack](https://www.unrealengine.com/marketplace/en-US/product/velocity-cars-pack) *[22-08]*
 
-By far and large my favorite car pack, I pretty much only use those for moving vehicles.
+By far and large my favorite car packs, I pretty much only use those for moving vehicles. Both from the same creator.
 
 * [Truck and Trailers](https://www.unrealengine.com/marketplace/en-US/product/truck-and-trailers)
 * [Bus](https://www.unrealengine.com/marketplace/en-US/product/bus)
@@ -118,6 +120,8 @@ To build a realistic driving scenario, you need a realistic scene. That includes
 * [Modular European Buildings (Facades)](https://www.unrealengine.com/marketplace/en-US/product/european-buildings-facades)
 * [Construction Site](https://www.unrealengine.com/marketplace/en-US/product/construction-site-01)
 * [Procedural Background Buildings](https://www.unrealengine.com/marketplace/en-US/product/procedural-background-buildings)
+* [European Alleys](https://www.unrealengine.com/marketplace/en-US/product/european-alleys) *[22-08]*
+
 
 ### Road props
 
@@ -140,6 +144,10 @@ Ultra Dynamic Sky is the reference when it comes to sky, atmosphere and weather.
 * [Electric Transmission Towers](https://www.unrealengine.com/marketplace/en-US/product/electric-transmission-towers)
 * [Fence Pack Vol.1](https://www.unrealengine.com/marketplace/en-US/product/fence-pack-vol-01)
 * [Landscape Smart Material](https://www.unrealengine.com/marketplace/en-US/product/landscape-smart-material)
+* [Realistic Customizable Roads](https://www.unrealengine.com/marketplace/en-US/product/realistic-customizable-roads) *[22-08]*
+* [wParallax Retail I](https://www.unrealengine.com/marketplace/en-US/product/wparallax-retail-i) *[22-08]*
+* [Background Cars](https://www.unrealengine.com/marketplace/en-US/product/background-cars) *[22-08]*
+
 
 ## Tools
 
@@ -161,10 +169,6 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 * [Drivable Cars: Advanced Multiplayer Pack with damage, destruction, animations...](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-advanced-pack-ue4-type-vehicle-physics-and-interaction-system)
 * [Sedan Car Vehicles Set Driveable / Animated / Realistic (Set of 4)](https://www.unrealengine.com/marketplace/en-US/product/sedan-car-vehicles-set-driveable-animated-realistic-set-of)
 * [Skateboarding System](https://www.unrealengine.com/marketplace/en-US/product/skateboarding-system)
-* [Velocity Sunrise Car](https://www.unrealengine.com/marketplace/en-US/product/velocity-sunrise-car)
-* [Velocity Coyote Car](https://www.unrealengine.com/marketplace/en-US/product/velocity-coyote-car)
-* [Velocity Raptor Car](https://www.unrealengine.com/marketplace/en-US/product/velocity-raptor-car)
-* [Velocity Shadow Car](https://www.unrealengine.com/marketplace/en-US/product/velocity-shadow-car)
 * [Vehicle Pack // Gest](https://www.unrealengine.com/marketplace/en-US/product/vehicle-pack-gest)
 * [Drivable Tractor](https://www.unrealengine.com/marketplace/en-US/product/drivable-tractor)
 * [SUV Bundle Driveable / Animated / Realistic ( Set of 4 )](https://www.unrealengine.com/marketplace/en-US/product/suv-bundle-driveable-animated-realistic-set-of)
