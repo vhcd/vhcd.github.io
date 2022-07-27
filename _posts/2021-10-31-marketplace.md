@@ -69,6 +69,10 @@ Epic is bringing over content from [TwinMotion](https://www.unrealengine.com/en-
 
 The CitySample is Epic's internal name for [The Matrix Awakens](https://www.youtube.com/watch?v=WU0gvPcc3jQ), which is not only a mind-blowing demo, but also available for free on the Marketplace. Since it's huge (100GB), there are also dedicated products for buildings, vehicles and crowds; which is just perfect for our use case.
 
+* [Megascans Trees: European Black Alder (early access)](https://www.unrealengine.com/marketplace/en-US/product/megascans-trees-european-black-alder-early-access) *[22-08]*
+
+Want some trees? [Quixel](https://quixel.com/) has you covered.
+
 * [Landscape Pro 2.0 Auto-Generated Material](https://www.unrealengine.com/marketplace/en-US/product/landscape-pro-auto-generated-material)
 
 I didn't play that much with this Landscape Material (I bought one before this one was free), but from what I saw, it's just a perfect way to get started to use [Landscape](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/Landscape/Creation/) on your scene. Use it, and you won't ever need to worry about creating a forest anymore, the Material will take care of it for you.
