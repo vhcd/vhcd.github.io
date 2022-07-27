@@ -8,7 +8,7 @@ Note before we start: I recently wrote a [small script](https://github.com/brifs
 
 This article gets updated regularly as our Vault grows. New items get tagged so it's easier to keep track of.
 
-* *[22-08]* is for the August 2022 update 
+* *[22-08]* is for the August 2022 update
 
 # Creators to follow
 
@@ -55,6 +55,10 @@ Those environments are just amazing. You get high quality environments to explor
 
 * [Twinmotion Posed Humans 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-posed-humans)
 * [Twinmotion Construction Vehicles 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-construction-vehicles)
+* [Twinmotion Posed Humans Shopping Pack 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-posed-humans-shopping-pack-1) *[22-08]*
+* [Twinmotion Posed Humans Winter Pack 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-posed-humans-winter-pack-1) *[22-08]*
+* [Twinmotion Entertainment Pack 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-entertainment-pack-1) *[22-08]*
+* [Twinmotion Posed Humans Children Pack 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-posed-humans-children-pack-1) *[22-08]*
 
 Epic is bringing over content from [TwinMotion](https://www.unrealengine.com/en-US/twinmotion), and I can't wait to see what's next, because those two are just perfect for us.
 
@@ -112,6 +116,8 @@ To build a realistic driving scenario, you need a realistic scene. That includes
 * [MOTORWAY TUNNEL](https://www.unrealengine.com/marketplace/en-US/product/motorway-tunnel)
 * [Advertising Panels 5.](https://www.unrealengine.com/marketplace/en-US/product/advertising-panels-02)
 * [European Collection : Lanterns and Citylights    Mr.P-Edition](https://www.unrealengine.com/marketplace/en-US/product/european-collection-lanterns-and-citylights-mr-p-edition)
+* [European Collection: French Traffic Signs Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-french-traffic-signs-vol-1) *[22-08]*
+* [European Collection: French Traffic Signs Vol. 2](https://www.unrealengine.com/marketplace/en-US/product/european-collection-french-traffic-signs-vol-2) *[22-08]*
 
 ### Misc
 
@@ -174,6 +180,7 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 * [Road Toll](https://www.unrealengine.com/marketplace/en-US/product/road-toll)
 * [Modular Village Vol 1](https://www.unrealengine.com/marketplace/en-US/product/modular-village-vol-1)
 * [Sidewalk Debris & Trash - Cigarettes, Masks, Gum, Cans](https://www.unrealengine.com/marketplace/en-US/product/sidewalk-debris-trash-cigarettes-masks-gum-cans)
+* [Car Dealer](https://www.unrealengine.com/marketplace/en-US/product/car-dealer) *[22-08]*
 
 ## Misc
 
@@ -311,3 +318,4 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 * [Smart Cable Connector](https://www.unrealengine.com/marketplace/en-US/product/smart-cable-connector)
 * [Full Pack of Traffic Signs](https://www.unrealengine.com/marketplace/en-US/product/full-pack-of-traffic-signs)
 * [Hologram](https://www.unrealengine.com/marketplace/en-US/product/hologram)
+* [Procedural Text Tool](https://www.unrealengine.com/marketplace/en-US/product/procedural-text-tool) *[22-08]*
