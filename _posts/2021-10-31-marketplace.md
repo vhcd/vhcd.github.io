@@ -6,6 +6,10 @@ For us, one of the major benefit of using Unreal Engine is its [Marketplace](htt
 
 Note before we start: I recently wrote a [small script](https://github.com/brifsttar/UnrealMarketplaceVaultExtractor) to extract the content of one's  [Vault](https://www.unrealengine.com/marketplace/en-US/vault), which is what led to this article.
 
+This article gets updated regularly as our Vault grows. New items get tagged so it's easier to keep track of.
+
+* *[22-08]* is for the August 2022 update 
+
 # Creators to follow
 
 Before getting into the actual (long) list of items, I'd first like to mention a few Marketplace creators who make great products, perfect for driving or overall immersive simulation, and for which I'm always eagerly waiting their next creation.
