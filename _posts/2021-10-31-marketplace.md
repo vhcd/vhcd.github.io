@@ -133,6 +133,8 @@ To build a realistic driving scenario, you need a realistic scene. That includes
 * [European Collection : Lanterns and Citylights    Mr.P-Edition](https://www.unrealengine.com/marketplace/en-US/product/european-collection-lanterns-and-citylights-mr-p-edition)
 * [European Collection: French Traffic Signs Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-french-traffic-signs-vol-1) *[22-08]*
 * [European Collection: French Traffic Signs Vol. 2](https://www.unrealengine.com/marketplace/en-US/product/european-collection-french-traffic-signs-vol-2) *[22-08]*
+* [Realistic Customizable Roads](https://www.unrealengine.com/marketplace/en-US/product/realistic-customizable-roads) *[22-08]*
+* [PROCEDURAL ROAD MARKINGS](https://www.unrealengine.com/marketplace/en-US/product/procedural-road-markings) *[22-08]*
 
 ### Misc
 
@@ -144,7 +146,6 @@ Ultra Dynamic Sky is the reference when it comes to sky, atmosphere and weather.
 * [Electric Transmission Towers](https://www.unrealengine.com/marketplace/en-US/product/electric-transmission-towers)
 * [Fence Pack Vol.1](https://www.unrealengine.com/marketplace/en-US/product/fence-pack-vol-01)
 * [Landscape Smart Material](https://www.unrealengine.com/marketplace/en-US/product/landscape-smart-material)
-* [Realistic Customizable Roads](https://www.unrealengine.com/marketplace/en-US/product/realistic-customizable-roads) *[22-08]*
 * [wParallax Retail I](https://www.unrealengine.com/marketplace/en-US/product/wparallax-retail-i) *[22-08]*
 * [Background Cars](https://www.unrealengine.com/marketplace/en-US/product/background-cars) *[22-08]*
 
@@ -161,10 +162,8 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 
 ## Vehicles & actors
 
-* [Generic NPC Anim Pack](https://www.unrealengine.com/marketplace/en-US/product/generic-npc-anim-pack)
 * [Cycling](https://www.unrealengine.com/marketplace/en-US/product/cycling)
 * [Motorcycles](https://www.unrealengine.com/marketplace/en-US/product/motorcycles)
-* [Drunk Man Animations](https://www.unrealengine.com/marketplace/en-US/product/drunk-man-animations)
 * [Driveable / Animated Construction Vehicles Set [ Set of 4 ]](https://www.unrealengine.com/marketplace/en-US/product/driveable-animated-construction-vehicles-set-set-of)
 * [Drivable Cars: Advanced Multiplayer Pack with damage, destruction, animations...](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-advanced-pack-ue4-type-vehicle-physics-and-interaction-system)
 * [Sedan Car Vehicles Set Driveable / Animated / Realistic (Set of 4)](https://www.unrealengine.com/marketplace/en-US/product/sedan-car-vehicles-set-driveable-animated-realistic-set-of)
@@ -174,54 +173,91 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 * [SUV Bundle Driveable / Animated / Realistic ( Set of 4 )](https://www.unrealengine.com/marketplace/en-US/product/suv-bundle-driveable-animated-realistic-set-of)
 * [Car Interact Animations VOL. 1](https://www.unrealengine.com/marketplace/en-US/product/car-interact-animations-vol-1)
 * [Truck, Garbage truck](https://www.unrealengine.com/marketplace/en-US/product/truck-garbage-truck-truck-for-anti-aircraft-guns)
+* [Abandoned Hatchback Car](https://www.unrealengine.com/marketplace/en-US/product/abandoned-hatchback-car) *[22-08]*
+* [Railway System with IC Train](https://www.unrealengine.com/marketplace/en-US/product/railway-system-with-intercity-train) *[22-08]*
+
+## Characters
+
+* [Generic NPC Anim Pack](https://www.unrealengine.com/marketplace/en-US/product/generic-npc-anim-pack)
+* [Drunk Man Animations](https://www.unrealengine.com/marketplace/en-US/product/drunk-man-animations)
+* [Teenager Character](https://www.unrealengine.com/marketplace/en-US/product/teenager-character) *[22-08]*
+* [Modern Male by VR4D](https://www.unrealengine.com/marketplace/en-US/product/vr4d-crowd-modern-male) *[22-08]*
+* [Ami](https://www.unrealengine.com/marketplace/en-US/product/ami) *[22-08]*
+* [Old Lady Anims](https://www.unrealengine.com/marketplace/en-US/product/old-lady-anims) *[22-08]*
+* [Civilian 3](https://www.unrealengine.com/marketplace/en-US/product/civilian-3) *[22-08]*
+* [Civilian 2](https://www.unrealengine.com/marketplace/en-US/product/civilian-2) *[22-08]*
+* [Female Character Shenya](https://www.unrealengine.com/marketplace/en-US/product/female-character-shenya) *[22-08]*
+* [Stadium / Event Fan Spawner V2](https://www.unrealengine.com/marketplace/en-US/product/stadium-event-fan-spawner) *[22-08]*
+* [Male Casual 01](https://www.unrealengine.com/marketplace/en-US/product/male-casual-01) *[22-08]*
+* [Female Casual 01](https://www.unrealengine.com/marketplace/en-US/product/female-casual-01) *[22-08]*
+* [NPC Homeless Man](https://www.unrealengine.com/marketplace/en-US/product/npc-homeless-man) *[22-08]*
 
 ## Scene
 
+### Buildings
+
 * [Modular Warehouse Pack](https://www.unrealengine.com/marketplace/en-US/product/modular-warehouse-pack)
-* [ArchViz Basics - Playground - Pack Vol.1](https://www.unrealengine.com/marketplace/en-US/product/archviz-basics-playground-pack-vol)
 * [Supermarket](https://www.unrealengine.com/marketplace/en-US/product/supermarket)
 * [Urban City](https://www.unrealengine.com/marketplace/en-US/product/urban-city)
 * [Parking Garage](https://www.unrealengine.com/marketplace/en-US/product/parking-garage)
 * [Airport Pack](https://www.unrealengine.com/marketplace/en-US/product/airport-pack)
-* [Outdoor Pack - Furniture, Gazebo Tents, Swimming Pool & Accessories](https://www.unrealengine.com/marketplace/en-US/product/outdoor-pack-furniture-gazebo-tents-swimming-pool-accessories)
 * [Suburban Houses- VOL.1](https://www.unrealengine.com/marketplace/en-US/product/suburban-houses-vol)
-* [Normal Damage Decals](https://www.unrealengine.com/marketplace/en-US/product/normal-damage-decals)
-* [Leaves aplenty](https://www.unrealengine.com/marketplace/en-US/product/leaves-aplenty)
 * [Downtown - City Pack](https://www.unrealengine.com/marketplace/en-US/product/city-downtown-pack)
-* [Signs for Buildings](https://www.unrealengine.com/marketplace/en-US/product/signs-for-buildings)
-* [Street Decorations](https://www.unrealengine.com/marketplace/en-US/product/street-decorations)
-* [Planes in the Sky](https://www.unrealengine.com/marketplace/en-US/product/planes-in-the-sky)
 * [Vista Buildings](https://www.unrealengine.com/marketplace/en-US/product/vista-buildings)
 * [Road Toll](https://www.unrealengine.com/marketplace/en-US/product/road-toll)
 * [Modular Village Vol 1](https://www.unrealengine.com/marketplace/en-US/product/modular-village-vol-1)
-* [Sidewalk Debris & Trash - Cigarettes, Masks, Gum, Cans](https://www.unrealengine.com/marketplace/en-US/product/sidewalk-debris-trash-cigarettes-masks-gum-cans)
 * [Car Dealer](https://www.unrealengine.com/marketplace/en-US/product/car-dealer) *[22-08]*
+* [Optimal Gas Station](https://www.unrealengine.com/marketplace/en-US/product/optimal-gas-station) *[22-08]*
+* [Old Fund - Modular urban environment](https://www.unrealengine.com/marketplace/en-US/product/old-fund-modular-urban-environment) *[22-08]*
+* [Bus Station](https://www.unrealengine.com/marketplace/en-US/product/bus-station) *[22-08]*
+* [Modular Buildings](https://www.unrealengine.com/marketplace/en-US/product/modular-buildings) *[22-08]*
+* [Mobile Shop](https://www.unrealengine.com/marketplace/en-US/product/mobile-shop-01) *[22-08]*
+* [Bus Station Vol.2](https://www.unrealengine.com/marketplace/en-US/product/bus-station-vol-2) *[22-08]*
+* [Modular Parking VOl.1](https://www.unrealengine.com/marketplace/en-US/product/modular-parking-vol-1) *[22-08]*
+* [Scooter Shop](https://www.unrealengine.com/marketplace/en-US/product/scooter-shop) *[22-08]*
+* [BMX Store](https://www.unrealengine.com/marketplace/en-US/product/bmx-store) *[22-08]*
+* [Shopping Mall (MODULAR Environment) V 1.1](https://www.unrealengine.com/marketplace/en-US/product/shopping-mall) *[22-08]*
+* [Modular Japanese Apartment Buildings](https://www.unrealengine.com/marketplace/en-US/product/modular-japanese-apartment-buildings) *[22-08]*
+* [Modern Clothes Shop](https://www.unrealengine.com/marketplace/en-US/product/modern-clothes-shop) *[22-08]*
+* [Police Department](https://www.unrealengine.com/marketplace/en-US/product/police-department-01) *[22-08]*
+* [Procedural Cemetery](https://www.unrealengine.com/marketplace/en-US/product/procedural-cemetery) *[22-08]*
+* [General Store](https://www.unrealengine.com/marketplace/en-US/product/general-store) *[22-08]*
+* [Modular Car Wash - Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/modular-car-wash-vol-1) *[22-08]*
+* [amusement, Theme park rides and props](https://www.unrealengine.com/marketplace/en-US/product/amusement-theme-park-rides-and-props) *[22-08]*
+
+### Road
+
+* [European Collection: Street Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-street-props-vol-1)
+* [European Collection: Parking Garage Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-parking-garage-props-vol)
+* [Sidewalk Debris & Trash - Cigarettes, Masks, Gum, Cans](https://www.unrealengine.com/marketplace/en-US/product/sidewalk-debris-trash-cigarettes-masks-gum-cans)
+* [Signs for Buildings](https://www.unrealengine.com/marketplace/en-US/product/signs-for-buildings)
+* [Street Decorations](https://www.unrealengine.com/marketplace/en-US/product/street-decorations)
+* [Leaves aplenty](https://www.unrealengine.com/marketplace/en-US/product/leaves-aplenty)
+* [Normal Damage Decals](https://www.unrealengine.com/marketplace/en-US/product/normal-damage-decals)
+
+### Props
+
+* [Outdoor Pack - Furniture, Gazebo Tents, Swimming Pool & Accessories](https://www.unrealengine.com/marketplace/en-US/product/outdoor-pack-furniture-gazebo-tents-swimming-pool-accessories)
 
 ## Misc
 
 * [Pivot Tool](https://www.unrealengine.com/marketplace/en-US/product/pivot-tool)
 * [Kantan Charts](https://www.unrealengine.com/marketplace/en-US/product/kantan-charts)
+* [Planes in the Sky](https://www.unrealengine.com/marketplace/en-US/product/planes-in-the-sky)
+* [VR Spectator Control Window](https://www.unrealengine.com/marketplace/en-US/product/vr-spectator-control-window) *[22-08]*
 
 # Extra
 
 Finally, a list of everything else that's in our Vault and that we either *used* or perceive some potential future use. A bunch of it was grabbed for free during [Free for the Month](https://www.unrealengine.com/marketplace/en-US/assets?count=20&sortBy=effectiveDate&sortDir=DESC&start=0&tag=4910) offers.
 
-## Vehicles & actors
+## Vehicles
 
 * [Drivable Cars Basic Pack: 3D assets and Blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-basic-pack)
-* [Character Editor](https://www.unrealengine.com/marketplace/en-US/product/character-editor)
-* [ANIMAL VARIETY PACK](https://www.unrealengine.com/marketplace/en-US/product/17c2d7d545674204a7644c3c0c4c58ba)
-* [Cats Big Pack](https://www.unrealengine.com/marketplace/en-US/product/cats-big-pack)
-* [Birds](https://www.unrealengine.com/marketplace/en-US/product/birds)
-* [Animal Pack Ultra 2](https://www.unrealengine.com/marketplace/en-US/product/animal-pack-ultra-01)
 * [HatchBack Car Driveable / Animated / Realistic](https://www.unrealengine.com/marketplace/en-US/product/hatchback-car-driveable-animated-realistic)
-* [Realistic Casual Dog](https://www.unrealengine.com/marketplace/en-US/product/realistic-casual-dog)
-* [FARM ANIMALS PACK](https://www.unrealengine.com/marketplace/en-US/product/farm-animals-pack)
 * [Train Template](https://www.unrealengine.com/marketplace/en-US/product/train-template)
 * [HQ Bikes Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/bikes-vol)
 * [Drivable Cars: Micro Car Assets + Blueprints](https://www.unrealengine.com/marketplace/en-US/product/drivable-cars-micro-car-assets-blueprints)
 * [Van Car (And Coffee Bar)](https://www.unrealengine.com/marketplace/en-US/product/van-car-and-coffee-bar)
-* [Animalia - German Shepherd v2.2.1](https://www.unrealengine.com/marketplace/en-US/product/animalia-german-shepherd-m)
 * [Cableway Template](https://www.unrealengine.com/marketplace/en-US/product/cableway-template-quick-track-creator)
 * [Twinmotion Boats Pack 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-boats-pack-1)
 * [Ridable MotorBikes: Multiplayer Advanced Pack - 3 Bikes - damage & animations](https://www.unrealengine.com/marketplace/en-US/product/ridable-motorbikes-multiplayer-advanced-pack)
@@ -229,6 +265,19 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 * [Drivable Cars: Minivan Assets + Blueprints](https://www.unrealengine.com/marketplace/en-US/product/drivable-cars-minivan-1-assets-blueprints)
 * [Drivable Cars: Cargo Truck  3d assets and blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-cargo-truck-1-3d-assets-blueprints)
 * [Drivable Cars: Van   3D assets and Blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-van-1-3d-assets-blueprints)
+* [Vehicles - bicycles, scooters and skateboards](https://www.unrealengine.com/marketplace/en-US/product/vehicles-bicycles-scooters-and-skateboards) *[22-08]*
+* [Rigged Wheelchair Pack   [ 10 in 1 ]](https://www.unrealengine.com/marketplace/en-US/product/rigged-wheelchair-pack-10-in-1) *[22-08]*
+
+## Characters
+* [Character Editor](https://www.unrealengine.com/marketplace/en-US/product/character-editor)
+* [ANIMAL VARIETY PACK](https://www.unrealengine.com/marketplace/en-US/product/17c2d7d545674204a7644c3c0c4c58ba)
+* [Cats Big Pack](https://www.unrealengine.com/marketplace/en-US/product/cats-big-pack)
+* [Birds](https://www.unrealengine.com/marketplace/en-US/product/birds)
+* [Animal Pack Ultra 2](https://www.unrealengine.com/marketplace/en-US/product/animal-pack-ultra-01)
+* [Realistic Casual Dog](https://www.unrealengine.com/marketplace/en-US/product/realistic-casual-dog)
+* [FARM ANIMALS PACK](https://www.unrealengine.com/marketplace/en-US/product/farm-animals-pack)
+* [Animalia - German Shepherd v2.2.1](https://www.unrealengine.com/marketplace/en-US/product/animalia-german-shepherd-m)
+* [MAN 1 TO 5](https://www.unrealengine.com/marketplace/en-US/product/man-1-to-5) *[22-08]*
 
 ## Scenes
 
@@ -274,8 +323,6 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 * [200+ Grunge Decals](https://www.unrealengine.com/marketplace/en-US/product/200-grunge-decals)
 * [Greenhouse - Gardening  Tools](https://www.unrealengine.com/marketplace/en-US/product/greenhouse-gardening-tools)
 * [European Collection : Trash and Dump    Mr.P-Edition](https://www.unrealengine.com/marketplace/en-US/product/european-collection-trash-and-dump-mr-p-edition)
-* [European Collection: Street Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-street-props-vol-1)
-* [European Collection: Parking Garage Props Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/european-collection-parking-garage-props-vol)
 
 ### Environments
 
@@ -301,6 +348,7 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 * [Road Accessories: Manhole Pack - Deferred Decal](https://www.unrealengine.com/marketplace/en-US/product/road-accessories-manhole-pack-deferred-decal)
 * [Advanced road materials](https://www.unrealengine.com/marketplace/en-US/product/advanced-road-materials)
 * ["Road" - Materials and Decals](https://www.unrealengine.com/marketplace/en-US/product/road-materials-and-decals)
+* [Street Decals 4K - Cracks - Grids - Gates - Manholes](https://www.unrealengine.com/marketplace/en-US/product/street-decals-4k-cracks-grids-gates-manholes) *[22-08]*
 
 ## Tools
 
