@@ -29,4 +29,6 @@ My goal, and we're not there just yet, is for the researcher be able to specify 
 
 In such setups, most processes would therefore be automated, reducing risk of human error and improving the experiment quality and reproducibility. Researchers would only need to provide input when they deemed it necessary for the [protocol](https://en.wikipedia.org/wiki/Protocol_(science)). StreamDecks, and their customizable buttons, makes creating such interfaces an achievable goal. We're starting to create button layouts for each experiment we run, each one having their own input types.
 
+# Annotating/coding
+
 [sd]: https://www.elgato.com/en/stream-deck
