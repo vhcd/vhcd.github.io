@@ -5,6 +5,8 @@ title: StreamDeck for Driving Simulation Experiments
 ---
 I'm always on the lookout for new and often out of place tools that could find their role in our research workflows. One example is [Veyon](https://veyon.io/): built for classroom computers management, it also happens to be perfect for managing [nDisplay clusters](/whats-new-2021-11/#automation), at the core of our simulators. [StreamDeck][sd] are a recent addition to our fleet, and today we'll discuss all the use cases in which those will greatly help.
 
+Disclaimer: we're not sponsored by StreamDeck's [elgato](https://www.elgato.com/en) in any way, we just really like the product and think others might too.
+
 # *Stream-*What now ?
 
 ![streamdeck.jpg]({{site.baseurl}}/images/streamdeck.jpg)
@@ -39,4 +41,17 @@ In psychology research, we often rely on [behavior coding](https://dictionary.ap
 
 As shown above, there are very affordable and easy to implement solutions to this, but StreamDeck are just perfect for this. Setup your layout and start coding. Icons can even be animated if that helps!
 
+# Non-driving related tasks
+
+The research field studying driver's behavior loves their Non-Driving Related tasks, or NDRT as we call them. As its name suggests, it's everything a driver might do while behind the wheel that's *not* driving, and that's most likely a distraction from the car operating. That includes setting the GPS, using a phone or changing radio station.
+
+There are many ways to create distractions while driving in a simulator, some are so common, like the "Surrogate Reference Task" (SuRT), that they're actual [ISO standards](https://www.iso.org/obp/ui/#iso:std:iso:ts:14198:ed-1:v1:en).
+
+But since each project has its own goals and requirements, we sometimes have to design tasks ourselves to make sure we have the exact type of distraction that fits our needs. Those often involve some type of button box, allowing the subject to provide different types of inputs based on external stimulus.
+
+[![launchpad.png]({{site.baseurl}}/images/launchpad.png)][launchpad]
+
+Not so long ago, I suggested the use of 
+
+[launchpad]:https://novationmusic.com/en/launch/launchpad-x
 [sd]: https://www.elgato.com/en/stream-deck
