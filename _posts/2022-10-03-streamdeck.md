@@ -53,5 +53,7 @@ But since each project has its own goals and requirements, we sometimes have to 
 
 So we're always looking for new tools to build interfaces with which the participant will interact. Not so long ago, I suggested the use of a [Launchpad][launchpad] as the base of a new NDRT, and apparently it did the job quite well. We've yet to use a StreamDeck in such cases, but it's safe to say that it would also find its place there.
 
+# Soft Emergency stop
+
 [launchpad]:https://novationmusic.com/en/launch/launchpad-x
 [sd]: https://www.elgato.com/en/stream-deck
