@@ -69,5 +69,7 @@ During an actual experiment, the researcher is in the control room and therefore
 
 But during demonstration, testing, or other events, it can happen that the simulator operator is in the car, either as passenger or driver. In such case, they can't access the main "Experimenter Deck" to stop the simulation.
 
+Which is why we added a smaller StreamDeck ([MK.2](https://www.elgato.com/en/stream-deck-mk2)) inside the car, with bindings for all the "Emergency Soft Stop" functions. That way, in case of simulator sickness, we always have a way to gently stop the simulation from the actual cockpit
+
 [launchpad]:https://novationmusic.com/en/launch/launchpad-x
 [sd]: https://www.elgato.com/en/stream-deck
