@@ -31,4 +31,12 @@ In such setups, most processes would therefore be automated, reducing risk of hu
 
 # Annotating/coding
 
+In psychology research, we often rely on [behavior coding](https://dictionary.apa.org/behavior-coding) to extract more information from raw data. This process is usually done manually using specialized software, like Noldus' [The Observer XT](https://www.noldus.com/observer-xt), [iMotions](https://imotions.com/platform/), or the open-source (therefore my favorite) [BORIS](https://www.boris.unito.it/).
+
+"Coding" usually involves watching a video, and either clicking on buttons using the mouse, or the faster alternative: pressing keybord shortcuts. However, when your coding scheme is large enough, remembering all keyboard shortcuts becomes quite challenging, which here also can easily become a source of operator error.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Serving you <a href="https://twitter.com/hashtag/Ethogram?src=hash&amp;ref_src=twsrc%5Etfw">#Ethogram</a> realness. <br><br>Next stop: <a href="https://twitter.com/BORIS_behav_obs?ref_src=twsrc%5Etfw">@BORIS_behav_obs</a>! Everyone cross your fingers &amp; put good inter-rater reliability vibes into the universe!<a href="https://twitter.com/hashtag/AnimalBehavior?src=hash&amp;ref_src=twsrc%5Etfw">#AnimalBehavior</a> <a href="https://twitter.com/hashtag/PhDLife?src=hash&amp;ref_src=twsrc%5Etfw">#PhDLife</a> <a href="https://twitter.com/hashtag/ScienceTwitter?src=hash&amp;ref_src=twsrc%5Etfw">#ScienceTwitter</a> <a href="https://t.co/2hUgDHGR6C">pic.twitter.com/2hUgDHGR6C</a></p>&mdash; Karli &quot;swell selkie soul&quot; Rice Chudeau 🦭 (@KarliRChudeau) <a href="https://twitter.com/KarliRChudeau/status/1521217924597395456?ref_src=twsrc%5Etfw">May 2, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+As shown above, there are very affordable and easy to implement solutions to this, but StreamDeck are just perfect for this. Setup your layout and start coding. Icons can even be animated if that helps!
+
 [sd]: https://www.elgato.com/en/stream-deck
