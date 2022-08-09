@@ -55,5 +55,13 @@ So we're always looking for new tools to build interfaces with which the partici
 
 # Soft Emergency stop
 
+A simulator is a complex machinery, which often involves actuators, either for cockpit motion, or at the very least for steering wheel force feedback. As such, all our simulators are equipped with multiple emergency stop buttons, stopping all motions.
+
+But not all risks come from actuators. Anyone using driving simulators can tell you that the absolute predominant risk is [simulator sickness](https://en.wikipedia.org/wiki/Simulator_sickness). When symptoms arise, you want the participant to get out of the simulator quickly, but not too much. They should first stop the car, and get out as soon as they feel like doing so.
+
+However, that's not always possible. With the rise of autonomous driving scenarios, the participant sometimes doesn't have control over the vehicle, and therefore can't stop it. In other extreme cases, simulator sickness can appear very quickly (e.g., after a sharp turn), and the driver might have difficulties engaging any manoeuvre, being in a shock-like state.
+
+Most of the time, when symptoms arise, the experiment operator is in the control room, and therefore has access to all backend tools 
+
 [launchpad]:https://novationmusic.com/en/launch/launchpad-x
 [sd]: https://www.elgato.com/en/stream-deck
