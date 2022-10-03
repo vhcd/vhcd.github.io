@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 image: streamdeck.jpg
 title: StreamDeck for Driving Simulation Experiments
 ---
