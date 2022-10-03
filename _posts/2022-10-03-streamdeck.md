@@ -13,7 +13,7 @@ Disclaimer: we're not sponsored by StreamDeck's [elgato](https://www.elgato.com/
 
 What is a StreamDeck you may ask? Basically, it's a button box where each button has its own LCD display. There are various sizes, from 6 to 32 buttons. It comes with software, so you can bind pretty much anything on any button press.
 
-Marketed towards [online streamer](https://en.wikipedia.org/wiki/Online_streamer), the simple design and easy customization of those devices have lead them to be used in many applications beyond their target audience.
+Marketed towards [online streaming](https://en.wikipedia.org/wiki/Online_streamer), the simple design and easy customization of those devices have lead them to be used in many applications beyond their target audience.
 
 I first came across those when looking if [Art. Lebedev](https://www.artlebedev.com/)'s mid-2000s [Optimus Maximus keyboard](https://www.artlebedev.com/optimus/maximus/) ever went into production, or if something similar made it to market. I thought such devices would easily be configured for various use cases at our lab, so once I discovered that StreamDecks where a thing, I quickly bought a couple to see what could be done with it.
 
@@ -43,7 +43,7 @@ As shown above, there are very affordable and easy to implement solutions to thi
 
 # Non-driving related tasks
 
-The research field studying driver's behavior loves their Non-Driving Related tasks, or NDRT as we call them. As its name suggests, it's everything a driver might do while behind the wheel that's *not* driving, and that's most likely a distraction from the car operating. That includes setting the GPS, using a phone or changing radio station.
+The research field studying driver's behavior loves their Non-Driving Related Tasks, or NDRT as we call them. As its name suggests, it's everything a driver might do while behind the wheel that's *not* driving, and that's most likely a distraction from the car operating. That includes setting the GPS, using a phone or changing radio station.
 
 There are many ways to create distractions while driving in a simulator, some are so common, like the "Surrogate Reference Task" (SuRT), that they're actual [ISO standards](https://www.iso.org/obp/ui/#iso:std:iso:ts:14198:ed-1:v1:en).
 
@@ -57,7 +57,7 @@ So we're always looking for new tools to build interfaces with which the partici
 
 A simulator is a complex machinery, which often involves actuators, either for cockpit motion, or at the very least for steering wheel force feedback. As such, all our simulators are equipped with multiple emergency stop buttons, stopping all motions.
 
-But not all risks come from actuators. Anyone using driving simulators can tell you that the absolute predominant risk is [simulator sickness](https://en.wikipedia.org/wiki/Simulator_sickness). When symptoms arise, you want the participant to get out of the simulator quickly, but not too much. They should first stop the car, and get out as soon as they feel like doing so. Stopping the simulation too abruptly might worsen the symptoms, so it's best to only use such measures as last resort.
+But not all risks come from actuators. Anyone using driving simulators can tell you that the absolute predominant risk is [simulator sickness](https://en.wikipedia.org/wiki/Simulator_sickness). When symptoms arise, you want the participant to get out of the simulator quickly, but not *too* quickly. They should first stop the car, and get out as soon as they feel like doing so. Stopping the simulation too abruptly might worsen the symptoms, so it's best to only use such measures as last resort.
 
 However, that's not always possible. With the rise of autonomous driving scenarios, the participant sometimes doesn't have control over the vehicle, and therefore can't stop it. In other extreme cases, simulator sickness can appear very quickly (e.g., after a sharp turn), and the driver might have difficulties engaging any manoeuvre, being in a shock-like state.
 
