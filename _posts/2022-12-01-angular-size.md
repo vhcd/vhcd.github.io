@@ -78,6 +78,8 @@ There are still some weird cases that are hard to figure out. For example, if a 
 
 Car mirrors have saved countless amount of lives around the world, but as a driving simulation developer, I really hate them. They're the reason why we can't have nice things: they're tricky to implement in [nDisplay](/ndisplay/#mirrors), they destroy framerate in [VR headsets](/vr-headsets/#mirrors), they're hard to configure properly in 3D engines (aspherical mirror), and they require additional work to include monitors (with weird aspect ratios) on any real-scale driving simulator hardware.
 
+![simax_vp.jpg]({{site.baseurl}}/images/simax_vp.jpg)
+
 So once again, mirrors are here to ruin my life. Because of course, computing angular size from the driver's point of view is nice, but what about mirrors? Well, my life wasn't actually ruined, because we can access the [nDisplay configuration](https://docs.unrealengine.com/4.27/en-US/WorkingWithMedia/IntegratingMedia/nDisplay/ConfigurationViewer/) at runtime (using the [nDisplay Root Actor](https://docs.unrealengine.com/4.27/en-US/WorkingWithMedia/IntegratingMedia/nDisplay/nDisplayRootActorReference/), get a hold of the mirror's camera location, and do all traces from there also. This obviously has a performance impact, but we added an option to select which sources will be used for any traced actor, as once again, we know from which viewpoint actors will be visible based on our scenario design.
 
 Actually, my life was kind of ruined still, because that doesn't really work. Indeed, traces don't know about the actual viewport size, so they'll continue to hit even if the actor isn't actually visible in the mirror, but is visible from the mirror's *viewpoint*. Also, since the ego vehicle is ignored by traces (to not hit the actual mirrors), any actor occlusion by said vehicle is also ignored. Both of these could probably be solved (resp. using [multi line trace](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Tracing/HowTo/MultiLineTraceByChannel/) and a mirror/windows-less chassis), but by now my lazyness has taken over.
@@ -86,7 +88,9 @@ Actually, my life was kind of ruined still, because that doesn't really work. In
 
 The solution outlined above is all done on the CPU; but as I mentioned earlier, there (probably) is a faster, cheaper, more accurate GPU way. I haven't explored it much, so I'm mostly going to throw random ideas at you. It's going to get technical, so bear with me.
 
-You can fairly easily write a post-process shader that renders (e.g., to the custom depth buffer) only the visible parts of your target actors, similar to [image segmentation](https://www.unrealengine.com/marketplace/en-US/product/machine-learning-image-segmentation). That image would probably be black, with only white pixels where your actor was.
+You can fairly easily write a post-process shader that renders (e.g., to the custom depth buffer) only the visible parts of your target actors, similar to [image segmentation][1]. That image would probably be black, with only white pixels where your actor was.
+
+[![RGBSegment-1920x1080-8eb069f23f2cc546eb63339bbc5a590c.jpg]({{site.baseurl}}/images/RGBSegment-1920x1080-8eb069f23f2cc546eb63339bbc5a590c.jpg)][1]
 
 The white pixels are actually just like our traced bones: they don't tell much by themselves, and we need to cluster them if we want to be able to compute an angular size. This is where is gets trickier, because ideally to do that you'd get [OpenCV](https://opencv.org/) and be done with it. But our image is on the GPU, and any OpenCV post-processing would require the image to be readable from the CPU. There are ways to bring things from GPU memory to CPU memory, such as [screenshot](https://docs.unrealengine.com/4.27/en-US/WorkingWithMedia/CapturingMedia/TakingScreenshots/) (look at that nice `bMaskUsingCustomDepth` parameter), or maybe [UnrealCV](https://unrealcv.org/), but I doubt those can be used in realtime.
 
@@ -106,3 +110,4 @@ Our current traces-based implementation works great for us. We haven't measured 
 Once again, Unreal Engine really empowers our research. But this time, not by allowing us to create more immersive worlds at lower costs, but by giving us access to measures that will be hugely beneficial to our research, and that were previously completely out of our reach.
 
 [0]: http://www.wellsastronomers.org.uk/blog/angular-size-by-lilli-helps
+[1]: https://www.unrealengine.com/marketplace/en-US/product/machine-learning-image-segmentation
