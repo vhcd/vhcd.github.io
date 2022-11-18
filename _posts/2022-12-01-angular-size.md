@@ -26,7 +26,7 @@ Not only do actors have widely varying shapes, but they can quite often be parti
 
 This "occluded" requirement actually makes any solution much more complex to design: the size of an actor could be approximated statically, but the occlusion is inherently dynamic, and therefore needs to be solved at runtime.
 
-# One answer
+# Our solution
 
-Before getting into the actual solution we implemented, we first have to answer the question asked above about the angular size of non-spherical objets.
+When I sat down to design a solution, two different approaches came to mind. I'll go over the one we actually implemented, which is CPU-driven. And I'll mention at the end the one we didn't, which is GPU-driven.
 
