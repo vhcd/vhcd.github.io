@@ -53,8 +53,21 @@ Another downside is inaccuracy: traces use the "physics" version of the world, w
 
 Ok, so line traces can tell us which bones are and aren't visible. But how do we get an angular size from that information?
 
-To answer that, we first have to go back to a question mentioned above: what's the angular size of a non-spherical object?
+To answer that, we first have to go back to a question mentioned above: what's the angular size of a non-spherical object? Well, I was rather lazy on that one, and I decided: why not make everything a sphere? Game engines use a lot of bounding volumes (e.g. bounding box), and it's not uncommon to approximate actors as their bounding sphere for some rough estimations (because sphere are really easy to work with in 3D). In our case, it's a good enough estimate, as the bounding sphere's diameter is equal to the largest visible size of the actor in the eye frame. To explain that better: for a 1.7m standing human, the bounding sphere will be 1.7m (unless they span their arms wide), which in terms is kind of ok for our angular size computation.
 
+Now that we decided that everything would be approximated as a sphere, how do we turn our list of visible bones into a sphere? Well, [Wikipedia](https://en.wikipedia.org/wiki/Bounding_sphere) to the rescue! In turns out that smart people out there figured out a way to compute the minimal bounding sphere for a series of points. So we implemented [Ritter's bounding algorithm](https://en.wikipedia.org/wiki/Bounding_sphere#Ritter's_bounding_sphere), which though slightly inaccurate, is more than enough for us (and trivial to implement).
+
+And after that, it's basically over! Once we have the bounding sphere, it's just a matter of `arctan` to get the angular size, and solve the issue that we were dealt with.
+
+There are still some weird cases that are hard to figure out. For example, if a pedestrian has its chest occluded (e.g., by a sign), but head, legs and arms visible: what's the angular size then? Currently, our implementation returns the bounding sphere for all the visible bones, which actually encompass the whole body, including the occluded chest. Is it valid? Probably not. Should we instead take the largest subset of continuous body parts? Maybe. Or maybe the answer is that the angular size simply doesn't really exist in such cases.
+
+## Mirrors
+
+Car mirrors have saved countless amount of lives around the world, but as a driving simulation developer, I really hate them. They're the reason why we can't have nice things: they're tricky to implement in [nDisplay](/ndisplay/#mirrors), they destroy framerate in [VR headsets](/vr-headsets/#mirrors), they're hard to configure properly in 3D engines (aspherical mirror), and they require additional work to include monitors (with weird aspect ratios) on any real-scale driving simulator hardware.
+
+So once again, mirrors are here to ruin my life. Because of course, computing angular size from the driver's point of view is nice, but what about mirrors? Well, my life wasn't actually ruined, because we can access the [nDisplay configuration](https://docs.unrealengine.com/4.27/en-US/WorkingWithMedia/IntegratingMedia/nDisplay/ConfigurationViewer/) at runtime (using the [nDisplay Root Actor](https://docs.unrealengine.com/4.27/en-US/WorkingWithMedia/IntegratingMedia/nDisplay/nDisplayRootActorReference/), get a hold of the mirror's camera location, and do all traces from there also. This obviously has a performance impact, but we added an option to select which sources will be used for any traced actor, as once again, we know from which viewpoint actors will be visible based on our scenario design.
+
+Actually, my life was kind of ruined still, because that doesn't really work. Indeed, traces don't know about the actual viewport size, so they'll continue to hit even if the actor isn't actually visible in the mirror, but is visible from the mirror's *viewpoint*. Also, since the ego vehicle is ignored by traces (to not hit the actual mirrors), any actor occlusion by said vehicle is also ignored. Both of these could probably be solved (resp. using [multi line trace](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Tracing/HowTo/MultiLineTraceByChannel/) and a mirror/windows-less chassis), but by now my lazyness has taken over.
 
 
 
