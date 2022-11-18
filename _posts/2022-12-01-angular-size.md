@@ -42,12 +42,13 @@ That's the solution we chose: for each type of actor we wish to get data from, w
 
 This has a lot of benefits
 * Bones carry semantic information (e.g. head, foot), so we know which parts were and weren't visible.
+* For each trace, we can know the occluder if it didn't hit its target
 * For a single actor, we can trace multiple meshes. For instance, for a biker, we can trace the bike and biker bones.
 * We can select the level of accuracy we want by selecting or excluding bones from the traces. For example, for most pedestrians we don't really care about each finger visibility. But in some specific use cases, we could...
 
 The one major downside, however, is performance cost. Even though tracing is highly optimized in Unreal Engine, we can't just trace 20 bones on 40 actors at each frame. Our main solution for that is to only trigger this process when we need it: from our [scenario](/scenarios/), we roughly know when an actor will be relevant to ego. Another unexplored solution could be to distribute computation over our [nDisplay](/ndisplay/) cluster. Instead of having a single computer tracing 5 actors, why not have each computer of the cluster trace one? We're far from being CPU-bound on our cluster, so that actually could work.
 
-Another downside is inaccuracy: traces use the "physics" version of the world, which can differ from the "visible" version. Collisions (which traces are a part of) use a simpler world, with geometry that's much more efficient to work with than rendered objects. On top of that, collision geometry is unaware of rendering tricks that can alter the object shape, such as [World Position Offset](https://docs.unrealengine.com/4.27/en-US/Resources/ContentExamples/MaterialNodes/1_10/). Those tricks are commonly used for moving foliage (e.g. simulating wind on tree branches), so we have to be very aware of this limitation.
+Another downside is inaccuracy: traces use the "physics" version of the world, which can differ from the "visible" version. Collisions (which traces are a part of) use a simpler world, with geometry that's much more efficient to work with than rendered objects. On top of that, collision geometry is unaware of rendering tricks that can alter the object shape, such as [World Position Offset](https://docs.unrealengine.com/4.27/en-US/Resources/ContentExamples/MaterialNodes/1_10/) (WPO). Those tricks are commonly used for moving foliage (e.g. simulating wind on tree branches), so we have to be very aware of this limitation.
 
 ## From bones... to angular size?
 
@@ -69,18 +70,25 @@ So once again, mirrors are here to ruin my life. Because of course, computing an
 
 Actually, my life was kind of ruined still, because that doesn't really work. Indeed, traces don't know about the actual viewport size, so they'll continue to hit even if the actor isn't actually visible in the mirror, but is visible from the mirror's *viewpoint*. Also, since the ego vehicle is ignored by traces (to not hit the actual mirrors), any actor occlusion by said vehicle is also ignored. Both of these could probably be solved (resp. using [multi line trace](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Tracing/HowTo/MultiLineTraceByChannel/) and a mirror/windows-less chassis), but by now my lazyness has taken over.
 
+# Another way
 
+The solution outlined above is all done on the CPU; but as I mentioned earlier, there (probably) is a faster, cheaper, more accurate GPU way. I haven't explored it much, so I'm mostly going to throw random ideas at you. It's going to get technical, so bear with me.
 
+You can fairly easily write a post-process shader that renders (e.g., to the custom depth buffer) only the visible parts of your target actors, similar to [image segmentation](https://www.unrealengine.com/marketplace/en-US/product/machine-learning-image-segmentation). That image would probably be black, with only white pixels where your actor was.
 
+The white pixels are actually just like our traced bones: they don't tell much by themselves, and we need to cluster them if we want to be able to compute an angular size. This is where is gets trickier, because ideally to do that you'd get [OpenCV](https://opencv.org/) and be done with it. But our image is on the GPU, and any OpenCV post-processing would require the image to be readable from the CPU. There are ways to bring things from GPU memory to CPU memory, such as [screenshot](https://docs.unrealengine.com/4.27/en-US/WorkingWithMedia/CapturingMedia/TakingScreenshots/) (look at that nice `bMaskUsingCustomDepth` parameter), or maybe [UnrealCV](https://unrealcv.org/), but I doubt those can be used in realtime.
 
+But, and this is not a rhetorical question: could this post-processing be done in a post-process shader? I honestly don't know the answer to that, but given the level of shader magic I've seen, I wouldn't be surprised if you could. For example, if you could just count the number of white pixels on the input image, write that number on a pixel of the output image. Then maybe from the CPU you can query that pixel? I truly have no shader skill, so maybe I'm just spewing garbage ideas around.
 
+In any case, working on the output from a render pass would have benefits over our traces implementation:
+* Lower performance cost
+* Better accuracy, as we're working with actual rendered data, so no relying on approximate physics bodies, or being tricked by WPO
+* Mirrors aren't really a problem anymore
 
+The only drawback I can see is the loss of semantics that bones provide, i.e., it'd be much harder to know which part were and weren't visible, or what was the occluder.
 
+# Conclusion
 
+Our current traces-based implementation works great for us. We haven't measured the performance impact just yet, but we're not too worried about that. For each actor of interest, we actually compute a few other indicators related to visibility that are near-impossible to compute offline. And all that data is then sent via [LabStreamingLayer](https://labstreaminglayer.org/) to be recorded and synchronized with other experiment data.
 
-
-
-
-
-
-
+Once again, Unreal Engine really empowers our research. But this time, not by allowing us to create more immersive worlds at lower costs, but by giving us access to measures that will be hugely beneficial to our research, and that were previously completely out of our reach.
