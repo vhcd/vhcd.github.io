@@ -68,6 +68,7 @@ Now that we decided that everything would be approximated as a sphere, how do we
   <source type="video/mp4"
 src="https://cdn.discordapp.com/attachments/871767937378287696/1043194152344621127/occluded.mp4.mp4">
 </video>
+<center><i>If you look closely, you can see the bounding sphere in blue</i></center>
 
 And after that, it's basically over! Once we have the bounding sphere, it's just a matter of `arctan` to get the angular size, and solve the issue that we were dealt with.
 
