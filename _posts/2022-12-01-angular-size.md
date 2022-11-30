@@ -1,7 +1,6 @@
 ---
 published: true
 title: Angular size of partially occluded actors
-image: occluded2.jpg
 ---
 A researcher colleague recently asked me: "Could we get the angular size of an actor in realtime, even if they're partially occluded?". As with many things in Unreal Engine, the answer is "yes we can!", so here's a breakdown of our answer to this question.
 
