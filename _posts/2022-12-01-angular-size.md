@@ -18,7 +18,7 @@ In our field of study, it can be a useful indicator of the visibility of actors 
 
 ## ... of actors...
 
-As the definition above points out, angular size works if the target is a sphere (or projects as circle). But in our case, we're not really interested in the angular size of a distant planet, but actually on scene objets.
+As the definition above points out, angular size works if the target is a sphere (or projects as circle). But in our case, we're not really interested in the angular size of a distant planet, but actually of scene objets.
 
 And those can be of any shape: pedestrians, street signs, roadside props, bikes, and so on. So how does the definition of angular size apply to a not-so-spherical pedestrian? Should we take the height? The width? The average? And pedestrians can move their arms or legs, carry objects, which can all impact the angular size.
 
@@ -40,7 +40,7 @@ The overall idea is to first, figure out what parts of the actor are currently v
 
 In game engines, if you want to check if something is visible, you "[trace](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Tracing/Overview/)" it. However, traces work as a single line, or as a fixed-size shape. So if we were to trace a pedestrian, it would only check its root position and returns whether that was visible or not.
 
-However, most pedestrians have a [skeleton](https://docs.unrealengine.com/5.0/en-US/skeletons-in-unreal-engine/), which is used to animate them. And as with real-life skeleton, virtual skeletons also have bones. What if we traced bones?
+However, most pedestrians have a [skeleton](https://docs.unrealengine.com/5.0/en-US/skeletons-in-unreal-engine/), which is used to animate them. And as with real-life skeletons, virtual skeletons also have bones. What if we traced bones?
 
 That's the solution we chose: for each type of actor we wish to get data from, we define the set of bones (or [sockets](https://docs.unrealengine.com/4.27/en-US/WorkingWithContent/Types/StaticMeshes/HowTo/Sockets/)) that we'll trace.
 
