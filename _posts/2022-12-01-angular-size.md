@@ -9,7 +9,7 @@ A researcher colleague recently asked me: "Could we get the angular size of an a
 
 ## Angular size...
 
-Angular size, visual angle, angular aperture, etc. are, in our case, all synonms of what we want to measure. To quote from [Wikipedia](https://en.wikipedia.org/wiki/Angular_diameter):
+Angular size, visual angle, angular aperture, etc. are, in our case, all synonyms of what we want to measure. To quote from [Wikipedia](https://en.wikipedia.org/wiki/Angular_diameter):
 
 > The angular diameter [...] is an angular distance describing how large a sphere or circle appears from a given point of view
 
