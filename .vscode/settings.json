@@ -1,4 +1,5 @@
 {
     "pasteImage.path": "${projectRoot}/images",
-    "pasteImage.insertPattern": "![](/images/${imageFileName})"
+    "pasteImage.insertPattern": "![](/images/${imageFileName})",
+    "pasteImage.showFilePathConfirmInputBox": true
 }
