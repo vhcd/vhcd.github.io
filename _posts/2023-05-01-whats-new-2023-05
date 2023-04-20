@@ -1,0 +1,93 @@
+---
+published: false
+title: 'What we''ve been up to, May 2023'
+image: 
+---
+
+# SIMAX
+
+The lastest experiment campaigns ended earlier this year on our largest simulator, called SIMAX. This scheduled downtime gave us the opportunity to do some maintenance work, which will result in a lot of new things around SIMAX.
+
+The main change is an upgrade of all computers in the cluster, in preparation of the first experiment on this simulator that'll use our new Unreal Engine powered simulation platform.
+
+Another notable change we're really looking forward: AC inside the car! Maintaining a cool temperature around the participant is a good practice to reduce risks of [simulator sickness](https://en.wikipedia.org/wiki/Simulator_sickness). We can thank our awesome mechanic for this custom-made 3D-printed addition.
+
+![](/images/simax_control_clean.png)
+
+Beyond that, we've also removed a *lot* of legacy cables, cleaned up the control room, added [StreamDecks](/streamdeck/) (including in the car!), and much more; with the overall goal being increased safety and ease of use.
+
+We've got bigger plans in the long run for this simulator, and we're actively working on it. Too early to give details though, but it'll sure be exciting.
+
+# NEWMOB
+
+[NEWMOB](/whats-new-2023-02/#newmob) still is our main research project at the moment, even though more are coming up. As a reminder, the goal here is to study interaction between drivers and [personal light electric vehicles](https://en.wikipedia.org/wiki/Personal_transporter). So dense urban driving, lots of moving actors, lots of driving situations.
+
+![](/images/roundabout.png)
+
+The main scenario in the experiment is pretty much done. It was our first time creating roundabouts using, so we were anxious about making it both look and feel right. We're very happy with the result, [RoadRunner](https://www.mathworks.com/products/roadrunner.html) is truly an amazing tool to use.
+
+Since SIMAX is undergoing maintenance, it was also an opportunity to start testing this experiment with its real "production" hardware. It was running fine on a single desktop computer with a single viewport; but how about on an [nDisplay](/ndisplay/) cluster with 8 computers, 12 viewports, covering almost 360° of horizontal field of view plus [pesky mirrors](/mirrors/)? Well, everything runs fine! No major hitches or performance drop, we pretty much have the same performance on the cluster as we do on desktop.
+
+Now that we have access to this hardware, we're focusing on optimization and performance, to make sure we have the smoothest possible rendering. So time is spent in [Unreal Insights](https://docs.unrealengine.com/5.1/en-US/unreal-insights-in-unreal-engine/), tweaking [level streaming](https://docs.unrealengine.com/5.0/en-US/level-streaming-overview-in-unreal-engine/) or messing around with [Cull Volumes](https://docs.unrealengine.com/5.1/en-US/cull-distance-volumes-in-unreal-engine/).
+
+# Varjo
+
+SIMAX undergoing maintenance has other nice benefits: I can play around with it and prototype stuff!
+
+One thing that's been on my todo list since... forever was to try the mixed reality of the [Varjo XR-3](https://varjo.com/products/xr-3/) inside the car.
+
+The headset has multiple methods of blending real and virtual, which cover different use cases. For this prototype, I wanted to try to cover the car with a green sheet, and use the [chroma key](https://en.wikipedia.org/wiki/Chroma_key) feature of the XR-3 to display the virtual world on all windows, and the real world elsewhere.
+
+<video width="720" height="480" controls>
+  <source type="video/mp4"
+src="https://cdn.discordapp.com/attachments/692419432210759740/1072445466580635788/mr.mp4.mp4">
+</video>
+
+The result is pretty amazing if you consider that it took me around an hour to set this all up. I used a very dirty and creased green sheet that was lying around. The lighting is just the default room lighting, with no additional interior lighting. Chroma-keying is also 100% default values from Varjo Base. So if we were to use an actual professional green screen with optimal lighting, the result would truly be incredible.
+
+Beyond checking the capabilities of the headset, this demo is a great way to familiarize researchers with mixed reality, and the opportunities that are now within reach. Using the XR-3 inside a car is one (arguably not good) example, but there are so many other possible applications of mixed reality in our research, and driving really is just the tip of the iceberg.
+
+# Bots
+
+Our nDisplay clusters use [packaged builds](https://docs.unrealengine.com/5.1/en-US/packaging-unreal-engine-projects/) of our projects, which means that to test any experiment on a simulator, we need to package it first, and then deploy it across all cluster nodes.
+
+Fancy Virtual Production sets have whole [CI/CD](https://en.wikipedia.org/wiki/CI/CD) pipelines with [Perforce](https://www.perforce.com/products/helix-core) and whatnot, but us? We've got Discord bots!
+
+![](/images/bot_pck.png)
+
+For the packaging part, we set up a dedicated build machine which can be invoked from... Discord! I wrote a simple Discord bot that can checkout any given project and package it to any simulator we have. Packaging has never been any easier, and having dedicated hardware means less local "[compiling](https://xkcd.com/303/)".
+
+For the deploying part, we followed the same route. Our package currently average at around ~30GB, so installing that on 8 nodes takes a bit of time (especially since we still haven't set up [link aggregation](https://en.wikipedia.org/wiki/Link_aggregation)). This time, the bot is running on the cluster's main node, and upon receiving orders simply deploys the package across all nodes, using a combination of [Veyon](https://veyon.io/en/) and [`robocopy`](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy).
+
+So with those two bots, we can now fully install an experiment on any of our simulators with just two simple commands; and most importantly, without leaving the confort of our seats. Dōmo arigatō, Mr. Roboto!
+
+# Rides
+
+We're always expanding our collections of vehicles, usually from the Marketplace, but sometimes we have to do some things ourselves. Below are a couple of recent examples of the later.
+
+![](/images/moto_gendarmerie.png)
+
+First, we really wanted a realistic model of a French [Gendarmerie](https://en.wikipedia.org/wiki/National_Gendarmerie) motorcycle. Since it's not readily available online (though [models exist](https://www.artstation.com/artwork/klQE5x)!), a collegue took it upon themselves to make it. The bike is initialy from [CARLA](https://carla.org/), and for the rider we used one from the [Marketplace](https://www.unrealengine.com/marketplace/en-US/product/civilian-3) as template. Looks good!
+
+<video width="720" height="480" controls>
+  <source type="video/mp4"
+src="https://cdn.discordapp.com/attachments/725724080526852126/1074333060918693939/wheelchair3.mp4.mp4">
+</video>
+
+A [while ago](/whats-new-2022-08/#pedestrians) I implemented an [Animation Blueprint](https://docs.unrealengine.com/5.0/en-US/animation-blueprints-in-unreal-engine) for a wheelchair user, based on a wheelchair also from the [Marketplace](https://www.unrealengine.com/marketplace/en-US/product/rigged-wheelchair-pack-10-in-1). However, I wasn't quite pleased with the result, so I reworked all that. The wheelchair is now properly rigged with its own ABP, and the rider animation is fully procedural and can be tuned in any way you may want. It's now okay, but still not as good as [what others can do](https://www.linkedin.com/feed/update/urn:li:activity:7048461724143788032/)!
+
+# Marketplace
+
+As usual, we conclude our report by a highlight of things we bought from the [Unreal Marketplace](https://www.unrealengine.com/marketplace/en-US/store) (soon to be replaced by [Fab](https://www.fab.com/)).
+
+[![](/images/evermotion.png)][0]
+
+The latest Archmodels pack from [Evermotion][0] is absolutely gorgeous, and contains so many assets that are just perfect for our european cities. I was on the lookout for generic buildings, and this pack delivers.
+
+My favorite creators continue to provide products that are really helpful to us: [DerSky](https://www.unrealengine.com/marketplace/en-US/profile/Der+Sky)'s modular [Toll Station](https://www.unrealengine.com/marketplace/en-US/product/modular-toll-station-vol-1) is perfect for our highways, and [Meik.W](https://www.unrealengine.com/marketplace/en-US/profile/Meik.W+Models0)'s [Fence Packs](https://www.unrealengine.com/marketplace/en-US/product/fence-pack-vol-5) fills all of our fences needs.
+
+Other purchases include this [huge mall](https://www.unrealengine.com/marketplace/en-US/product/shopping-mall-01), which is a great way to fill empty spaces alongside our roads. And also many animation packs from [animo-mocap](https://www.unrealengine.com/marketplace/en-US/profile/animo-mocap), which are just perfect to animate people all around our cities.
+
+I've also purchased products from [CGTrader](https://www.cgtrader.com/), but sadly the quality is definitely not on the same level as the Marketplace. But at least I got a nice [snowplow](/anatomy-2/) out of it!
+
+[0]: https://www.unrealengine.com/marketplace/en-US/product/archmodels-for-ue5-vol-8
