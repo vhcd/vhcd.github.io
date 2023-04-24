@@ -1,12 +1,14 @@
 ---
 published: false
 title: 'What we''ve been up to, May 2023'
-image: 
+image: 'roundabout.png'
 ---
+
+Explosions! Drama! AI-powered cryptos! This blog entry contains none of those; but if you read it, you'll at least know what we've been doing since our [last update](/whats-new-2023-02/).
 
 # SIMAX
 
-The lastest experiment campaigns ended earlier this year on our largest simulator, called SIMAX. This scheduled downtime gave us the opportunity to do some maintenance work, which will result in a lot of new things around SIMAX.
+The lastest experiments campaign ended earlier this year on our largest simulator, called SIMAX. This scheduled downtime gave us the opportunity to do some maintenance work, which will result in a lot of new things around SIMAX.
 
 The main change is an upgrade of all computers in the cluster, in preparation of the first experiment on this simulator that'll use our new Unreal Engine powered simulation platform.
 
@@ -20,11 +22,11 @@ We've got bigger plans in the long run for this simulator, and we're actively wo
 
 # NEWMOB
 
-[NEWMOB](/whats-new-2023-02/#newmob) still is our main research project at the moment, even though more are coming up. As a reminder, the goal here is to study interaction between drivers and [personal light electric vehicles](https://en.wikipedia.org/wiki/Personal_transporter). So dense urban driving, lots of moving actors, lots of driving situations.
+[NEWMOB](/whats-new-2023-02/#newmob) still is our main research project at the moment, even though more are coming up. As a reminder, the goal here is to study interaction between drivers and [personal light electric vehicles](https://en.wikipedia.org/wiki/Personal_transporter). So mostly dense urban driving, lots of moving actors, lots of driving situations.
 
 ![](/images/roundabout.png)
 
-The main scenario in the experiment is pretty much done. It was our first time creating roundabouts using, so we were anxious about making it both look and feel right. We're very happy with the result, [RoadRunner](https://www.mathworks.com/products/roadrunner.html) is truly an amazing tool to use.
+The main scenario in the experiment is pretty much done. It was our first time creating roundabouts, so we were anxious about making it both look and feel right. We're very happy with the result, [RoadRunner](https://www.mathworks.com/products/roadrunner.html) is truly an amazing tool to use.
 
 Since SIMAX is undergoing maintenance, it was also an opportunity to start testing this experiment with its real "production" hardware. It was running fine on a single desktop computer with a single viewport; but how about on an [nDisplay](/ndisplay/) cluster with 8 computers, 12 viewports, covering almost 360° of horizontal field of view plus [pesky mirrors](/mirrors/)? Well, everything runs fine! No major hitches or performance drop, we pretty much have the same performance on the cluster as we do on desktop.
 
@@ -32,7 +34,7 @@ Now that we have access to this hardware, we're focusing on optimization and per
 
 # Varjo
 
-SIMAX undergoing maintenance has other nice benefits: I can play around with it and prototype stuff!
+SIMAX undergoing maintenance has other nice benefit: I can play around with it and prototype stuff!
 
 One thing that's been on my todo list since... forever was to try the mixed reality of the [Varjo XR-3](https://varjo.com/products/xr-3/) inside the car.
 
@@ -43,7 +45,7 @@ The headset has multiple methods of blending real and virtual, which cover diffe
 src="https://cdn.discordapp.com/attachments/692419432210759740/1072445466580635788/mr.mp4.mp4">
 </video>
 
-The result is pretty amazing if you consider that it took me around an hour to set this all up. I used a very dirty and creased green sheet that was lying around. The lighting is just the default room lighting, with no additional interior lighting. Chroma-keying is also 100% default values from Varjo Base. So if we were to use an actual professional green screen with optimal lighting, the result would truly be incredible.
+The result is pretty amazing if you consider that it took me around an hour to set this all up. I used a very dirty and creased green sheet that was lying around. The lighting is just the default room lighting, with no additional interior lighting. Chroma-keying is also 100% default values from Varjo Base. So if we were to use an actual professional green screen with optimal lighting, the result could truly be incredible.
 
 Beyond checking the capabilities of the headset, this demo is a great way to familiarize researchers with mixed reality, and the opportunities that are now within reach. Using the XR-3 inside a car is one (arguably not good) example, but there are so many other possible applications of mixed reality in our research, and driving really is just the tip of the iceberg.
 
@@ -78,7 +80,7 @@ A [while ago](/whats-new-2022-08/#pedestrians) I implemented an [Animation Bluep
 
 # Marketplace
 
-As usual, we conclude our report by a highlight of things we bought from the [Unreal Marketplace](https://www.unrealengine.com/marketplace/en-US/store) (soon to be replaced by [Fab](https://www.fab.com/)).
+As usual, we conclude our report with a highlight of things we bought from the [Unreal Marketplace](https://www.unrealengine.com/marketplace/en-US/store) (soon to be replaced by [Fab](https://www.fab.com/)).
 
 [![](/images/evermotion.png)][0]
 
