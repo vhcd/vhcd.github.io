@@ -41,7 +41,7 @@ The main reason why we run experiments is to study people's behaviour. And to do
 * Lane border distance
 * [Headway](https://en.wikipedia.org/wiki/Headway)
 
-Not only do we need that data to be recorded somewhere, but we also need it to be *synchronized* with all of other data sources, which depending on your study field might vary.
+Not only do we need that data to be recorded somewhere, but we also need it to be *synchronized* with all of the other data sources, which depending on your study field might vary.
 
 And for some data, computing it in the first place is quite challenging. Take the "Lane border distance". In a game engine, the lane border is just another polygon that's rendered on screen. It has no logical existence. So how do we compute that value?
 
@@ -61,11 +61,11 @@ Even with the rise of consumer-grade VR headsets, [CAVE](https://en.wikipedia.or
 
 [![CAVE](/images/360sim.jpg)][2]
 
-CAVEs come with a great challenge: how do you render on all the screens? Whereas a videogame might run on a wide-screen, here we're talking 360° of field of view, with multiple 4K screens. A single computer won't be powerful enough to render on all screens. So you're going to have to somehow distribute the rendering across a cluster, and synchronize it so that all screens display the same scene state at the exact same time. Not a small feat to accomplish.
+CAVEs come with a great challenge: how do you render on all the screens? Whereas a video game might run on a wide-screen, here we're talking 360° of field of view, with multiple 4K screens. A single computer won't be powerful enough to render on all screens. So you're going to have to somehow distribute the rendering across a cluster, and synchronize it so that all screens display the same scene state at the exact same time. Not a small feat to accomplish.
 
 ## What we'll talk about next
 
-In the coming posts, we talk deeper about the choices we've made for our driving simulator, the good and the bad of game engines, and how we've managed to workaround their shortcomings. All that when being a team of mostly one person, for which making a driving simulator isn't really in their job description.
+In the coming posts, we talk deeper about the choices we've made for our driving simulator, the good and the bad of game engines, and how we've managed to work around their shortcomings. All that when being a team of mostly one person, for which making a driving simulator isn't really in their job description.
 
 [1]: https://polycount.com/discussion/209380/unity-editor-theme-survey-second-iteration
 [2]: https://www.cnet.com/roadshow/news/general-motors-gm-360-degree-simulator/

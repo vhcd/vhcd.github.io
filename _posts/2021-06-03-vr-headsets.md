@@ -2,7 +2,7 @@
 published: true
 title: VR Headsets
 ---
-For the past ten years, the world of [Virtual Reality headsets](https://en.wikipedia.org/wiki/Virtual_reality_headset) has been redefined, lead by Facebook's [Oculus](https://www.oculus.com/) and HTC's [Vive](https://www.vive.com/). Those relatively cheap devices allow for better immersion in various types of environments, and are now being used in a wide range of both industry and research entities. But, even though we've previously mentionned use of [CAVE](/nDisplay) simulators, we never talked about VR headsets. Why is that?
+For the past ten years, the world of [Virtual Reality headsets](https://en.wikipedia.org/wiki/Virtual_reality_headset) has been redefined, lead by Facebook's [Oculus](https://www.oculus.com/) and HTC's [Vive](https://www.vive.com/). Those relatively cheap devices allow for better immersion in various types of environments, and are now being used in a wide range of both industry and research entities. But, even though we've previously mentioned use of [CAVE](/nDisplay) simulators, we never talked about VR headsets. Why is that?
 
 # Why we don't use them
 
@@ -38,7 +38,7 @@ And that's the tip of the iceberg. We often use what we call "non-driving relate
 
 [![ndrt.png]({{site.baseurl}}/images/ndrt.png)][2]
 
-All that in a VR headset would be challenging to say the least. You could probably design a new NDRT that don't require physical interaction (i.e. no touchscreen), but that would obvisouly be very difficult. Integrating a side display into the virtual car is also a challenge on its own, as you'll once again face the resolution issues mentionned previously.
+All that in a VR headset would be challenging to say the least. You could probably design a new NDRT that don't require physical interaction (i.e. no touchscreen), but that would obviously be very difficult. Integrating a side display into the virtual car is also a challenge on its own, as you'll once again face the resolution issues mentioned previously.
 
 Overall, during the experiment, the driver might have to interact with a lot of things in the real car. Being immersed in a virtual car, without visible hands, is too much of a hassle in most cases.
 
@@ -46,7 +46,7 @@ Overall, during the experiment, the driver might have to interact with a lot of 
 
 I've already talked about the [challenges of mirrors](ndisplay/#mirrors) on CAVE simulators, but it's not a walk in the park in VR either.
 
-First, we obviously still have the same resolution issue as mentionned above: the mirror covers a small fractions of the headset field of view, therefore only few pixels are available to render it. But that small space contains *a lot* of information, and you need to be able to see it as clearly as possible. In our CAVE-like simulator, we use 1920x1080 displays for mirrors, but even with a Vive Pro 2, I doubt that you can get even 10% of that resolution for mirrors.
+First, we obviously still have the same resolution issue as mentioned above: the mirror covers a small fractions of the headset field of view, therefore only few pixels are available to render it. But that small space contains *a lot* of information, and you need to be able to see it as clearly as possible. In our CAVE-like simulator, we use 1920x1080 displays for mirrors, but even with a Vive Pro 2, I doubt that you can get even 10% of that resolution for mirrors.
 
 [![vr-mirrors.jpg]({{site.baseurl}}/images/vr-mirrors.jpg)][3]
 

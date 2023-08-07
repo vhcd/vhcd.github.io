@@ -26,11 +26,11 @@ Now that we have defined what "a variant" will be, we need to define the actual 
 
 ![ue4_variants.png]({{site.baseurl}}/images/ue4_variants.png)
 
-And with all that, it's time to actully build the scenario as you would usually do, except you can load variants from the `Data Table` into your `Level Blueprint`, and then use all of the values as parameters into your scenario. I won't get into the details of how to load each variant, and then how to properly sequence them (in various orders) as it's a whole other subject. Feel free to get in touch if you want to discuss it further.
+And with all that, it's time to actually build the scenario as you would usually do, except you can load variants from the `Data Table` into your `Level Blueprint`, and then use all the values as parameters into your scenario. I won't get into the details of how to load each variant, and then how to properly sequence them (in various orders) as it's a whole other subject. Feel free to get in touch if you want to discuss it further.
 
 ![variant_scenario.png]({{site.baseurl}}/images/variant_scenario.png)
 
-This system is very flexible, as you can change a variant without ever touching the scenario. This proves useful if the researcher, who specifies and tunes variants, isn't actually implementing the scenario. Using our variant system, the researcher can simply edit the variants from the data table and immediatly test the scenario to have feedback and adjust accordingly.
+This system is very flexible, as you can change a variant without ever touching the scenario. This proves useful if the researcher, who specifies and tunes variants, isn't actually implementing the scenario. Using our variant system, the researcher can simply edit the variants from the data table and immediately test the scenario to have feedback and adjust accordingly.
 
 And if during your initial tests, you realize that you need another varying parameter (e.g. weather condition), you just add an attribute to your `Structure`, update the new `Data Table` column with the values you want for this attribute, and update the scenario to now use and apply this variable.
 

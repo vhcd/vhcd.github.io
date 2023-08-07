@@ -2,17 +2,17 @@
 published: true
 title: Virtual Driver
 ---
-In most driving simulation scenarios, there are two types of cars. The one that's driven by the participant (commonly refered to as *ego*), and others that are controlled from the scenario. With the rise of autonomous driving, it's not uncommon to have scenarios where *ego* also is controlled from the scenario. How do we control all those cars, making sure that their external behavior appears realistic, all the while being easy to configure for researchers building their experiment?
+In most driving simulation scenarios, there are two types of cars. The one that's driven by the participant (commonly referred to as *ego*), and others that are controlled from the scenario. With the rise of autonomous driving, it's not uncommon to have scenarios where *ego* also is controlled from the scenario. How do we control all those cars, making sure that their external behavior appears realistic, all the while being easy to configure for researchers building their experiment?
 
 # Birth of the Virtual Driver
 
-At [LESCOT](https://lescot.univ-gustave-eiffel.fr/en/), we've been working on a cognitive model of the driver (*COSMODRIVE*, [1], [2], [3]) for a few decades. In that time, we've implemented different versions of the model, each focused on one part or another based on projects' requirements. After the last iteration within the [Holides](http://holides.eu/) project, we decided to "spin off" what we call the *operational* and *execution* modules into a seperate project called the **Virtual Driver**.
+At [LESCOT](https://lescot.univ-gustave-eiffel.fr/en/), we've been working on a cognitive model of the driver (*COSMODRIVE*, [1], [2], [3]) for a few decades. In that time, we've implemented different versions of the model, each focused on one part or another based on projects' requirements. After the last iteration within the [Holides](http://holides.eu/) project, we decided to "spin off" what we call the *operational* and *execution* modules into a separate project called the **Virtual Driver**.
 
 As part of our cognitive model, those modules would take as input *tactical goals*, and produce as output human-like car control (e.g. pedal depression, steering wheel angle). Once we've externalized those, we can see that these inputs and outputs actually fit pretty well in a driving simulation environment. The *Virtual Driver* is therefore what we currently use to control all cars in our scenarios.
 
 # Goals (input)
 
-I won't go into the complete description of what *tactical goals* are, since it's a very complex subject. But in the *Virtual Driver*, we've reduced them to human descriptions of road manoeuvers. The most basic example could be "maintain a speed and keep your lane".
+I won't go into the complete description of what *tactical goals* are, since it's a very complex subject. But in the *Virtual Driver*, we've reduced them to human descriptions of road maneuvers. The most basic example could be "maintain a speed and keep your lane".
 
 Currently, goals can be of different *levels*. The lowest level splits goals into *lateral* (i.e. steering) and *longitudinal* (i.e. pedals) control. That way, you can plan a trajectory along the road before actually knowing what speed you want along that trajectory. A common example is junction crossing: you pretty much know where you want the car to go (e.g. left), but its speed will depend on external factors, such as traffic light state or incoming cars.
 
