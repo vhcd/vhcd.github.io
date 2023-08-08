@@ -34,7 +34,7 @@ First of all, let's go over the *must have* Marketplace products for driving sim
 
 ## Free
 
-The Marketplace is full of free stuff, and maybe surprinsigly, most of it is very high-quality. By spending literally no money, you can already go quite far.
+The Marketplace is full of free stuff, and maybe surprisingly, most of it is very high-quality. By spending literally no money, you can already go quite far.
 
 * [Advanced Locomotion System V4](https://www.unrealengine.com/marketplace/en-US/product/advanced-locomotion-system-v1)
 
@@ -42,7 +42,7 @@ Referred as ALS in the community, this Blueprint is super useful if you want to 
 
 * [Scanned 3D People Pack](https://www.unrealengine.com/marketplace/en-US/product/9c3fab270dfe468a9a920da0c10fa2ad)
 
-This is a freebie pack from [RenderPeople](https://renderpeople.com/). I tried it, and immediatly decided that from then on, I wouldn't ever worry about creating human models; I now just buy them from RenderPeople, but this free pack is a great way to get started.
+This is a freebie pack from [RenderPeople](https://renderpeople.com/). I tried it, and immediately decided that from then on, I wouldn't ever worry about creating human models; I now just buy them from RenderPeople, but this free pack is a great way to get started.
 
 * [City Park Environment Collection](https://www.unrealengine.com/marketplace/en-US/product/city-park-environment-collection)
 * [Downtown West Modular Pack](https://www.unrealengine.com/marketplace/en-US/product/6bb93c7515e148a1a0a0ec263db67d5b)

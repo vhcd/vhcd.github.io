@@ -6,7 +6,7 @@ As a software engineer, [version control](https://en.wikipedia.org/wiki/Version_
 
 # Requirements
 
-In what ways are our projects different than classic software? Well first, we'll have to explain our workflow.
+In what ways are our projects different from classic software? Well first, we'll have to explain our workflow.
 
 Currently, the platform is an Unreal Engine project, which includes assets, plugins, source code, configuration files, etc. For each experiment using the platform, we create a [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) of the project, where we add all project-specific development. That way, the main project isn't polluted with features that are too specific, and can continue adding on common features. If the fork wants to get new features, or if the main project decides to actually integrate a project-specific feature, this can be done using our source control tool. When the fork reaches "production" state, i.e. the experiment is running, it is frozen to ensure that we'll always have an exact copy of the platform that was used for the experiment.
 
@@ -14,7 +14,7 @@ This in itself isn't a really novel use of source control. However, the content 
 
 Do we need to version those? In my opinion, yes. We tend to modify a lot of assets we bought, to tailor them to our needs. Sometimes we fix bugs, or expend features. This requires versioning.
 
-On top of that, we need version control to be simple to use. Most our users aren't too familiar with version control systems, so we need our version control to be intuitive, and not just writting dozens of `git` commands in a terminal.
+On top of that, we need version control to be simple to use. Most our users aren't too familiar with version control systems, so we need our version control to be intuitive, and not just writing dozens of `git` commands in a terminal.
 
 # Which tool?
 
@@ -34,7 +34,7 @@ The best solution would probably be a self-hosted [GitLab](https://gitlab.com/) 
 
 What's out there? [GitHub](https://github.com/), cloud-based GitLab or [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/). Each have their limitation
 
-* GitHub has a 1GB of storage and 1GB of bandwith limit for LFS, which you can extend by buying [data packs](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/upgrading-git-large-file-storage#purchasing-additional-storage-and-bandwidth-for-an-organization)
+* GitHub has a 1GB of storage and 1GB of bandwidth limit for LFS, which you can extend by buying [data packs](https://docs.github.com/en/github/setting-up-and-managing-billing-and-payments-on-github/upgrading-git-large-file-storage#purchasing-additional-storage-and-bandwidth-for-an-organization)
 * GitLab has a 10GB per repo size limit
 * Azure has a 5-user limit
 
@@ -52,7 +52,7 @@ On the client side, we recommend our users to try [TortoiseGit](https://tortoise
 
 ## The bad
 
-Now for the bad. Being used to version control for C++ or Python based software projects, I have been very disappointed by how this particular subject is handled in Unreal Engine. Compared to everything else in the engine, version control can be quite painful to work with on a day to day basis.
+Now for the bad. Being used to version control for C++ or Python based software projects, I have been very disappointed by how this particular subject is handled in Unreal Engine. Compared to everything else in the engine, version control can be quite painful to work with on a day-to-day basis.
 
 There's no official Git support from Unreal Engine, but there's an [unofficial plugin](https://github.com/SRombauts/UE4GitPlugin) that's used by most Git users. If you read through the features, it looks great and seems like it would fit most needs. But the reality is different.
 
@@ -60,7 +60,7 @@ The plugin doesn't handle submodules. So right off the bat, it's pretty much use
 
 Since every file in Unreal Engine is in binary, diffing/merging is a huge pain. There's a [diffing tool](https://www.unrealengine.com/en-US/blog/diffing-blueprints?sessionInvalidated=true) for Blueprints, which *mostly* works, but will sometimes tell you that there's no difference between two revisions, leaving you wondering what could have possibly changed. And it's just for Blueprints, so you can't diff levels, materials, UI, or anything that you'd really like to be able to diff. And obviously, it doesn't work with submodules, so if you want to diff, you need to have the two files on your local drive.
 
-And beyond diffing, there's no merging tool. If you're used to some variant of [Gitflow worklow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), you'd better hope that there's no conflict when merging branches, otherwise you're in for a headache. Having dealt with a few, I now try my best at avoiding them.
+And beyond diffing, there's no merging tool. If you're used to some variant of [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), you'd better hope that there's no conflict when merging branches, otherwise you're in for a headache. Having dealt with a few, I now try my best at avoiding them.
 
 People often mentions [file locking](https://github.com/git-lfs/git-lfs/wiki/File-Locking) as a (well, *the*) solution to avoid conflicts, which is also why people in this world like SVN. I haven't tried it yet, but from what I've read, file locking in LFS isn't that great, mostly due to the decentralized nature of Git. And for our cases, I'm really not sure that file-locking would help across branches or even forks.
 
@@ -70,7 +70,7 @@ LFS also doesn't really like forking that much, as it doesn't actually know whic
 
 And when you combine the two last issues, and you need to change remote on all submodules? Well, now you start to like `git submodule foreach` a great deal all the while hating how painful this whole thing has become.
 
-I could go on and on about all the weird errors that I saw popped on my git terminal, and that cost me hours to debug. No matter how infuriating this is for our users, developers or myself, I still think that given the circumstances, we've chosen the right solution. Git LFS, hosted on GitLab as a superproject, it works. It's not easy everyday, but it works.
+I could go on and on about all the weird errors that I saw popped on my git terminal, and that cost me hours to debug. No matter how infuriating this is for our users, developers or myself, I still think that given the circumstances, we've chosen the right solution. Git LFS, hosted on GitLab as a superproject, it works. It's not easy every day, but it works.
 
 # Hoping for a better tomorrow
 

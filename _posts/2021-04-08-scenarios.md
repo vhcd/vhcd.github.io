@@ -40,7 +40,7 @@ Scenarios are often considered as the "unit" of the experiment. Your study has X
 
 However, for us, that's not really how experiments *actually* go. Most have questionnaires of various forms, after some or all scenarios. Some experiments include playing videos (e.g. to induce an emotion), also at different times.
 
-So we added the idea of *Passation* into our platform. *Passation* is french word we use for a single run of the experiment, like a "test period". But I've never found a translation I liked, so I decided to english-ize the word.
+So we added the idea of *Passation* into our platform. *Passation* is French word we use for a single run of the experiment, like a "test period". But I've never found a translation I liked, so I decided to english-ize the word.
 
 A *Passation* is the combination of all the activities that the participant will go through. You can think of it as a "meta-scenario". For the most basic experiment, it's just a series of scenarios. But, as with the examples mentioned above, it can include much more than that.
 

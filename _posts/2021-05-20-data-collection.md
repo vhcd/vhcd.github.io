@@ -24,7 +24,7 @@ Even though the tool is great, it's not perfect for driving simulation experimen
 
 # LabStreamingLayer
 
-> The [lab streaming layer](https://github.com/sccn/labstreaminglayer) (LSL) is a system for the unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data.
+> The [lab streaming layer](https://github.com/sccn/labstreaminglayer) (LSL) is a system for the unified collection of time series measurement in research experiments that handles the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data.
 
 LabStreamingLayer is an open-source project designed exactly for our needs. It supports a [wide range](https://labstreaminglayer.readthedocs.io/info/supported_devices.html) of physiological collection hardware, offers a [recording tool][labrecorder] and a [Python library](https://github.com/xdf-modules/pyxdf) to read recordings. It has bindings to most languages, meaning you can easily add new data sources and, if you want, open-source them so that others can also benefit.
 

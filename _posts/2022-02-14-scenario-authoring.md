@@ -6,7 +6,7 @@ We've already talked about [scenarios](/scenarios), which are at the very core o
 
 # Requirements
 
-At [LESCOT](https://lescot.univ-gustave-eiffel.fr/), we've been authoring a very wide range of scenarios for decades, and we've gathered a lot of feedback from it over the years. When we started working on our Unreal Engine platform, we used that to create a small set of requirements regarding scenario authoring, ensuring that what we were creating would fit our needs as best as possible.
+At [LESCOT](https://lescot.univ-gustave-eiffel.fr/), we've been authoring a very wide range of scenarios for decades, and we've gathered a lot of feedback from it over the years. When we started working on our Unreal Engine platform, we used that to create a small set of requirements regarding scenario authoring, ensuring that what we were creating would fit our needs as much as possible.
 
 ## Scripting design
 
@@ -26,7 +26,7 @@ We really wanted to try to improve that. Not only is this time-consuming, it's e
 
 # Solutions
 
-For each of our requirement category, we'll go over the solutions we implemented or envision. Our philosophy is always to avoid complex solutions, and to try to reuse existing features.
+For each of our requirement categories, we'll go over the solutions we implemented or envision. Our philosophy is always to avoid complex solutions, and to try to reuse existing features.
 
 ## Scripting design
 
@@ -34,7 +34,7 @@ As discussed in a previous article, we mostly rely on [Blueprint Visual Scriptin
 
 ### Stages
 
-Most importantly, Blueprint aren't state machines. They're mostly designed for event-based scripting. Which, in theory, is what we want; "when... do..." is just that: react to events. However, videogames approch to events is mostly *cartesian-distance* based, whereas driving simulation is more *road-time* based. In other words, videogames rely on physical [trigger volumes][trigger] that can be placed in the world, and that will execute stuff when the player gets in it. Driving simulation is usually more interested in *time* between actors on a *road*, e.g., "When ego is less than 3s from the traffic light, turn it yellow".
+Most importantly, Blueprint aren't state machines. They're mostly designed for event-based scripting. Which, in theory, is what we want; "when... do..." is just that: react to events. However, video-games approach to events is mostly *cartesian-distance* based, whereas driving simulation is more *road-time* based. In other words, video-games rely on physical [trigger volumes][trigger] that can be placed in the world, and that will execute stuff when the player gets in it. Driving simulation is usually more interested in *time* between actors on a *road*, e.g., "When ego is less than 3s from the traffic light, turn it yellow".
 
 [![trigger_place.jpg]({{site.baseurl}}/images/trigger_place.jpg)][0]
 
@@ -46,7 +46,7 @@ My solution to that is **Stages**. It's a single new Blueprint node that allows 
 
 This node, along with [Events](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Events/), allows the scenario author to clearly define the sequence in which events will occur, and for each one, what will trigger it and what action will result from it. Since it's only a single node, we can still use all the other Blueprint features and nodes; and users can rely on all associated resources when authoring scenarios.
 
-This paradigm is also compatible with more traditional *cartesian-distance* event system, or with any other that can be done in Blueprint. For example, we also try to split scenario per-actor (when applicable), and stages can easily be used inside each actor's Blueprint. No limitation there!
+This paradigm is also compatible with the more traditional *cartesian-distance* event system, or with any other that can be done in Blueprint. For example, we also try to split scenario per-actor (when applicable), and stages can easily be used inside each actor's Blueprint. No limitation there!
 
 <video width="720" height="480" controls>
   <source type="video/mp4" src="{{site.baseurl}}/images/stages.mp4.mp4">
@@ -70,7 +70,7 @@ The plugin is still quite new and not officially supported by Epic Games, which 
 
 *Flow* really is something I want to explore as a solution to scenario design, but I think I'll wait for both the plugin to mature, and for us to have a stronger experience in Unreal Engine. And with UE5's *Verse* language around the corner, I think it's safer to see what Epic's new scripting language has to offer before jumping to an unofficial one.
 
-But I really encourage you to check the [Flow][flow] project out. It immediatly garnered traction upon initial release, has lots of people interested and contributing, an active Discord server and a really experienced maintainer.
+But I really encourage you to check the [Flow][flow] project out. It immediately garnered traction upon initial release, has lots of people interested and contributing, an active Discord server and a really experienced maintainer.
 
 ## Testing
 
@@ -78,11 +78,11 @@ To make testing easier, we really went out of our way to have the easiest soluti
 
 ### Automate ego
 
-Having worked a lot on autonomous driving scenarios in the past years, I realized those where much more easier to test. Indeed, as in real life, you don't have to drive the car when testing! So at some point, it hit me: why not make all scenarios have an autonomous ego?
+Having worked a lot on autonomous driving scenarios in the past years, I realized those were much easier to test. Indeed, as in real life, you don't have to drive the car when testing! So at some point, it hit me: why not make all scenarios have an autonomous ego?
 
 Obviously, traditional driving scenarios can't have an autonomous ego vehicle during the experiment itself, but they can very much have one during testing. So that's what we do: for each of our scenario, we implement the ego behavior we expect the participant to have in the ego vehicle's Blueprint, using our own [Virtual Driver](/virtual-driver), which is also used for all [NPC](https://en.wikipedia.org/wiki/Non-player_character) vehicles.
 
-One very obivous and immediate limitation is that participants aren't machines, and they won't all drive in the exact way we expect them; that's actually kind of the point of most experiments, to study the different behaviors. But this fact is not an issue if you acknowledge it.
+One very obvious and immediate limitation is that participants aren't machines, and they won't all drive in the exact way we expect them; that's actually kind of the point of most experiments, to study the different behaviors. But this fact is not an issue if you acknowledge it.
 
 First, you have to realize that automating ego isn't meant to replace manual testing. The process is just [virtual prototyping](https://en.wikipedia.org/wiki/Virtual_prototyping) applied to scenario authoring, so it's meant to catch the "obvious" scenario mistakes. You still have to manually test your scenario, but if all goes well, you'll need fewer runs of those before reaching your goal.
 
@@ -92,7 +92,7 @@ Using the "automate ego" philosophy, you can then rely on all standard testing t
 
 ### Time dilation
 
-If you've automated the ego vehicle, then you probably don't have any more manual input to the simulation. And without manual input comes a great gift: no need to follow realtime! Indeed, if all actors have preset behaviors, we can now to run the simulation at 5x the normal speed. So if you're working on a situation that occurs at 2 minutes into the drive, you can get there in a matter of seconds.
+If you've automated the ego vehicle, then you probably don't have any more manual input to the simulation. And without manual input comes a great gift: no need to follow realtime! Indeed, if all actors have preset behaviors, we can now run the simulation at 5x the normal speed. So if you're working on a situation that occurs at 2 minutes into the drive, you can get there in a matter of seconds.
 
 Unreal has a very simple way to do that: [time dilation](https://docs.unrealengine.com/4.27/en-US/BlueprintAPI/Utilities/Time/SetGlobalTimeDilation/). You can set the time dilation factor at any point during the simulation. Which means you can speed up along the scenario parts you don't care about, and slow down to realtime (or even slower) once you get near you situation of interest.
 
@@ -102,7 +102,7 @@ We use time dilation in two ways to help with scenario testing. The first, is by
 
 ![time_box.jpg]({{site.baseurl}}/images/time_box.jpg)
 
-The second way we use time dilation is via [trigger volumes][trigger]. We have a simple *Blueprint Actor* which will set the time dilation factor when the ego vehicle gets into it. That way, you don't even need to scroll anymore: just place you trigger boxes in the world, and time will adjust accordingly. This is especially useful when using [Simulation In Editor](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/InEditorTesting/#simulateineditor) (SIE), where you don't have access to controller bindings, i.e., no scrolling.
+The second way we use time dilation is via [trigger volumes][trigger]. We have a simple *Blueprint Actor* which will set the time dilation factor when the ego vehicle gets into it. That way, you don't even need to scroll anymore: just place your trigger boxes in the world, and time will adjust accordingly. This is especially useful when using [Simulation In Editor](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/InEditorTesting/#simulateineditor) (SIE), where you don't have access to controller bindings, i.e., no scrolling.
 
 # Conclusion
 
@@ -110,7 +110,7 @@ To sum things up, we didn't do much development to improve scenario authoring, b
 
 A single Blueprint node allowed us to work with natural "stages", while keeping the Unreal native Blueprint editor. If that's not enough, we could still look toward the very promising [Flow][flow] plugin.
 
-As for testing, programming the ego behavior, like any other scenario car, plus some bsaic time dilation, and we've managed to significantly reduce testing time and frustration.
+As for testing, programming the ego behavior, like any other scenario car, plus some basic time dilation, and we've managed to significantly reduce testing time and frustration.
 
 And as with everything in our platform, we're constantly improving, and always trying to make things better for everyone involved. The trigger-volume-time-dilation Blueprint was implemented... this morning!
 

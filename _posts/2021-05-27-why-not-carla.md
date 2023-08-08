@@ -18,7 +18,7 @@ To work with CARLA, you need to write Python scripts to load, configure and run 
 
 Unreal Engine comes with two programming languages: [C++](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/index.html) and [Blueprints](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/index.html). It also has [Python](https://docs.unrealengine.com/en-US/ProductionPipelines/ScriptingAndAutomation/Python/index.html) support, but for editor scripting only. And it will soon have a whole new language with *Verse*. Why add Python runtime to that already complex ecosystem?
 
-I'm guessing they chose to do so since it's the go-to language for [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) (e.g. [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/)). That way, from a single Python script, you can setup your simulation environment, connect it to your machine-learning and voila, you're all set. I get the appeal.
+I'm guessing they chose to do so since it's the go-to language for [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) (e.g. [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/)). That way, from a single Python script, you can set up your simulation environment, connect it to your machine-learning and voilà, you're all set. I get the appeal.
 
 But if, like us, your workflow isn't exactly that, it suddenly becomes much more complex. CARLA's Python API encapsulates Unreal as a whole, so you can't easily switch between let's say Blueprint and Python.
 
@@ -78,7 +78,7 @@ CARLA being open-source, it obviously can't rely on Marketplace content. So they
 
 CARLA has not yet reached 1.0, so it's still under heavy development. As such, building on top of it would be a risky bet (and was even more back when we make our choice). We don't have much visibility on future decisions and impacts they'll have on the platform. We don't even know if CARLA will live on.
 
-Being in early stages also shows in term of overall maturity and quality. For example, CARLA's [OpenDRIVE](/opendrive) library is a lot less complete than [esmini](https://github.com/esmini/esmini)'s. Working with their assets also shows a lot of inconsistencies (they've recently renamed most assets, which obviously breaks a lot of things on depending projects).
+Being in early stages also shows in terms of overall maturity and quality. For example, CARLA's [OpenDRIVE](/opendrive) library is a lot less complete than [esmini](https://github.com/esmini/esmini)'s. Working with their assets also shows a lot of inconsistencies (they've recently renamed most assets, which obviously breaks a lot of things on depending projects).
 
 # What could have been?
 
@@ -90,7 +90,7 @@ Instead of relying on a Python API, CARLA could have used Unreal's native Editor
 
 They could have added multiple Unreal Engine plugins for automotive standards. First, related to scene and scenario, such as [OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) or [OpenSCENARIO](https://www.asam.net/standards/detail/openscenario/), which they support in their Python API. But also related to the simulation itself, such as [OSI](https://opensimulationinterface.github.io/osi-documentation/index.html), [DDS](https://www.omg.org/omg-dds-portal/) or [FMI](https://fmi-standard.org/).
 
-All those standards could also have been implemented in Python (some implementations already exist), which would have resulted in the same required behaviour: everything can be done from a single Python script. Except it would have been much more modular and standardized, allowing all implemented components to be re-used beyond CARLA. For example, Python scripts would work in a similar fashion with other simulation tool implementing the same standards (e.g. Unity, [VIRES VTD](https://vires.mscsoftware.com/)). On the other side, the resulting simulation platform could load and simulate anything using those standards, instead of realying on a single Python API.
+All those standards could also have been implemented in Python (some implementations already exist), which would have resulted in the same required behaviour: everything can be done from a single Python script. Except it would have been much more modular and standardized, allowing all implemented components to be re-used beyond CARLA. For example, Python scripts would work in a similar fashion with other simulation tool implementing the same standards (e.g. Unity, [VIRES VTD](https://vires.mscsoftware.com/)). On the other side, the resulting simulation platform could load and simulate anything using those standards, instead of relying on a single Python API.
 
 Those standards (or others) could also be used in other domains than autonomous driving simulation, for example [synthetic data](https://en.wikipedia.org/wiki/Synthetic_data) in non-driving environments, which also have a lot of feature overlap with CARLA, but can't really leverage it due to its design choices.
 
