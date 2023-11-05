@@ -46,7 +46,7 @@ Second is that the eye-tracking data, whether in VR or glasses, still has accura
 
 
 <video width="720" height="480" controls>
-  <source type="video/mp4" src="https://cdn.discordapp.com/attachments/725724080526852126/910204297466220564/eye_tracking.mp4_compressed.mp4">
+  <source type="video/mp4" src="{{site.baseurl}}/images/eye_tracking.mp4_compressed.mp4">
 </video>
 
 If we look back at the example from the top of this post, I was actually looking at the two wheels, then the licence plate. But the "object being looked at" data just says "ground". Quick disclaimer though: I didn't calibrate the eye-tracker before recording this, so usually we don't have that big offsets.

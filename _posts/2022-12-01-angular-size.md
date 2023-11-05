@@ -67,7 +67,7 @@ Now that we decided that everything would be approximated as a sphere, how do we
 
 <video width="720" height="480" controls>
   <source type="video/mp4"
-src="https://cdn.discordapp.com/attachments/871767937378287696/1043194152344621127/occluded.mp4.mp4">
+src="{{site.baseurl}}/images/occluded.mp4.mp4">
 </video>
 <center><i>If you look closely, you can see the bounding sphere in blue</i></center>
 
