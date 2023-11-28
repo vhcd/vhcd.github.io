@@ -1,20 +1,21 @@
 ---
 published: false
 title: 'Post Mortem #1: Level Blueprint'
+image: 'lvlbp_graph.png'
 ---
 
 We're nearing the completion of one of our largest driving simulation experiment ever, which also was the first Unreal project for my colleagues involved and for our driving simulator (SIMAX). So let's take some time to share what we learned from it, especially the non-trivial bits. Our first post will cover our use of the Level Blueprint.
 
 # The Level Blueprint isn’t so bad?
 
-When you start using Unreal, using the [Level Blueprint](https://docs.unrealengine.com/5.3/en-US/level-blueprint-in-unreal-engine/) is very appealing. But one commonly shared bit of advice is to not use it (at least not *too much*). But for our very specific use case, I actually think the Level Blueprint can be very valuable.
+When you start exploring Unreal, using the [Level Blueprint](https://docs.unrealengine.com/5.3/en-US/level-blueprint-in-unreal-engine/) is very appealing. But one commonly shared bit of advice is to not use it (at least not *too much*). But for our very specific use case, I actually think the Level Blueprint can be very valuable.
 
 # The basics
 
-Let's do a basic pros and cons list of the Level Blueprint, from a generalist standpoint.
+Let's do a basic pros and cons list of the Level Blueprint, from a general standpoint.
 
 Pros
-* It exists, so no not to create anything new
+* It exists, so no need to create anything new
 * It's easy to use
 * You can directly reference every actor in the level
 
@@ -36,17 +37,17 @@ And *in our case*, the Level Blueprint actually makes sense.
 
 The main reason for it is about the experience we create with Unreal: a long (>30 min) linear drive (route is imposed) where you encounter lots of unique situations, each involving many actors having a rather short lifespan. And we have a single developer working on it.
 
-So for us, reusability of code within the Level Blueprint isn't a problem: we don't actually reuse any of it, as each "driving situation" we create is unique (more on that later). Of course, you can think of many cleaner designs (such as having unique Actor Blueprints for each "driving situation"), but most alternatives actually require more work and add more complexity. And though I really like neat and clean designs, I also recognize that perfect is the enemy of good.
+So for us, reusability of code within the Level Blueprint isn't a problem: we don't actually reuse any of it, as each "driving situation" we create is unique. Of course, you can think of many cleaner designs (such as having unique Blueprints for each individual "driving situation" actor), but most alternatives actually require more work and add more complexity. And though I really like neat and clean designs, I also recognize that perfect is the enemy of good.
 
 Being able to quickly reference any actor in the scene, and having our whole "script" in one place makes editing and navigating through it much faster for the people working with it. Even though the drawbacks of the Level Blueprint that I listed above are very real, *for us* the benefits outweigh them.
 
-I also need to mention that this doesn't mean that the Level Blueprint is a good idea for driving simulation as a whole, or even for all of our own projects. It's always a matter of getting a clear picture of what you intend on doing, and finding the best Unreal tool for it. For example, earlier this week, when a colleague explained me what their goal was for their project; my advice actually was to *not* use the Level Blueprint, and maybe explore using the [Game Mode](https://docs.unrealengine.com/5.3/en-US/game-mode-and-game-state-in-unreal-engine/) instead.
+I also need to mention that this doesn't mean that the Level Blueprint is a good idea for driving simulation as a whole, or even for all of our own projects. It's always a matter of getting a clear picture of what you intend on doing, and finding the best Unreal tool for it. For example, in the next blog entry, I'll talk about a project which was implemented without ever using the Level Blueprint.
 
 # How we use it
 
 Now that we've explained why we use the Level Blueprint, let's dive deeper and cover how we use it efficiently to work around the cons we discussed earlier.
 
-This actually still is a "work in progress", because so far in this project we had only two scenarios to experiment with.
+This actually still is a "work in progress", because so far in this project we've only had two scenarios to experiment with.
 
 For the first one, we actually used multiple Level Blueprints by having "scenarios" [sub-levels](https://docs.unrealengine.com/5.3/en-US/managing-multiple-levels-in-unreal-engine/). The split between sub-levels didn't really follow the "driving situation" subdivision (each sub-level included multiple situations), but in any case that wasn't an ideal solution:
 * You have to to jump between sub-Level Blueprint to find what you're looking for
@@ -63,7 +64,7 @@ But of course, using a single Level Blueprint requires extra rigorousness to not
 
 ![](/images/lvlbp_subgraph.png#center)
 
-And for each graph: keep things clean! The code is laid out according to the scenario description using comment boxes. We try to use a consistent scheme/style around our graphs, having defined how nodes are placed, and aligned, the spacing between them, etc. We're actually better at follwing our Blueprint style guide than our C++'s!
+And for each graph: keep things clean! The code is laid out according to the scenario description using comment boxes. We try to use a consistent scheme/style around our graphs, having defined how nodes are placed, and aligned, the spacing between them, etc. We're actually better at following our Blueprint style guide than our C++'s!
 
 ![](/images/lvlbp_graph.png)
 
