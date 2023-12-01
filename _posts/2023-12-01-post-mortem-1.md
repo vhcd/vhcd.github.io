@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Post Mortem #1: Level Blueprint'
 image: 'lvlbp_graph.png'
 ---
