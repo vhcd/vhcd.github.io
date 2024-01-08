@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'We need better mice'
 ---
 
@@ -50,7 +50,7 @@ No, I can't, because they're incredibly bad. Sure they have more buttons, but th
 
 # Can't you use another gaming mouse?
 
-Which one? It seems they're all about DPI, which I don't care about, and having the shiniest customizable LEDS, which... why? Why on earth would I want LEDs on my mouse? Apparently, it seems everyone using high-end computer hardware LOVES having LEDs everywhere. I don't need LEDs anywhere except for my backlit keyboard, thank you very much.
+Which one? It seems they're all about DPI, which I don't care about, and having the shiniest customizable LEDS, which... why? Why on earth would I want LEDs on my mouse? Apparently, it seems everyone using high-end computer hardware LOVES having LEDs everywhere. I don't need LEDs anywhere except good ol' white for my backlit keyboard, thank you very much.
 
 I mean I just opened the first mouse on the Logitech G website, and here are the selling points.
 
@@ -69,7 +69,7 @@ What made this mouse great? Well, mostly, it has 13 bindable buttons
 * 6 on the index
 * 3 on the middle finger
 
-You can jam many more buttons in there before reaching the usability cap. But at least the spread between fingers is decent, even though I still have two fingers just sleeping on the job.
+You can jam many more buttons in there before reaching the usability cap. But at least the spread between fingers is decent, even though I still have two fingers just sleeping on the job (unlike with a [DataHand](https://en.wikipedia.org/wiki/DataHand)).
 
 This mouse also used the "old" Logitech software ("Logitech Gaming Software"), which was pretty meh, but still lightyears ahead of the absolute piece of garbage that is the new "G HUB".
 
