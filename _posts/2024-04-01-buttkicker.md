@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Buttkicker + Unreal Engine'
 image: 'uebk.png'
 ---
@@ -33,9 +33,9 @@ Since an audio signal is the only way to control the Buttkicker, and since we al
 
 ### ... in Unreal
 
-Let's do that in Unreal! Well, vanilla Unreal doesn't really handle multiple output devices. And by that, I mean it definitely doesn't. I dove into the source code (which I just love be able to do), and saw that both [`FMixerDevice`](https://github.com/EpicGames/UnrealEngine/blob/5.3/Engine/Source/Runtime/AudioMixer/Public/AudioMixerDevice.h) and the Windows interface [`FMixerPlatformXAudio`](https://github.com/EpicGames/UnrealEngine/blob/5.3/Engine/Source/Runtime/Windows/AudioMixerXAudio2/Private/AudioMixerPlatformXAudio2.h) very much expect only one device being used at a time.
+Let's do that in Unreal! Well, vanilla Unreal doesn't really handle multiple audio output devices. And by that, I mean it definitely doesn't. I dove into the source code (which I just love be able to do), and saw that both [`FMixerDevice`](https://github.com/EpicGames/UnrealEngine/blob/5.3/Engine/Source/Runtime/AudioMixer/Public/AudioMixerDevice.h) and the Windows interface [`FMixerPlatformXAudio`](https://github.com/EpicGames/UnrealEngine/blob/5.3/Engine/Source/Runtime/Windows/AudioMixerXAudio2/Private/AudioMixerPlatformXAudio2.h) very much expect only one device being used at a time.
 
-However, we could explore other audio interfaces within Unreal. I'm guessing [Wwise](https://www.audiokinetic.com/en/products/wwise/) can do that, and [SDL](https://www.libsdl.org/) probably too. I didn't explore any of those solution further, as it was beyond my very low motivation threshold.
+However, we could explore other audio interfaces within Unreal. I'm guessing [Wwise](https://www.audiokinetic.com/en/products/wwise/) can do that, and [SDL](https://www.libsdl.org/) probably too. I didn't explore any of those solution further, as it was beyond my very low motivation threshold for this project.
 
 ### ... outside Unreal
 
