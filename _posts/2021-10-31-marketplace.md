@@ -11,6 +11,7 @@ This article gets updated regularly as our Vault grows. New items get tagged so 
 
 * *[22-08]* is for the August 2022 update
 * *[23-06]* is for the June 2023 update
+* *[24-06]* is for the June 2024 update
 
 # Creators to follow
 
@@ -60,8 +61,6 @@ Those environments are just amazing. You get high quality environments to explor
 * [Twinmotion Posed Humans Sport Pack 1](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-posed-humans-sport-pack-1) *[23-06]*
 * [Twinmotion Content for Unreal Engine Plugin (Beta 4)](https://www.unrealengine.com/marketplace/en-US/product/twinmotion-content-for-unreal-engine-plugin-beta) *[23-06]*
 
-
-
 Epic is bringing over content from [TwinMotion](https://www.unrealengine.com/en-US/twinmotion), and I can't wait to see what's next, because those two are just perfect for us.
 
 * [City Sample Crowds](https://www.unrealengine.com/marketplace/en-US/product/city-sample-crowds) *[22-08]*
@@ -72,9 +71,10 @@ Epic is bringing over content from [TwinMotion](https://www.unrealengine.com/en-
 The CitySample is Epic's internal name for [The Matrix Awakens](https://www.youtube.com/watch?v=WU0gvPcc3jQ), which is not only a mind-blowing demo, but also available for free on the Marketplace. Since it's huge (100GB), there are also dedicated products for buildings, vehicles and crowds; which is just perfect for our use case.
 
 * [Megascans Trees: European Black Alder (early access)](https://www.unrealengine.com/marketplace/en-US/product/megascans-trees-european-black-alder-early-access) *[22-08]*
-* [Megascans Trees: European Hornbeam (Early Access) *[23-06]*](https://www.unrealengine.com/marketplace/en-US/product/megascans-trees-european-hornbeam-early-access) *[23-06]*
-* [Megascans Trees: European Beech (Early Access) *[23-06]*](https://www.unrealengine.com/marketplace/en-US/product/megascans-trees-european-beech-early-access) *[23-06]**
-* [Megascans Trees: Common Hazel (Early Access) *[23-06]*](https://www.unrealengine.com/marketplace/en-US/product/megascans-trees-common-hazel-early-access) *[23-06]*
+* [Megascans Trees: European Hornbeam (Early Access)](https://www.unrealengine.com/marketplace/en-US/product/megascans-trees-european-hornbeam-early-access) *[23-06]*
+* [Megascans Trees: European Beech (Early Access)](https://www.unrealengine.com/marketplace/en-US/product/megascans-trees-european-beech-early-access) *[23-06]**
+* [Megascans Trees: Common Hazel (Early Access)](https://www.unrealengine.com/marketplace/en-US/product/megascans-trees-common-hazel-early-access) *[23-06]*
+* [Megascans Trees: Norway Maple (Early Access)](https://www.unrealengine.com/marketplace/en-US/product/megascans-trees-norway-maple-early-access) *[24-06]*
 
 
 Want some trees? [Quixel](https://quixel.com/) has you covered.
@@ -93,9 +93,9 @@ Building and vehicles. I'm not a huge fan of either of those, but hey, it's free
 
 Because we all need to send TCP messages at some point.
 
-* [Linter v2](https://www.unrealengine.com/marketplace/en-US/product/linter-v2)
+* [LevelBookmarks](https://www.unrealengine.com/marketplace/en-US/product/levelbookmarks) *[24-06]*
 
-Because every language needs a [style guide](https://github.com/Allar/ue5-style-guide), Blueprint is no exception. This linter makes sure that you follow the rules!
+Makes navigating between levels much easier.
 
 ## Vehicles & actors
 
@@ -106,15 +106,6 @@ Want to add moving things? Here are a few.
 * [City Bus](https://www.unrealengine.com/marketplace/en-US/product/city-bus) *[23-06]*
 
 By far and large my favorite car packs, I pretty much only use those for moving vehicles. All from the same creator.
-
-* [Truck and Trailers](https://www.unrealengine.com/marketplace/en-US/product/truck-and-trailers)
-* [Bus](https://www.unrealengine.com/marketplace/en-US/product/bus)
-
-Both by the same creator ([VMR](https://www.unrealengine.com/marketplace/en-US/profile/VMR)), those vehicles are great if you want to have *not just cars* in your world.
-
-* [Citizen NPC](https://www.unrealengine.com/marketplace/en-US/product/citizen-npc)
-
-When we need to populate our scene with random people, we just use one from this. They're modular, so pretty much infinite combinations can be done.
 
 ## Scene
 
@@ -145,7 +136,6 @@ To build a realistic driving scenario, you need a realistic scene. That includes
 * [Archmodels for UE5 vol. 8](https://www.unrealengine.com/marketplace/en-US/product/archmodels-for-ue5-vol-8) *[23-06]*
 * [Shopping mall](https://www.unrealengine.com/marketplace/en-US/product/shopping-mall-01) *[23-06]*
 
-
 ### Road props
 
 * [Urban Props France (Blueprint)](https://www.unrealengine.com/marketplace/en-US/product/urban-props-france-blueprint)
@@ -163,6 +153,8 @@ To build a realistic driving scenario, you need a realistic scene. That includes
 * [PROCEDURAL ROAD MARKINGS](https://www.unrealengine.com/marketplace/en-US/product/procedural-road-markings) *[22-08]*
 * [European Collection: French Highway](https://www.unrealengine.com/marketplace/en-US/product/european-collection-french-highway) *[23-06]*
 * [Modular Toll Station - Vol. 1](https://www.unrealengine.com/marketplace/en-US/product/modular-toll-station-vol-1) *[23-06]*
+* [Roadsign BP](https://www.unrealengine.com/marketplace/en-US/product/roadsign-bp) *[24-06]*
+* [Smart Road Markings](https://www.unrealengine.com/marketplace/en-US/product/smart-road-markings) *[24-06]*
 
 ### Misc
 
@@ -180,6 +172,8 @@ Ultra Dynamic Sky is the reference when it comes to sky, atmosphere and weather.
 * [Fence Pack Vol.5](https://www.unrealengine.com/marketplace/en-US/product/fence-pack-vol-5) *[23-06]*
 * [wParallax Retail I](https://www.unrealengine.com/marketplace/en-US/product/wparallax-retail-i) *[22-08]*
 * [Background Cars](https://www.unrealengine.com/marketplace/en-US/product/background-cars) *[22-08]*
+* [wParallax Retail II](https://www.unrealengine.com/marketplace/en-US/product/wparallax-retail-ii) *[24-06]*
+* [wParallax Retail III](https://www.unrealengine.com/marketplace/en-US/product/wparallax-retail-iii) *[24-06]*
 
 
 ## Tools
@@ -187,6 +181,8 @@ Ultra Dynamic Sky is the reference when it comes to sky, atmosphere and weather.
 * [NV Spline Tools](https://www.unrealengine.com/marketplace/en-US/product/nv-spline-tools)
 
 There are quite a few spline mesh tools on the Marketplace, but this is the one we use, and we love it. Speeds up scene creation.
+
+* [Glow Path (light trail spline)](https://www.unrealengine.com/marketplace/en-US/product/glow-path-light-trail-spline) *[24-06]*
 
 # Useful
 
@@ -207,9 +203,12 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 * [Truck, Garbage truck](https://www.unrealengine.com/marketplace/en-US/product/truck-garbage-truck-truck-for-anti-aircraft-guns)
 * [Abandoned Hatchback Car](https://www.unrealengine.com/marketplace/en-US/product/abandoned-hatchback-car) *[22-08]*
 * [Railway System with IC Train](https://www.unrealengine.com/marketplace/en-US/product/railway-system-with-intercity-train) *[22-08]*
+* [Cyclist Animated](https://www.unrealengine.com/marketplace/en-US/product/cyclist-animated) *[24-06]*
+* [Scooters](https://www.unrealengine.com/marketplace/en-US/product/scooters) *[24-06]*
 
 ## Characters
 
+* [Citizen NPC](https://www.unrealengine.com/marketplace/en-US/product/citizen-npc)
 * [Generic NPC Anim Pack](https://www.unrealengine.com/marketplace/en-US/product/generic-npc-anim-pack)
 * [Drunk Man Animations](https://www.unrealengine.com/marketplace/en-US/product/drunk-man-animations)
 * [Old Man Animset](https://www.unrealengine.com/marketplace/en-US/product/old-man-animset)
@@ -234,6 +233,10 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 * [Guy](https://www.unrealengine.com/marketplace/en-US/product/guy) *[23-06]*
 * [Yakuza Brute](https://www.unrealengine.com/marketplace/en-US/product/yakuza-brute) *[23-06]*
 * [Loot Anim Set](https://www.unrealengine.com/marketplace/en-US/product/loot-anim-set) *[23-06]*
+* [Urban Nomad](https://www.unrealengine.com/marketplace/en-US/product/urban-nomad) *[24-06]*
+* [Homeless Person Steeve](https://www.unrealengine.com/marketplace/en-US/product/homeless-person-steeve) *[24-06]*
+* [Lara](https://www.unrealengine.com/marketplace/en-US/product/lara) *[24-06]*
+* [Physically Disabled Characters](https://www.unrealengine.com/marketplace/en-US/product/physically-disabled-characters) *[24-06]*
 
 ## Scene
 
@@ -267,6 +270,15 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 * [Korean Corner Store](https://www.unrealengine.com/marketplace/en-US/product/korean-corner-store) *[23-06]*
 * [Glasses store - showroom](https://www.unrealengine.com/marketplace/en-US/product/glasses-store-showroom) *[23-06]*
 * [GreenWood Village v.2](https://www.unrealengine.com/marketplace/en-US/product/greenwood-village) *[23-06]*
+* [European Buildings](https://www.unrealengine.com/marketplace/en-US/product/european-buildings) *[24-06]*
+* [Electronic Store](https://www.unrealengine.com/marketplace/en-US/product/electronic-store) *[24-06]*
+* [Lisbon Downtown](https://www.unrealengine.com/marketplace/en-US/product/lisbon-downtown) *[24-06]*
+* [Car Dealer](https://www.unrealengine.com/marketplace/en-US/product/car-dealer-01) *[24-06]*
+* [Modular Underground Parking Garage](https://www.unrealengine.com/marketplace/en-US/product/modular-underground-parking-garage) *[24-06]*
+* [Modular Self Storage (exterior only)](https://www.unrealengine.com/marketplace/en-US/product/modular-self-storage-exterior-only) *[24-06]*
+* [Storage Shelf](https://www.unrealengine.com/marketplace/en-US/product/storage-shelf) *[24-06]*
+* [Car Dealer](https://www.unrealengine.com/marketplace/en-US/product/car-dealer-02) *[24-06]*
+* [Modular Toll Station - Vol. 2](https://www.unrealengine.com/marketplace/en-US/product/modular-toll-station-vol-2) *[24-06]*
 
 ### Road
  
@@ -278,6 +290,7 @@ Once we've gone over the *must have*, there are still quite a lot of high qualit
 * [Modular Tunnels Pack Vol.1](https://www.unrealengine.com/marketplace/en-US/product/modular-tunnels-pack-vol-1) *[22-08]*
 * [Animating Billboards](https://www.unrealengine.com/marketplace/en-US/product/animating-billboards) *[23-06]*
 * [Smart Traffic Light](https://www.unrealengine.com/marketplace/en-US/product/smart-traffic-light) *[22-08]*
+* [Bridge Pack](https://www.unrealengine.com/marketplace/en-US/product/bridge-pack-01) *[24-06]*
 
 ### Props
 
@@ -313,8 +326,11 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 * [Drivable Cars: Van   3D assets and Blueprints](https://www.unrealengine.com/marketplace/en-US/product/driveable-cars-van-1-3d-assets-blueprints)
 * [Vehicles - bicycles, scooters and skateboards](https://www.unrealengine.com/marketplace/en-US/product/vehicles-bicycles-scooters-and-skateboards) *[22-08]*
 * [Rigged Wheelchair Pack   [ 10 in 1 ]](https://www.unrealengine.com/marketplace/en-US/product/rigged-wheelchair-pack-10-in-1) *[22-08]*
+* [RIGGED GOLF CART SPORT PACK](https://www.unrealengine.com/marketplace/en-US/product/rigged-golf-cart-sport-pack) *[24-06]*
+* [Female Scooter](https://www.unrealengine.com/marketplace/en-US/product/female-scooter) *[24-06]*
 
 ## Characters
+
 * [Character Editor](https://www.unrealengine.com/marketplace/en-US/product/character-editor)
 * [ANIMAL VARIETY PACK](https://www.unrealengine.com/marketplace/en-US/product/17c2d7d545674204a7644c3c0c4c58ba)
 * [Cats Big Pack](https://www.unrealengine.com/marketplace/en-US/product/cats-big-pack)
@@ -325,6 +341,11 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 * [Animalia - German Shepherd v2.2.1](https://www.unrealengine.com/marketplace/en-US/product/animalia-german-shepherd-m)
 * [MAN 1 TO 5](https://www.unrealengine.com/marketplace/en-US/product/man-1-to-5) *[22-08]*
 * [Stadium / Event Fan Spawner V2](https://www.unrealengine.com/marketplace/en-US/product/stadium-event-fan-spawner) *[22-08]*
+* [Girl SurvivorV01](https://www.unrealengine.com/marketplace/en-US/product/girl-survivorv01) *[24-06]*
+* [Customizable Survival Girl](https://www.unrealengine.com/marketplace/en-US/product/customizable-survival-girl-01) *[24-06]*
+* [Search](https://www.unrealengine.com/marketplace/en-US/product/search) *[24-06]*
+* [Sitting Audience P1](https://www.unrealengine.com/marketplace/en-US/product/sitting-audience-p1) *[24-06]*
+* [Sitting Animation Pack](https://www.unrealengine.com/marketplace/en-US/product/sitting-animation-pack) *[24-06]*
 
 ## Scenes
 
@@ -345,6 +366,9 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 * [Medieval Gothic Cathedral Dungeon - Modular](https://www.unrealengine.com/marketplace/en-US/product/medieval-gothic-cathedral-modular-pack)
 * [Realistic Windows: Advanced Pack](https://www.unrealengine.com/marketplace/en-US/product/realistic-windows-advanced-pack) *[22-08]*
 * [Interior Cubemaps - Generic Offices](https://www.unrealengine.com/marketplace/en-US/product/interior-cubemaps-generic-offices) *[22-08]*
+* [Mediterranean Island Town and Army base](https://www.unrealengine.com/marketplace/en-US/product/mediterranean-island-town-and-army-base) *[24-06]*
+* [European Village - French Village](https://www.unrealengine.com/marketplace/en-US/product/european-village-french-village) *[24-06]*
+* [Japanese School Building - Modular Environment](https://www.unrealengine.com/marketplace/en-US/product/japanese-school-modular-environment) *[24-06]*
 
 ### Foliage
 
@@ -398,6 +422,7 @@ Finally, a list of everything else that's in our Vault and that we either *used*
 
 * [Property Transfer Tool](https://www.unrealengine.com/marketplace/en-US/product/property-transfer-tool)
 * [Fake Room Generator](https://www.unrealengine.com/marketplace/en-US/product/fake-room-generator) *[23-06]*
+* [Graffiti Generator](https://www.unrealengine.com/marketplace/en-US/product/graffiti-generator) *[24-06]*
 
 ## Misc
 
