@@ -47,7 +47,7 @@ So we implemented the following:
 
 And it works great! A bit too complex for my taste though...
 
-## Use MetaSound
+## Use MetaSound...
 
 Even though the "two audio adapters" solution works fine, I wanted to try to find something less complex, ideally that doesn't require either special hardware or external software.
 
@@ -58,19 +58,21 @@ Even though the "two audio adapters" solution works fine, I wanted to try to fin
 * Use a MetaSound Source to only output on the Rear channels
 * Vary said sound according to whatever variable in the simulation
 
-Would that work? Yes it does! 
+Would that work? Well, kind of. It has a few limitations, the major one being that since Unreal thinks there's a Quad system, it spatializes sounds accordingly, but since the rear speakers don't actually exist, all that sound is lost (i.e., sent to the Buttkicker), and you end up not being able to hear anything happening behind you.
 
-![](/images/metasound_bk.png)
+Another issue is that even if the "Buttkicker" sound is not played on the main audio device, the inverse is not true: the main audio sound is played on the Buttkicker. So if a loud sound plays on the Stereo system, it will produce vibration on the device. And if no "Buttkicker-only" sound is sent to the device, it will fallback to whatever background "real" sound is going through.
 
-It has some limitations though. Notably: even if the "Buttkicker" sound is not played on the main audio device, the inverse is not true: the main audio sound is played on the Buttkicker. So if a loud sound plays on the Stereo system, it will produce vibration on the device.
+## ... with some rewiring
 
-The Buttkicker amplifier comes with a frequency cutoff option, so at least we can filter out most sounds from producing effects.
-
-Another limititation is that it doesn't scale up to a 7.1 sound system: at this point, you don't have any leftover output that you can allocate to the Buttkicker.
+Since the drawbacks mentioned above were a bit too problematic for us, we instead did some rewiring: we [split](https://www.bhphotovideo.com/c/product/1598532-REG/hosa_technology_ymm_152_stereo_3_5mm_male_trs.html) the center/bass output, sending the center to the actual 5.1 speaker system, and the bass to the Buttkicker. The only drawback to this solution is that the surround system subwoofer isn't used, but since we have a Buttkicker in the first place, it's not problematic. Other than that, there are no spatialization issues, no bleeding either (except bass bleeding, which isn't a big problem anyway).
 
 # Conclusion
 
-We're still not sure which solution we'll end up going with. The Python script works perfectly, but the added layers of complexity don't sit well with me. The MetaSound on the other end is very simple, but we'll have to run more tests to see if the real audio leaking  over to the Buttkicker becomes an issue or not.
+![](/images/metasound_bk.png)
+
+In the end, the MetaSound approach proved the right idea. It allowed us to create a very intuitive, fully integrated "API" straight in Unreal. Prototyping new effects was super fast, as we could "live" the simulation end result just by starting a *Play in Editor*.
+
+We're so happy with the result that we're now planing to add Buttkickers to other simulators. The vibrations really add a lot (even more than we expected), and having full control of those right from our scenario design tool is a huge plus.
 
 [0]: https://www.fpzero.co.uk/blog/buttkickers-what-are-the-benefits/
 [1]: https://www.startech.com/en-us/cards-adapters/icusbaudiob
