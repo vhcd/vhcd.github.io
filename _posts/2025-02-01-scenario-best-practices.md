@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Best Practices for Scenario development'
 ---
 
